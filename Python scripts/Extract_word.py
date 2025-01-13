@@ -1,5 +1,5 @@
 import pandas as pd,re, itertools
-from sqlalchemy import create_engine, MetaData , Table , Column, Integer, String ,comments
+from sqlalchemy import create_engine, MetaData , Table , Column, Integer, String, text
 import numpy as np
 
 import string
@@ -41,6 +41,7 @@ Tbcomments = pd.read_sql(
 )
 
 df=pd.DataFrame(Tbcomments).reset_index()
+print (df)
 
 df['clean_comments'] = df['comments'].fillna('')
 
@@ -83,7 +84,13 @@ def get_sentiment(comments):
 df['sentiment_comments'] = df['processed_comments'].apply(get_sentiment)
 
 
+with engine.connect() as conn:
+    conn.execute(text("DROP TABLE IF EXISTS sia"))
 
+Sia_comments=df[["InputID","Traveler_ID","processed_comments","sentiment_comments"]].reset_index(drop=True)
+Sia_comments=pd.DataFrame(Sia_comments).sort_values(by=("InputID"))
+sia = pd.DataFrame(Sia_comments)
+sia.to_sql('sia', engine, dtype={"InputID":Integer(), "Traveler_ID": Integer(),"processed_comments": String (9000), "sentiment_comments":String(10)}, if_exists='replace', index=False)
 
 cols = df[['comments', 'clean_comments', 'processed_comments', 'sentiment_comments']]
 

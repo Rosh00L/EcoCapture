@@ -1,57 +1,59 @@
-ALTER TABLE project.traveler 
+ALTER TABLE ecocapture.traveler 
 CHANGE COLUMN InputID InputID INT NOT NULL ,
 CHANGE COLUMN Traveler_ID Traveler_ID INT NOT NULL ,
 ADD PRIMARY KEY (InputID),
 ADD UNIQUE INDEX InputID_UNIQUE (InputID ASC) VISIBLE;
 ;
 
-ALTER TABLE project.country 
+ALTER TABLE ecocapture.country 
 CHANGE COLUMN Traveler_Location Traveler_Location VARCHAR(200) NOT NULL ,
 ADD PRIMARY KEY (Traveler_Location),
 ADD UNIQUE INDEX Traveler_Location_UNIQUE (Traveler_Location ASC) VISIBLE;
 ;
 
-ALTER TABLE project.date 
+ALTER TABLE ecocapture.dateall 
 CHANGE COLUMN InputID InputID INT NOT NULL ,
 CHANGE COLUMN Traveler_ID Traveler_ID INT NOT NULL ,
 ADD PRIMARY KEY (InputID),
 ADD UNIQUE INDEX InputID_UNIQUE (InputID ASC) VISIBLE;
 ;
 
-ALTER TABLE project.location 
+ALTER TABLE ecocapture.location 
 CHANGE COLUMN InputID InputID INT NOT NULL ,
 CHANGE COLUMN Traveler_ID Traveler_ID INT NOT NULL ,
 ADD PRIMARY KEY (InputID),
 ADD UNIQUE INDEX InputID_UNIQUE (InputID ASC) VISIBLE;
 ;
 
-ALTER TABLE project.type 
+ALTER TABLE ecocapture.type 
 CHANGE COLUMN InputID InputID INT NOT NULL ,
 CHANGE COLUMN Traveler_ID Traveler_ID INT NOT NULL ,
 ADD PRIMARY KEY (InputID),
 ADD UNIQUE INDEX InputID_UNIQUE (InputID ASC) VISIBLE;
 ;
 
-ALTER TABLE project.comments 
+ALTER TABLE ecocapture.comment 
 CHANGE COLUMN InputID InputID INT NOT NULL ,
 CHANGE COLUMN Traveler_ID Traveler_ID INT NOT NULL ,
 ADD PRIMARY KEY (InputID),
 ADD UNIQUE INDEX InputID_UNIQUE (InputID ASC) VISIBLE;
 ;
 
-
-
-ALTER TABLE project.rating 
+ALTER TABLE ecocapture.rating 
 CHANGE COLUMN InputID InputID INT NOT NULL ,
 CHANGE COLUMN Traveler_ID Traveler_ID INT NOT NULL ,
 ADD UNIQUE INDEX InputID_UNIQUE (InputID ASC) VISIBLE,
 ADD PRIMARY KEY (InputID);
 ;
 
+ALTER TABLE ecocapture.vote 
+CHANGE COLUMN InputID InputID INT NOT NULL ,
+CHANGE COLUMN Traveler_ID Traveler_ID INT NOT NULL ,
+ADD PRIMARY KEY (InputID),
+ADD UNIQUE INDEX InputID_UNIQUE (InputID ASC) VISIBLE;
+;
 
-
-
-ALTER TABLE project.votes 
+ALTER TABLE ecocapture.sia 
 CHANGE COLUMN InputID InputID INT NOT NULL ,
 CHANGE COLUMN Traveler_ID Traveler_ID INT NOT NULL ,
 ADD PRIMARY KEY (InputID),
