@@ -27,7 +27,7 @@ stop_words = set(stopwords.words('english'))
 
 # Credentials to database connection
 hostname="localhost"
-dbname="project"
+dbname="ecocapture"
 uname="root"
 pwd="rootroot"
 
@@ -36,7 +36,7 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
 
 Tbcomments = pd.read_sql( 
-    "SELECT * FROM project.comments", 
+    "SELECT * FROM ecocapture.comment", 
     con=engine 
 )
 
