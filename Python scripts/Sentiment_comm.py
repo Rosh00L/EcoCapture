@@ -1,5 +1,5 @@
 import pandas as pd,re, itertools
-from sqlalchemy import create_engine, MetaData , Table , Column, Integer, String ,comments
+from sqlalchemy import create_engine, MetaData , Table , Column, Integer, String, text
 import numpy as np
 
 import string
@@ -27,7 +27,7 @@ stop_words = set(stopwords.words('english'))
 
 # Credentials to database connection
 hostname="localhost"
-dbname="project"
+dbname="ecocapture"
 uname="root"
 pwd="rootroot"
 
@@ -36,11 +36,12 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
 
 Tbcomments = pd.read_sql( 
-    "SELECT * FROM project.comments", 
+    "SELECT * FROM ecocapture.comment", 
     con=engine 
 )
 
 df=pd.DataFrame(Tbcomments).reset_index()
+print (df)
 
 df['clean_comments'] = df['comments'].fillna('')
 
@@ -83,7 +84,13 @@ def get_sentiment(comments):
 df['sentiment_comments'] = df['processed_comments'].apply(get_sentiment)
 
 
+with engine.connect() as conn:
+    conn.execute(text("DROP TABLE IF EXISTS sia"))
 
+Sia_comments=df[["InputID","Traveler_ID","processed_comments","sentiment_comments"]].reset_index(drop=True)
+Sia_comments=pd.DataFrame(Sia_comments).sort_values(by=("InputID"))
+sia = pd.DataFrame(Sia_comments)
+sia.to_sql('sia', engine, dtype={"InputID":Integer(), "Traveler_ID": Integer(),"processed_comments": String (9000), "sentiment_comments":String(10)}, if_exists='replace', index=False)
 
 cols = df[['comments', 'clean_comments', 'processed_comments', 'sentiment_comments']]
 
@@ -103,7 +110,7 @@ def most_common(df, top_n=25):
     return top_25_words
 print(most_common(negatives_df))
 print(most_common(positives_df))
-df.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_groups.xlsx',index=False)   
+df.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_SIA.xlsx',index=False)   
 #commentsvr=pd.Series(commentsCOL).reset_index(drop=True)
 #strx.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_commentsfile.xlsx',index=False)
 #print (commentss)
