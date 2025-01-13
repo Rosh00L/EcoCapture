@@ -15,7 +15,7 @@ pwd="rootroot"
 
 # Create dataframe
 
-fileCSV=r"G:\Github_proj\EcoCapture-Analytics\Source\Tourism and Travel Reviews Sri Lankan Destinations\Tourism and Travel Reviews Sri Lankan Destinations\Reviews.csv"
+fileCSV=r"C:\Github_proj\EcoCapture-Analytics\Source\Tourism and Travel Reviews Sri Lankan Destinations\Tourism and Travel Reviews Sri Lankan Destinations\Reviews.csv"
 allRev = pd.read_csv(fileCSV,sep=',',encoding='latin')#
 DfRev=pd.DataFrame(allRev).reset_index()
 
@@ -54,7 +54,7 @@ fixId(DfRev)
 #DfRev['InputID']=pd.to_numeric(DfRev['Input_ID'])
 DfReviews=pd.DataFrame(DfRev)
 
-#DfReviews.to_excel(r'G:\Github_proj\EcoCapture-Analytics\QC files\Check_PKList.xlsx',index=False)
+#DfReviews.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\Check_PKList.xlsx',index=False)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 
@@ -68,7 +68,7 @@ dfUserData=pd.DataFrame(UserData)
 
 #^^^^^^^^^^^^^^^^^^^Normalising country Names^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
 
-CountryMap=r'G:\Github_proj\EcoCapture-Analytics\Source\User_country_and_city_vf1.0.xlsx'
+CountryMap=r'C:\Github_proj\EcoCapture-Analytics\Source\User_country_and_city_vf1.0.xlsx'
 
 uCountry = pd.read_excel(CountryMap, sheet_name='Sheet1')
 uCountry=uCountry.fillna('')
@@ -84,7 +84,7 @@ uCountry=pd.DataFrame(uCountry).reset_index().drop(columns=(['Country1','Country
 uCountry['Traveler_Country']=uCountry['Traveler_Country'].str.strip()
 uCountry.drop(columns=['index'], inplace=True)
 #print(uCountry)
-uCountry.to_excel(r'G:\Github_proj\EcoCapture-Analytics\QC files\UserCountryList.xlsx',index=False)
+uCountry.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\UserCountryList.xlsx',index=False)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 #~~~~~~~~~~~~~~~~~~~~~~~~Merging user country~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -92,7 +92,7 @@ dfUserData=pd.DataFrame(dfUserData).sort_values(by="Traveler_Location",ascending
 dfCountry=pd.DataFrame(uCountry).sort_values(by="Traveler_Location",ascending=True)
 dfUserCoun= pd.merge(dfUserData, dfCountry, on="Traveler_Location", how="left")
 #print(dfUserCoun)
-dfUserCoun.to_excel(r'G:\BrainStation\Poject\Qc outputs\UserCountryMer.xlsx',index=False)
+dfUserCoun.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\UserCountryMer.xlsx',index=False)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 ###^^^^^^^^^ All Travel Data,  Year + 'User_ID','Traveler_ID','Travel_Date','Traveler_Country','Rating','Text' ^^^^^^^^^^###
@@ -110,7 +110,7 @@ dfUserYear= pd.merge(dfUDConntry, dfYear, on=['Traveler_ID','Travel_Date'], how=
 TravelData=dfUserYear[['InputID','Traveler_ID','Traveler_Location','Travel_Date','Travel_Year','Travel_Month','Traveler_Country','Location_Name','Located_City','Town','Province','Location_Type',
                        "Published_Date","Title",'Rating',"Helpful_Votes",'Text']].sort_values(by='Travel_Year').reset_index()
 
-TravelData.to_excel(r'G:\BrainStation\Poject\Qc outputs\TravelData.xlsx',index=False)
+TravelData.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\TravelData.xlsx',index=False)
 
 # # Get column names
 #TravelData_columns = TravelData.columns
