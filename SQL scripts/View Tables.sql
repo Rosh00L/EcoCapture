@@ -12,11 +12,6 @@ CREATE VIEW traveler_country AS
             LEFT JOIN
         country B ON A.Traveler_Location = B.Traveler_Location;    
    
-SELECT 
-    *
-FROM
-    traveler_Country;
-
 Drop VIEW IF EXISTS Traveler_Date;
 CREATE VIEW Traveler_Date AS
     SELECT 
@@ -41,4 +36,3 @@ CREATE VIEW siarating AS
         rating B ON A.inputID = B.inputID
     ORDER BY sentiment_comments desc,B.Rating 
 ;       
-    

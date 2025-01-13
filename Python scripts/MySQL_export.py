@@ -5,7 +5,7 @@ import csv
 
 # Credentials to database connection
 hostname="localhost"
-dbname="project"
+dbname="ecocapture"
 uname="root"
 pwd="rootroot"
 
@@ -17,57 +17,63 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 
 
 sql_traveler = pd.read_sql( 
-    "SELECT * FROM project.traveler", 
+    "SELECT * FROM ecocapture.traveler", 
     con=engine 
 ) 
-sql_traveler.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_traveler.xlsx',index=False)
+sql_traveler.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveler.xlsx',index=False)
 
 sql_date = pd.read_sql( 
-    "SELECT * FROM project.date", 
+    "SELECT * FROM ecocapture.dateall", 
     con=engine 
 ) 
-sql_date.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_date.xlsx',index=False)
+sql_date.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_date.xlsx',index=False)
 
 
 sql_type = pd.read_sql( 
-    "SELECT * FROM project.type", 
+    "SELECT * FROM ecocapture.type", 
     con=engine 
 ) 
-sql_type.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_type.xlsx',index=False)
+sql_type.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_type.xlsx',index=False)
 
 
 sql_Country = pd.read_sql( 
-    "SELECT * FROM project.traveler_country", 
+    "SELECT * FROM ecocapture.traveler_country", 
     con=engine 
 ) 
-sql_Country.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_traveler_Country.xlsx',index=False)
+sql_Country.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveler_Country.xlsx',index=False)
 
 sql_location = pd.read_sql( 
-    "SELECT * FROM project.location", 
+    "SELECT * FROM ecocapture.location", 
     con=engine 
 ) 
-sql_location.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_Location.xlsx',index=False)
+sql_location.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_Location.xlsx',index=False)
 
 sql_travel_cat = pd.read_sql( 
-    "SELECT * FROM project.travel_cats", 
+    "SELECT * FROM ecocapture.travel_cats", 
     con=engine 
 ) 
-sql_travel_cat.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_travel_cats.xlsx',index=False)
+sql_travel_cat.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_travel_cats.xlsx',index=False)
 
+
+sql_sia = pd.read_sql( 
+    "SELECT * FROM ecocapture.siarating", 
+    con=engine 
+) 
+sql_sia.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_siarating.xlsx',index=False)
 
 
 '''''
 # read table data using sql query
 sql_traveler = pd.read_sql( 
-    "SELECT * FROM project.traveler", 
+    "SELECT * FROM ecocapture.traveler", 
     con=engine 
 ) 
-sql_traveler.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_traveler.xlsx',index=False)
+sql_traveler.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveler.xlsx',index=False)
  
 sql_country = pd.read_sql( 
-    "SELECT * FROM project.country", 
+    "SELECT * FROM ecocapture.country", 
     con=engine 
 ) 
-sql_country.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_country.xlsx',index=False)
+sql_country.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_country.xlsx',index=False)
 
 '''''
