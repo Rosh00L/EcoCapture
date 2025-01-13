@@ -30,14 +30,15 @@ CREATE VIEW Traveler_Date AS
     ORDER BY B.Travel_Date
 ;
 
-Drop VIEW IF EXISTS siaRating;
-CREATE VIEW siaRating AS
-    SELECT 
-        A.*, B.Rating
+Drop VIEW IF EXISTS siarating;
+CREATE VIEW siarating AS
+    SELECT
+		A.*,
+        B.Rating
     FROM
         sia A
             INNER JOIN
-        rating B ON A.inputID = A.inputID
-    ORDER BY B.Rating
+        rating B ON A.inputID = B.inputID
+    ORDER BY sentiment_comments desc,B.Rating 
 ;       
     
