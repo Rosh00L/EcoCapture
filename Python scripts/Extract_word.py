@@ -1,5 +1,5 @@
 import pandas as pd,re, itertools
-from sqlalchemy import create_engine, MetaData , Table , Column, Integer, String ,text
+from sqlalchemy import create_engine, MetaData , Table , Column, Integer, String ,comments
 import numpy as np
 
 import string
@@ -35,14 +35,14 @@ pwd="rootroot"
 engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
 
-Tbtext = pd.read_sql( 
-    "SELECT * FROM project.text", 
+Tbcomments = pd.read_sql( 
+    "SELECT * FROM project.comments", 
     con=engine 
 )
 
-df=pd.DataFrame(Tbtext).reset_index()
+df=pd.DataFrame(Tbcomments).reset_index()
 
-df['clean_comments'] = df['Text'].fillna('')
+df['clean_comments'] = df['comments'].fillna('')
 
 def get_wordnet_pos(treebank_tag):
     """Map POS tag to first character used by WordNetLemmatizer"""
@@ -57,8 +57,8 @@ def get_wordnet_pos(treebank_tag):
     else:
         return wordnet.NOUN  # by default, treat as noun
 
-def preprocess_text(text):
-    tokens = word_tokenize(text)
+def preprocess_text(comments):
+    tokens = word_tokenize(comments)
     tokens = [word.lower() for word in tokens]
     tokens = [word for word in tokens if word.isalpha() or word in string.punctuation]
     pos_tags = nltk.pos_tag(tokens)
@@ -71,8 +71,8 @@ df['processed_comments'] = df['clean_comments'].apply(preprocess_text)
 
 sia = SentimentIntensityAnalyzer()
 
-def get_sentiment(text):
-    sentiment_score = sia.polarity_scores(text)['compound']
+def get_sentiment(comments):
+    sentiment_score = sia.polarity_scores(comments)['compound']
     if sentiment_score >= 0.05:
         return "positive"
     elif sentiment_score <= -0.05:
@@ -82,15 +82,18 @@ def get_sentiment(text):
         
 df['sentiment_comments'] = df['processed_comments'].apply(get_sentiment)
 
-cols = df[['Text', 'clean_comments', 'processed_comments', 'sentiment_comments']]
+
+
+
+cols = df[['comments', 'clean_comments', 'processed_comments', 'sentiment_comments']]
 
 df_sentiment = pd.DataFrame(cols)
 
-negatives_df = df_sentiment[df_sentiment['sentiment_comments'] == 'negative'][['Text', 'processed_comments']]
-negatives = negatives_df['Text'].tolist()
+negatives_df = df_sentiment[df_sentiment['sentiment_comments'] == 'negative'][['comments', 'processed_comments']]
+negatives = negatives_df['comments'].tolist()
 
-positives_df = df_sentiment[df_sentiment['sentiment_comments'] == 'positive'][['Text', 'processed_comments']]
-positives = positives_df['Text'].tolist()
+positives_df = df_sentiment[df_sentiment['sentiment_comments'] == 'positive'][['comments', 'processed_comments']]
+positives = positives_df['comments'].tolist()
 
 def most_common(df, top_n=25):
     all_words = [word for word in ' '.join(df['processed_comments']).split() if word not in string.punctuation]
@@ -101,9 +104,9 @@ def most_common(df, top_n=25):
 print(most_common(negatives_df))
 print(most_common(positives_df))
 df.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_groups.xlsx',index=False)   
-#textvr=pd.Series(textCOL).reset_index(drop=True)
-#strx.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_textfile.xlsx',index=False)
-#print (texts)
-#texts['SPLText']=texts['Text'].str.split(' ')
-#s= (texts['Text'])
-#texts.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_groups.xlsx',index=False)    
+#commentsvr=pd.Series(commentsCOL).reset_index(drop=True)
+#strx.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_commentsfile.xlsx',index=False)
+#print (commentss)
+#commentss['SPLcomments']=commentss['comments'].str.split(' ')
+#s= (commentss['comments'])
+#commentss.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_groups.xlsx',index=False)    

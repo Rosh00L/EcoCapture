@@ -15,7 +15,7 @@ pwd="rootroot"
 
 # Create dataframe
 
-fileCSV="C:\Github_proj\EcoCapture-Analytics\Source\Tourism and Travel Reviews Sri Lankan Destinations\Tourism and Travel Reviews Sri Lankan Destinations\Reviews.csv"
+fileCSV=r"G:\Github_proj\EcoCapture-Analytics\Source\Tourism and Travel Reviews Sri Lankan Destinations\Tourism and Travel Reviews Sri Lankan Destinations\Reviews.csv"
 allRev = pd.read_csv(fileCSV,sep=',',encoding='latin')#
 DfRev=pd.DataFrame(allRev).reset_index()
 
@@ -27,6 +27,7 @@ DfRev['Traveler_ID']=pd.to_numeric(DfRev['Traveler_ID'])
 DfRev['Index_']=DfRev['index'].astype(str)
 DfRev['lengths'] = DfRev['Index_'].apply(len)
 DfRev['IndexFix']=pd.to_numeric(DfRev['Index_'])
+
 Town = DfRev['Location'].str.split(",", n=1, expand=True)
 DfRev['Town']=Town[0]
 DfRev['Province']=Town[1]
@@ -49,10 +50,11 @@ def fixId(DfRev):
    
 fixId(DfRev)
 
+
 #DfRev['InputID']=pd.to_numeric(DfRev['Input_ID'])
 DfReviews=pd.DataFrame(DfRev)
 
-#DfReviews.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\Check_PKList.xlsx',index=False)
+#DfReviews.to_excel(r'G:\Github_proj\EcoCapture-Analytics\QC files\Check_PKList.xlsx',index=False)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 
@@ -66,7 +68,7 @@ dfUserData=pd.DataFrame(UserData)
 
 #^^^^^^^^^^^^^^^^^^^Normalising country Names^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
 
-CountryMap=r'C:\Github_proj\EcoCapture-Analytics\Source\User_country_and_city_vf1.0.xlsx'
+CountryMap=r'G:\Github_proj\EcoCapture-Analytics\Source\User_country_and_city_vf1.0.xlsx'
 
 uCountry = pd.read_excel(CountryMap, sheet_name='Sheet1')
 uCountry=uCountry.fillna('')
@@ -82,7 +84,7 @@ uCountry=pd.DataFrame(uCountry).reset_index().drop(columns=(['Country1','Country
 uCountry['Traveler_Country']=uCountry['Traveler_Country'].str.strip()
 uCountry.drop(columns=['index'], inplace=True)
 #print(uCountry)
-uCountry.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\UserCountryList.xlsx',index=False)
+uCountry.to_excel(r'G:\Github_proj\EcoCapture-Analytics\QC files\UserCountryList.xlsx',index=False)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 #~~~~~~~~~~~~~~~~~~~~~~~~Merging user country~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -90,7 +92,7 @@ dfUserData=pd.DataFrame(dfUserData).sort_values(by="Traveler_Location",ascending
 dfCountry=pd.DataFrame(uCountry).sort_values(by="Traveler_Location",ascending=True)
 dfUserCoun= pd.merge(dfUserData, dfCountry, on="Traveler_Location", how="left")
 #print(dfUserCoun)
-dfUserCoun.to_excel(r'C:\BrainStation\Poject\Qc outputs\UserCountryMer.xlsx',index=False)
+dfUserCoun.to_excel(r'G:\BrainStation\Poject\Qc outputs\UserCountryMer.xlsx',index=False)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 ###^^^^^^^^^ All Travel Data,  Year + 'User_ID','Traveler_ID','Travel_Date','Traveler_Country','Rating','Text' ^^^^^^^^^^###
@@ -108,7 +110,7 @@ dfUserYear= pd.merge(dfUDConntry, dfYear, on=['Traveler_ID','Travel_Date'], how=
 TravelData=dfUserYear[['InputID','Traveler_ID','Traveler_Location','Travel_Date','Travel_Year','Travel_Month','Traveler_Country','Location_Name','Located_City','Town','Province','Location_Type',
                        "Published_Date","Title",'Rating',"Helpful_Votes",'Text']].sort_values(by='Travel_Year').reset_index()
 
-TravelData.to_excel(r'C:\BrainStation\Poject\Qc outputs\TravelData.xlsx',index=False)
+TravelData.to_excel(r'G:\BrainStation\Poject\Qc outputs\TravelData.xlsx',index=False)
 
 # # Get column names
 #TravelData_columns = TravelData.columns
@@ -121,7 +123,7 @@ TravelData.to_excel(r'C:\BrainStation\Poject\Qc outputs\TravelData.xlsx',index=F
 
 ### Traveler #######
 dfTraveler=TravelData[["InputID","Traveler_ID","Traveler_Location"]].reset_index(drop=True)
-Traveler=pd.DataFrame(dfTraveler).sort_values(by=(['InputID','Traveler_ID']))
+traveler=pd.DataFrame(dfTraveler).sort_values(by=(['InputID','Traveler_ID']))
 
 ### Traveler Country #######
 dfCountry=TravelData[["Traveler_Location","Traveler_Country"]].reset_index(drop=True)
@@ -130,71 +132,63 @@ dfCountryNDup = dfCountry.drop_duplicates(
   keep = 'first').reset_index(drop = True).sort_values(by=['Traveler_Location','Traveler_Country'])
 dfCountryNDup = dfCountryNDup.dropna(how='any',axis=0) 
 
-Country=pd.DataFrame(dfCountryNDup).sort_values(by=(['Traveler_Location','Traveler_Country'])).reset_index(drop=True)
-print (Country)
+country=pd.DataFrame(dfCountryNDup).sort_values(by=(['Traveler_Location','Traveler_Country'])).reset_index(drop=True)
+print (country)
 
 #'''''
 # ### Date #######
 dfTraveler=TravelData[["InputID","Traveler_ID",'Travel_Date', 'Travel_Year', 'Travel_Month',"Published_Date"]]
-Date=pd.DataFrame(dfTraveler).sort_values(by=(['InputID','Traveler_ID']))
+date=pd.DataFrame(dfTraveler).sort_values(by=(['InputID','Traveler_ID']))
 
 ### Rating #######
 dfRating=TravelData[["InputID","Traveler_ID","Location_Name","Rating"]].drop_duplicates()
-Rating=pd.DataFrame(dfRating).sort_values(by=("InputID"))
+rating=pd.DataFrame(dfRating).sort_values(by=("InputID"))
 
 ### User Text data #######
-Text=TravelData[["InputID","Traveler_ID","Title","Text"]].drop_duplicates().reset_index(drop=True)
-Text=pd.DataFrame(Text).sort_values(by=("InputID"))
+comments=TravelData[["InputID","Traveler_ID","Title","Text"]].drop_duplicates().reset_index(drop=True)
+comments=comments.rename(columns={'Text':'comments'})
+comments=pd.DataFrame(comments).sort_values(by=("InputID"))
 
 ### Helpful_Votes ###
 Helpful_Votes=TravelData[["InputID","Traveler_ID","Helpful_Votes"]].drop_duplicates().reset_index(drop=True)
-Votes=pd.DataFrame(Helpful_Votes).sort_values(by=("InputID"))
+votes=pd.DataFrame(Helpful_Votes).sort_values(by=("InputID"))
 
 ###Location#######
 dfLocation=TravelData[["InputID","Traveler_ID","Town","Province"]].drop_duplicates().reset_index(drop=True)
-Location=pd.DataFrame(dfLocation).sort_values(by=("InputID"))
-Location.rename(columns={'Location_Name': 'Location'}, inplace=True)
+location=pd.DataFrame(dfLocation).sort_values(by=("InputID"))
+location.rename(columns={'Location_Name': 'Location'}, inplace=True)
 
 ### Location_ type #######
 dfLocation_Type=TravelData[["InputID","Traveler_ID","Location_Type"]].drop_duplicates().reset_index(drop=True)
-Location_Type=pd.DataFrame(dfLocation_Type).sort_values(by=("InputID"))
+location_Type=pd.DataFrame(dfLocation_Type).sort_values(by=("InputID"))
 
-
-# Create SQLAlchemy engine to connect to MySQL Database
-#DBengine = create_engine("mysql+pymysql://{user}:{pw}@{host}"
-#				.format(host=hostname, user=uname, pw=pwd))
-
-# Query for existing databases
-#with DBengine.connect() as dbconn:
-#  dbconn.execute(text("CREATE SCHEMA IF NOT EXISTS dbname"))
-  
 engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
 if not database_exists(engine.url): create_database(engine.url)        
 
 # Execute the DROP TABLE statement directly
 with engine.connect() as conn:
-    conn.execute(text("DROP TABLE IF EXISTS Traveler"))
-    conn.execute(text("DROP TABLE IF EXISTS Country"))
-    conn.execute(text("DROP TABLE IF EXISTS Date"))
+    conn.execute(text("DROP TABLE IF EXISTS traveler"))
+    conn.execute(text("DROP TABLE IF EXISTS country"))
+    conn.execute(text("DROP TABLE IF EXISTS date"))
     conn.execute(text("DROP TABLE IF EXISTS city"))
     conn.execute(text("DROP TABLE IF EXISTS rating"))
     conn.execute(text("DROP TABLE IF EXISTS location"))
-    conn.execute(text("DROP TABLE IF EXISTS text"))
-    conn.execute(text("DROP TABLE IF EXISTS Type"))
-    conn.execute(text("DROP TABLE IF EXISTS Votes"))
+    conn.execute(text("DROP TABLE IF EXISTS comments"))
+    conn.execute(text("DROP TABLE IF EXISTS type"))
+    conn.execute(text("DROP TABLE IF EXISTS votes"))
   
 #'''''	
 
 
 #'''''
 # Convert dataframe to sql table 
-Traveler.to_sql('Traveler', engine,dtype={"InputID":Integer(), "Traveler_ID": Integer(),"Traveler_Location": String (200)}, if_exists='replace', index=False)
-Country.to_sql('Country', engine,dtype={"Traveler_Country":String (200),"Traveler_Location": String (200)}, if_exists='replace', index=False)
-Date.to_sql('Date', engine,dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Travel_Year": Integer(),"Travel_Month": Integer()}, if_exists='replace', index=False) 
-Location.to_sql('Location', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Town": String (200),"Province": String (200)}, if_exists='replace', index=False)
-Location_Type.to_sql('Type', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Location_Type": String (200)}, if_exists='replace', index=False)
-Rating.to_sql('Rating', engine,dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Location_Name": String (200),"Rating": Integer()},  if_exists='replace', index=False)
-Votes.to_sql('Votes', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Helpful_Votes": Integer()}, if_exists='replace', index=False)
-Text.to_sql('Text', engine, dtype={"InputID":Integer(), "Traveler_ID": Integer(),"Title": String (200), "text": String(90000)}, if_exists='replace', index=False)
+traveler.to_sql('traveler', engine,dtype={"InputID":Integer(), "Traveler_ID": Integer(),"Traveler_Location": String (200)}, if_exists='replace', index=False)
+country.to_sql('country', engine,dtype={"Traveler_Country":String (200),"Traveler_Location": String (200)}, if_exists='replace', index=False)
+date.to_sql('date', engine,dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Travel_Year": Integer(),"Travel_Month": Integer()}, if_exists='replace', index=False) 
+location.to_sql('location', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Town": String (200),"Province": String (200)}, if_exists='replace', index=False)
+location_Type.to_sql('type', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Location_Type": String (200)}, if_exists='replace', index=False)
+rating.to_sql('rating', engine,dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Location_Name": String (200),"Rating": Integer()},  if_exists='replace', index=False)
+votes.to_sql('votes', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Helpful_Votes": Integer()}, if_exists='replace', index=False)
+comments.to_sql('comments', engine, dtype={"InputID":Integer(), "Traveler_ID": Integer(),"Title": String (200), "text": String(90000)}, if_exists='replace', index=False)
 #DfReviews.to_sql('all', engine, if_exists='replace', index=False)
