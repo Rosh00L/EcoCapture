@@ -170,13 +170,13 @@ if not database_exists(engine.url): create_database(engine.url)
 with engine.connect() as conn:
     conn.execute(text("DROP TABLE IF EXISTS traveler"))
     conn.execute(text("DROP TABLE IF EXISTS country"))
-    conn.execute(text("DROP TABLE IF EXISTS date"))
+    conn.execute(text("DROP TABLE IF EXISTS dateall"))
     conn.execute(text("DROP TABLE IF EXISTS city"))
     conn.execute(text("DROP TABLE IF EXISTS rating"))
     conn.execute(text("DROP TABLE IF EXISTS location"))
-    conn.execute(text("DROP TABLE IF EXISTS comments"))
+    conn.execute(text("DROP TABLE IF EXISTS comment"))
     conn.execute(text("DROP TABLE IF EXISTS type"))
-    conn.execute(text("DROP TABLE IF EXISTS votes"))
+    conn.execute(text("DROP TABLE IF EXISTS vote"))
   
 #'''''	
 
@@ -185,10 +185,10 @@ with engine.connect() as conn:
 # Convert dataframe to sql table 
 traveler.to_sql('traveler', engine,dtype={"InputID":Integer(), "Traveler_ID": Integer(),"Traveler_Location": String (200)}, if_exists='replace', index=False)
 country.to_sql('country', engine,dtype={"Traveler_Country":String (200),"Traveler_Location": String (200)}, if_exists='replace', index=False)
-date.to_sql('date', engine,dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Travel_Year": Integer(),"Travel_Month": Integer()}, if_exists='replace', index=False) 
+date.to_sql('dateall', engine,dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Travel_Year": Integer(),"Travel_Month": Integer()}, if_exists='replace', index=False) 
 location.to_sql('location', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Town": String (200),"Province": String (200)}, if_exists='replace', index=False)
 location_Type.to_sql('type', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Location_Type": String (200)}, if_exists='replace', index=False)
 rating.to_sql('rating', engine,dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Location_Name": String (200),"Rating": Integer()},  if_exists='replace', index=False)
-votes.to_sql('votes', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Helpful_Votes": Integer()}, if_exists='replace', index=False)
-comments.to_sql('comments', engine, dtype={"InputID":Integer(), "Traveler_ID": Integer(),"Title": String (200), "text": String(90000)}, if_exists='replace', index=False)
+votes.to_sql('vote', engine, dtype={"InputID":Integer(),"Traveler_ID": Integer(),"Helpful_Votes": Integer()}, if_exists='replace', index=False)
+comments.to_sql('comment', engine, dtype={"InputID":Integer(), "Traveler_ID": Integer(),"Title": String (200), "text": String(90000)}, if_exists='replace', index=False)
 #DfReviews.to_sql('all', engine, if_exists='replace', index=False)
