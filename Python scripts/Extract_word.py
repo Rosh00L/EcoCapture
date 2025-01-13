@@ -110,7 +110,7 @@ def most_common(df, top_n=25):
     return top_25_words
 print(most_common(negatives_df))
 print(most_common(positives_df))
-df.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_groups.xlsx',index=False)   
+df.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_SIA.xlsx',index=False)   
 #commentsvr=pd.Series(commentsCOL).reset_index(drop=True)
 #strx.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_commentsfile.xlsx',index=False)
 #print (commentss)
