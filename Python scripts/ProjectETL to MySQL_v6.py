@@ -9,13 +9,13 @@ import numpy as np
 
 # Credentials to database connection
 hostname="localhost"
-dbname="project"
+dbname="ecocapture"
 uname="root"
 pwd="rootroot"
 
 # Create dataframe
 
-fileCSV="C:\BrainStation\Poject\Source\Tourism and Travel Reviews Sri Lankan Destinations\Tourism and Travel Reviews Sri Lankan Destinations\Reviews.csv"
+fileCSV="C:\Github_proj\EcoCapture-Analytics\Source\Tourism and Travel Reviews Sri Lankan Destinations\Tourism and Travel Reviews Sri Lankan Destinations\Reviews.csv"
 allRev = pd.read_csv(fileCSV,sep=',',encoding='latin')#
 DfRev=pd.DataFrame(allRev).reset_index()
 
@@ -52,7 +52,7 @@ fixId(DfRev)
 #DfRev['InputID']=pd.to_numeric(DfRev['Input_ID'])
 DfReviews=pd.DataFrame(DfRev)
 
-#DfReviews.to_excel(r'C:\BrainStation\Poject\Source\Check_PKList.xlsx',index=False)
+#DfReviews.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\Check_PKList.xlsx',index=False)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 
@@ -66,7 +66,7 @@ dfUserData=pd.DataFrame(UserData)
 
 #^^^^^^^^^^^^^^^^^^^Normalising country Names^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
 
-CountryMap=r'C:\BrainStation\Poject\Source\User_country_and_city_vf1.0.xlsx'
+CountryMap=r'C:\Github_proj\EcoCapture-Analytics\Source\User_country_and_city_vf1.0.xlsx'
 
 uCountry = pd.read_excel(CountryMap, sheet_name='Sheet1')
 uCountry=uCountry.fillna('')
@@ -82,7 +82,7 @@ uCountry=pd.DataFrame(uCountry).reset_index().drop(columns=(['Country1','Country
 uCountry['Traveler_Country']=uCountry['Traveler_Country'].str.strip()
 uCountry.drop(columns=['index'], inplace=True)
 #print(uCountry)
-uCountry.to_excel(r'C:\BrainStation\Poject\Source\UserCountryList.xlsx',index=False)
+uCountry.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\UserCountryList.xlsx',index=False)
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 #~~~~~~~~~~~~~~~~~~~~~~~~Merging user country~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
