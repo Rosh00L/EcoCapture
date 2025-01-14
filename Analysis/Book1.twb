@@ -622,7 +622,7 @@
       <column caption='Processed Comments' datatype='string' name='[processed_comments]' role='dimension' type='nominal' />
       <column caption='Sentiment Comments' datatype='string' name='[sentiment_comments]' role='dimension' type='nominal' />
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='G:/BrainStation/Poject/Tableau book/date+ (project).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/14/2025 03:32:49 AM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='G:/BrainStation/Poject/Tableau book/date+ (project).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/14/2025 03:34:48 AM' username='tableau_internal_user'>
           <relation type='collection'>
             <relation name='traveler_FA0EFA58931A478B800DB08695E53292' table='[Extract].[traveler_FA0EFA58931A478B800DB08695E53292]' type='table' />
             <relation name='country_446BF9B0D8B24C4499856A5DB538CC32' table='[Extract].[country_446BF9B0D8B24C4499856A5DB538CC32]' type='table' />
@@ -665,7 +665,7 @@
             <map key='[sentiment_comments]' value='[sia_F800E87ACC514A3E89BE9347EDFEC32C].[sentiment_comments]' />
           </cols>
           <refresh>
-            <refresh-event add-from-file-path='date+ (project)' increment-value='%null%' refresh-type='create' rows-inserted='116359' timestamp-start='2025-01-14 03:32:47.947' />
+            <refresh-event add-from-file-path='date+ (project)' increment-value='%null%' refresh-type='create' rows-inserted='116359' timestamp-start='2025-01-14 03:34:46.214' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>

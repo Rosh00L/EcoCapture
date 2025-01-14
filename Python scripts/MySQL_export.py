@@ -17,7 +17,7 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 
 
 sql_traveler = pd.read_sql( 
-    "SELECT * FROM ecocapture.traveler", 
+    "SELECT * FROM ecocapture.traveller", 
     con=engine 
 ) 
 sql_traveler.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveler.xlsx',index=False)
@@ -28,16 +28,8 @@ sql_date = pd.read_sql(
 ) 
 sql_date.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_date.xlsx',index=False)
 
-
-sql_type = pd.read_sql( 
-    "SELECT * FROM ecocapture.type", 
-    con=engine 
-) 
-sql_type.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_type.xlsx',index=False)
-
-
 sql_Country = pd.read_sql( 
-    "SELECT * FROM ecocapture.traveler_country", 
+    "SELECT * FROM ecocapture.traveller_country", 
     con=engine 
 ) 
 sql_Country.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveler_Country.xlsx',index=False)

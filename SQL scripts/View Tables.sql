@@ -1,27 +1,27 @@
 USE ecocapture;
 
-DROP view if exists traveler_country; 
-CREATE VIEW traveler_country AS
+DROP view if exists Traveller_country; 
+CREATE VIEW Traveller_country AS
     SELECT 
         A.inputID,
-        A.Traveler_ID,
-        A.Traveler_Location,
-        B.traveler_Country
+        A.Traveller_ID,
+        A.Traveller_Location,
+        B.Traveller_Country
     FROM
-        traveler A
+        Traveller A
             LEFT JOIN
-        country B ON A.Traveler_Location = B.Traveler_Location;    
+        country B ON A.Traveller_Location = B.Traveller_Location;    
    
-Drop VIEW IF EXISTS Traveler_Date;
-CREATE VIEW Traveler_Date AS
+Drop VIEW IF EXISTS Traveller_Date;
+CREATE VIEW Traveller_Date AS
     SELECT 
-        A.Traveler_ID, C.traveler_Country, B.Travel_Date, A.Town
+        A.Traveller_ID, C.Traveller_Country, B.Travel_Date, A.City
     FROM
         location A
             INNER JOIN
         Dateall B ON A.inputID = B.inputID
             INNER JOIN
-        traveler_country C ON A.inputID = C.inputID
+        Traveller_country C ON A.inputID = C.inputID
     ORDER BY B.Travel_Date
 ;
 

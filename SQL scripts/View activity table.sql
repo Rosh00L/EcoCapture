@@ -13,15 +13,15 @@ DROP view if exists activity;
 CREATE VIEW activity AS
     SELECT 
         A.InputID,
-        B.Traveler_ID,
-        B.town,
-        C.Location_Type,
+        A.Traveller_ID,
+        B.City,
+        B.Location_Type,
         A.Title,
         LOWER(A.Comments) AS Comments,
         CASE
             WHEN LOWER(Comments) REGEXP LOWER('photography|photo|photos|picture|pictures') THEN 'Y'
             ELSE ' '
-        END AS photography,
+        END AS Photography,
         CASE
             WHEN
                 LOWER(Comments) REGEXP LOWER('photography is not|photography isn|Photography not|No photography|Photography is restricted|Photography is forbidde|
@@ -30,20 +30,20 @@ CREATE VIEW activity AS
             THEN
                 'Y'
             ELSE ' '
-        END AS restricted,
+        END AS Photography_Restricted,
         CASE
             WHEN LOWER(Comments) REGEXP LOWER('wildlife|safar|diving|snorking|leopard|eleph|bear|coral|whale|dolphin|nature|rainforest|animal|monkey|lizard|butterfly|garden|reptile|snake|fish|Bats
             |Wetlands|Jungle|forest|flora|fauna|spider|owl|frogmouth|squirre|fowl|biolog|sinharaja|plants|naturalist|eagles|bird|birdlife|birding|birdwatching|Magpie|birdsong') THEN 'Y'
             ELSE ' '
-        END AS Wildlife,
+        END AS Wildlife_nature,
        CASE
             WHEN LOWER(Comments) REGEXP LOWER('hike|hiking|walking|trekking|trek|climbing|rappaling') THEN 'Y'
             ELSE ' '
-        END AS Hiking,
+        END AS Hiking_climbing,
         CASE
             WHEN LOWER(Comments) REGEXP LOWER('rafting|canoe|Kayaking') THEN 'Y'
             ELSE ' '
-        END AS Rafting,
+        END AS Rafting_Kayaking,
         CASE
             WHEN LOWER(Comments) REGEXP LOWER('biking|cycling|motorbike') THEN 'Y'
             ELSE ' '
@@ -69,12 +69,10 @@ CREATE VIEW activity AS
         CASE
             WHEN LOWER(Comments) REGEXP LOWER('relax|relaxing|unwind|leisure|rejuvenat|bliss|retreat|resort|sanctuary|zen|solitude') THEN 'Y'
             ELSE ' '
-        END AS relaxing
+        END AS Relax
     FROM
         Comment A
             JOIN
         location B ON A.InputID = B.InputID
-            JOIN
-        type C ON A.InputID = C.InputID
-    ORDER BY A.InputID AND A.Traveler_ID;
+	ORDER BY A.InputID AND A.Traveller_ID;
 
