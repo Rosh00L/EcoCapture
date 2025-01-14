@@ -48,19 +48,17 @@ sql_location = pd.read_sql(
 ) 
 sql_location.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_Location.xlsx',index=False)
 
-sql_travel_cat = pd.read_sql( 
-    "SELECT * FROM ecocapture.travel_cats", 
-    con=engine 
-) 
-sql_travel_cat.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_travel_cats.xlsx',index=False)
-
-
 sql_sia = pd.read_sql( 
     "SELECT * FROM ecocapture.siarating", 
     con=engine 
 ) 
 sql_sia.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_siarating.xlsx',index=False)
 
+sql_act = pd.read_sql( 
+    "SELECT * FROM ecocapture.activity",
+con=engine 
+) 
+sql_act.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_activity.xlsx",index=False)
 
 '''''
 # read table data using sql query
