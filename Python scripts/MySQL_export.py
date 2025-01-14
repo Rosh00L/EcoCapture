@@ -52,6 +52,31 @@ con=engine
 ) 
 sql_act.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_activity.xlsx",index=False)
 
+V_traveller_country= pd.read_sql( 
+    "SELECT * FROM ecocapture.traveller_country",
+con=engine 
+) 
+V_traveller_country.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveller_country.xlsx",index=False)
+
+
+Visit_date= pd.read_sql( 
+    "SELECT * FROM ecocapture.visit_date",
+con=engine 
+) 
+Visit_date.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_visit_date.xlsx",index=False)
+
+V_fromcountrydate= pd.read_sql( 
+    "SELECT * FROM ecocapture.fromcountrydate",
+con=engine 
+) 
+V_fromcountrydate.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_romcountrydate.xlsx",index=False)    
+
+V_countryT= pd.read_sql( 
+    "SELECT * FROM ecocapture.countryT",
+con=engine 
+) 
+V_countryT.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_countryT.xlsx",index=False)    
+
 '''''
 # read table data using sql query
 sql_traveler = pd.read_sql( 
