@@ -13,7 +13,6 @@ CREATE VIEW Traveller_country AS
         country B ON A.Traveller_Location = B.Traveller_Location
 ;   
 
-
 DROP view if exists country_count; 
 CREATE VIEW country_count AS
     SELECT 
@@ -95,9 +94,6 @@ CREATE VIEW CountryT_ AS
     ORDER BY Year desc
 ;       
 /************************************************************/
-
-
-
 
 Drop VIEW IF EXISTS siarating;
 CREATE VIEW siarating AS
