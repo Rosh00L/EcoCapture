@@ -51,7 +51,7 @@ CREATE VIEW activity AS
         CASE
             WHEN LOWER(Comments) REGEXP LOWER('ancient|ruing|archaeology|historical') THEN 'Y'
             ELSE ' '
-        END AS Historical_Sites_traveller_date,
+        END AS Historical_Sites,
         CASE
             WHEN LOWER(Comments) REGEXP LOWER('surfing|diving|scuba|snorke|snorkeling|swim|swimming|boat|Boat trip') THEN 'Y'
             ELSE ' '
