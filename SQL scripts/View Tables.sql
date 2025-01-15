@@ -89,7 +89,7 @@ CREATE VIEW CountryT_ AS
 		Year,
         count(*) as num
     FROM
-        CountryT
+        CountryTcategory
 	group by Year
     ORDER BY Year desc
 ;       
