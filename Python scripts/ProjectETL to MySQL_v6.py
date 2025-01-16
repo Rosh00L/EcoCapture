@@ -16,7 +16,7 @@ pwd="rootroot"
 # Create dataframe
 
 fileCSV=r"C:\Github_proj\EcoCapture-Analytics\Source\Tourism and Travel Reviews Sri Lankan Destinations\Tourism and Travel Reviews Sri Lankan Destinations\Reviews.csv"
-allRev = pd.read_csv(fileCSV,sep=',',encoding='latin')#
+allRev = pd.read_csv(fileCSV,sep=',',encoding='latin')
 DfRev=pd.DataFrame(allRev).reset_index()
 
 DfRev['Traveller_ID']= DfRev['User_ID'].str.extract('(\d+)')
