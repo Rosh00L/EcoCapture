@@ -24,6 +24,7 @@ CREATE VIEW country_count AS
         country B ON A.Traveller_Location = B.Traveller_Location
         group by B.Traveller_Country
         ORDER BY Count_Country desc
+        limit 10
         ;   
         
    
@@ -54,15 +55,20 @@ ORDER BY B.Travel_Date
 Drop VIEW IF EXISTS loca_Rating;
 CREATE VIEW loca_Rating AS
     SELECT 
-       A.inputID, A.Traveller_ID,B.Travel_Year,B.month, C.City
+       A.inputID, A.Traveller_ID,B.Travel_Year,B.month, C.City, D.rating,concat(C.City,',',C.Province) as City_location
+       
     FROM
       Traveller_country  A
 		Left JOIN
         Dateall B ON A.inputID = B.inputID
         Left JOIN
         location C ON A.inputID = C.inputID
+        left join 
+        rating  D  on A.inputID = D.inputID
 ORDER BY C.location
 ;
+
+
 
 /****************************************************************/
 Drop VIEW IF EXISTS FromCountryC;
