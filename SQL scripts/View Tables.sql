@@ -51,6 +51,19 @@ ORDER BY B.Travel_Date
 ;
 
 
+Drop VIEW IF EXISTS loca_Rating;
+CREATE VIEW loca_Rating AS
+    SELECT 
+       A.inputID, A.Traveller_ID,B.Travel_Year,B.month, C.City
+    FROM
+      Traveller_country  A
+		Left JOIN
+        Dateall B ON A.inputID = B.inputID
+        Left JOIN
+        location C ON A.inputID = C.inputID
+ORDER BY C.location
+;
+
 /****************************************************************/
 Drop VIEW IF EXISTS FromCountryC;
 CREATE VIEW FromCountryC AS
