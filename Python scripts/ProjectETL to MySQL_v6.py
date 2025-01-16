@@ -101,6 +101,7 @@ Date=DfReviews[["Traveller_ID","Travel_Date"]].drop_duplicates().reset_index(dro
 YM= Date['Travel_Date'].str.split("-", n=1, expand=True)
 Date['Travel_Year']=YM[0].astype(int)
 Date['Travel_Month']=YM[1]
+Date['month'] = pd.to_datetime(Date['Travel_Month'], format='%m').dt.month_name()
 dfDate=pd.DataFrame(Date)
 
 dfUDConntry=pd.DataFrame(dfUserCoun).sort_values(by=['Traveller_ID','Travel_Date'],ascending=True)
@@ -108,7 +109,7 @@ dfYear=pd.DataFrame(dfDate).sort_values(by=['Traveller_ID','Travel_Date'],ascend
 
 dfUserYear= pd.merge(dfUDConntry, dfYear, on=['Traveller_ID','Travel_Date'], how="left")
 
-TravelData=dfUserYear[['InputID','Traveller_ID','Traveller_Location','Travel_Date','Travel_Year','Travel_Month','Traveller_Country','Location_Name','City','Province','Location_Type',
+TravelData=dfUserYear[['InputID','Traveller_ID','Traveller_Location','Travel_Date','Travel_Year','Travel_Month','month','Traveller_Country','Location_Name','City','Province','Location_Type',
                        "Published_Date","Title",'Rating',"Helpful_Votes",'Text']].sort_values(by='Travel_Year').reset_index()
 
 TravelData.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\TravelData.xlsx',index=False)
@@ -138,7 +139,7 @@ print (country)
 
 #'''''
 # ### Date #######
-dftraveller=TravelData[["InputID","Traveller_ID",'Travel_Date', 'Travel_Year', 'Travel_Month',"Published_Date"]]
+dftraveller=TravelData[["InputID","Traveller_ID",'Travel_Date', 'Travel_Year', 'Travel_Month','month',"Published_Date"]]
 date=pd.DataFrame(dftraveller).sort_values(by=(['InputID','Traveller_ID']))
 
 ### Rating #######

@@ -42,7 +42,7 @@ CREATE VIEW Visit_Date AS
 Drop VIEW IF EXISTS FromCountryDate;
 CREATE VIEW FromCountryDate AS
     SELECT 
-       A.inputID, A.Traveller_ID,A.Traveller_Country, B.Travel_Date, B.Travel_Year, B.Travel_Month
+       A.inputID, A.Traveller_ID,A.Traveller_Country, B.Travel_Date, B.Travel_Year, B.Travel_Month, B.month
     FROM
       Traveller_country  A
 		Left JOIN
@@ -83,16 +83,6 @@ PREPARE T_stmt FROM @sql;
 EXECUTE T_stmt;
 DEALLOCATE PREPARE T_stmt;
 
-Drop VIEW IF EXISTS CountryT_;
-CREATE VIEW CountryT_ AS
-    SELECT
-		Year,
-        count(*) as num
-    FROM
-        CountryTcategory
-	group by Year
-    ORDER BY Year desc
-;       
 /************************************************************/
 
 Drop VIEW IF EXISTS siarating;

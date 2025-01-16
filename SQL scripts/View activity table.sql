@@ -29,7 +29,7 @@ CREATE VIEW activity AS
         act.Relax,
         act.Romantic_holiday,
 		CASE
-			WHEN act.Photography_Restricted=' ' AND act.Photography_allowed='Y' THEN 'Y'
+			WHEN act.Photography_Restricted='Y' AND act.Photography_allowed='Y' THEN 'Y'
         END AS Photography,
         CASE
 			WHEN act.Photography_Restricted=' ' and act.Photography_allowed='Y' and act.Wildlife_nature='Y' THEN 'Y'
@@ -59,8 +59,7 @@ CREATE VIEW activity AS
             when Location_Type='Religious Sites' then 'Y'
             ELSE ' '
         END AS Photography_Restricted,
-      
-                  
+                       
         CASE
             WHEN LOWER(Comments) REGEXP LOWER('wildlife|safari|diving|snorking|leopard|leopards|elephant|elephants|peacock|bear|coral|whale|dolphin|nature|rainforest|animal|animals|monkey|lizard|butterfly|garden|reptile|snake|fish|Bats
             |Wetlands|Jungle|forest|flora|fauna|spider|owl|frogmouth|squirre|fowl|biolog|sinharaja|plants|naturalist|eagles|bird|birdlife|birding|birdwatching|Magpie|birdsong|Yala|buffalo|corals|plants|
