@@ -51,7 +51,6 @@ CREATE VIEW CountryDate AS
 ORDER BY B.Travel_Date
 ;
 
-
 Drop VIEW IF EXISTS loca_Rating;
 CREATE VIEW loca_Rating AS
     SELECT 
@@ -67,7 +66,6 @@ CREATE VIEW loca_Rating AS
         rating  D  on A.inputID = D.inputID
 ORDER BY C.location
 ;
-
 
 /****************************************************************/
 CREATE VIEW loca_count_ as
