@@ -1,0 +1,2310 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1211.0901                               -->
+<workbook original-version='18.1' source-build='2024.3.2 (20243.24.1211.0901)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelRelationshipPerfOptions />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Covid 19' datatype='real' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='2021.'>
+        <calculation class='tableau' formula='2021.' />
+      </column>
+    </datasource>
+    <datasource caption='date+ (Eco Capture)' inline='true' name='federated.0iqv7mb1pjmus0188hxnz0zonm2b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='mysql.1submfq0el74t61dtn7vn1plkymo'>
+            <connection class='mysql' dbname='ecocapture' odbc-native-protocol='' one-time-sql='' port='3306' server='localhost' source-charset='' username='root' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='countrydate' table='[countrydate]' type='table' />
+          <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='act_table' table='[act_table]' type='table' />
+          <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='activity' table='[activity]' type='table' />
+          <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='country_count' table='[country_count]' type='table' />
+          <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='loca_rating' table='[loca_rating]' type='table' />
+        </relation>
+        <cols>
+          <map key='[ActivityCat]' value='[act_table].[ActivityCat]' />
+          <map key='[Beach_Water_Sports]' value='[activity].[Beach_Water_Sports]' />
+          <map key='[Biking_cycling]' value='[activity].[Biking_cycling]' />
+          <map key='[City]' value='[loca_rating].[City]' />
+          <map key='[Count_Country]' value='[country_count].[Count_Country]' />
+          <map key='[Hiking_climbing]' value='[activity].[Hiking_climbing]' />
+          <map key='[Historical_Sites]' value='[activity].[Historical_Sites]' />
+          <map key='[InputID (act_table)]' value='[act_table].[InputID]' />
+          <map key='[InputID]' value='[activity].[InputID]' />
+          <map key='[Location_Name]' value='[activity].[Location_Name]' />
+          <map key='[Location_Type]' value='[activity].[Location_Type]' />
+          <map key='[Province]' value='[loca_rating].[Province]' />
+          <map key='[Rafting_Kayaking]' value='[activity].[Rafting_Kayaking]' />
+          <map key='[Rating]' value='[activity].[Rating]' />
+          <map key='[Relaxing]' value='[activity].[Relaxing]' />
+          <map key='[Religious]' value='[activity].[Religious]' />
+          <map key='[Romantic_holiday]' value='[activity].[Romantic_holiday]' />
+          <map key='[Sightseeing]' value='[activity].[Sightseeing]' />
+          <map key='[Title]' value='[activity].[Title]' />
+          <map key='[Travel_Date]' value='[countrydate].[Travel_Date]' />
+          <map key='[Travel_Month]' value='[countrydate].[Travel_Month]' />
+          <map key='[Travel_Year (loca_rating)]' value='[loca_rating].[Travel_Year]' />
+          <map key='[Travel_Year]' value='[countrydate].[Travel_Year]' />
+          <map key='[Traveller_Country (country_count)]' value='[country_count].[Traveller_Country]' />
+          <map key='[Traveller_Country]' value='[countrydate].[Traveller_Country]' />
+          <map key='[Traveller_ID (act_table)]' value='[act_table].[Traveller_ID]' />
+          <map key='[Traveller_ID (activity)]' value='[activity].[Traveller_ID]' />
+          <map key='[Traveller_ID (loca_rating)]' value='[loca_rating].[Traveller_ID]' />
+          <map key='[Traveller_ID]' value='[countrydate].[Traveller_ID]' />
+          <map key='[Traveller_act]' value='[act_table].[Traveller_act]' />
+          <map key='[Wildlife_and_Photography]' value='[activity].[Wildlife_and_Photography]' />
+          <map key='[Wildlife_nature]' value='[activity].[Wildlife_nature]' />
+          <map key='[inputID (loca_rating)]' value='[loca_rating].[inputID]' />
+          <map key='[inputID]' value='[countrydate].[inputID]' />
+          <map key='[month (loca_rating)]' value='[loca_rating].[month]' />
+          <map key='[month]' value='[countrydate].[month]' />
+          <map key='[photography_Interest]' value='[activity].[photography_Interest]' />
+          <map key='[rating]' value='[loca_rating].[rating]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>inputID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[inputID]</local-name>
+            <parent-name>[countrydate]</parent-name>
+            <remote-alias>inputID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Traveller_ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Traveller_ID]</local-name>
+            <parent-name>[countrydate]</parent-name>
+            <remote-alias>Traveller_ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Traveller_Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Traveller_Country]</local-name>
+            <parent-name>[countrydate]</parent-name>
+            <remote-alias>Traveller_Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Travel_Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Travel_Date]</local-name>
+            <parent-name>[countrydate]</parent-name>
+            <remote-alias>Travel_Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Travel_Year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Travel_Year]</local-name>
+            <parent-name>[countrydate]</parent-name>
+            <remote-alias>Travel_Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Travel_Month</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Travel_Month]</local-name>
+            <parent-name>[countrydate]</parent-name>
+            <remote-alias>Travel_Month</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[countrydate]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InputID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[InputID (act_table)]</local-name>
+            <parent-name>[act_table]</parent-name>
+            <remote-alias>InputID</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+            <object-id>[act_table_FE4A9D54B9D54BBE8AC30B3239B1BCCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Traveller_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Traveller_ID (act_table)]</local-name>
+            <parent-name>[act_table]</parent-name>
+            <remote-alias>Traveller_ID</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+            <object-id>[act_table_FE4A9D54B9D54BBE8AC30B3239B1BCCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ActivityCat</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ActivityCat]</local-name>
+            <parent-name>[act_table]</parent-name>
+            <remote-alias>ActivityCat</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[act_table_FE4A9D54B9D54BBE8AC30B3239B1BCCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Traveller_act</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Traveller_act]</local-name>
+            <parent-name>[act_table]</parent-name>
+            <remote-alias>Traveller_act</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[act_table_FE4A9D54B9D54BBE8AC30B3239B1BCCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InputID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[InputID]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>InputID</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Traveller_ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Traveller_ID (activity)]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Traveller_ID</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location_Name]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Location_Name</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location_Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location_Type]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Location_Type</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>photography_Interest</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[photography_Interest]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>photography_Interest</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wildlife_nature</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Wildlife_nature]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Wildlife_nature</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hiking_climbing</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Hiking_climbing]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Hiking_climbing</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rafting_Kayaking</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Rafting_Kayaking]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Rafting_Kayaking</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Biking_cycling</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Biking_cycling]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Biking_cycling</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Historical_Sites</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Historical_Sites]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Historical_Sites</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Beach_Water_Sports</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Beach_Water_Sports]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Beach_Water_Sports</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sightseeing</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sightseeing]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Sightseeing</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Religious</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Religious]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Religious</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relaxing</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Relaxing]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Relaxing</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Romantic_holiday</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Romantic_holiday]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Romantic_holiday</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wildlife_and_Photography</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Wildlife_and_Photography]</local-name>
+            <parent-name>[activity]</parent-name>
+            <remote-alias>Wildlife_and_Photography</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[activity_44B1CB6A6CC0491B81C6B532F8562CED]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Traveller_Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Traveller_Country (country_count)]</local-name>
+            <parent-name>[country_count]</parent-name>
+            <remote-alias>Traveller_Country</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[country_count_2E8727E42A1841C39D4D564AE8CEA4DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Count_Country</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Count_Country]</local-name>
+            <parent-name>[country_count]</parent-name>
+            <remote-alias>Count_Country</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+            <object-id>[country_count_2E8727E42A1841C39D4D564AE8CEA4DB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>inputID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[inputID (loca_rating)]</local-name>
+            <parent-name>[loca_rating]</parent-name>
+            <remote-alias>inputID</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Traveller_ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Traveller_ID (loca_rating)]</local-name>
+            <parent-name>[loca_rating]</parent-name>
+            <remote-alias>Traveller_ID</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Travel_Year</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Travel_Year (loca_rating)]</local-name>
+            <parent-name>[loca_rating]</parent-name>
+            <remote-alias>Travel_Year</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[month (loca_rating)]</local-name>
+            <parent-name>[loca_rating]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[rating]</local-name>
+            <parent-name>[loca_rating]</parent-name>
+            <remote-alias>rating</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <object-id>[loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[loca_rating]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>262140</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WLONGVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+            </attributes>
+            <object-id>[loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Province</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Province]</local-name>
+            <parent-name>[loca_rating]</parent-name>
+            <remote-alias>Province</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>200</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Activity Cat' datatype='string' name='[ActivityCat]' role='dimension' type='nominal' />
+      <column caption='Beach Water Sports' datatype='string' name='[Beach_Water_Sports]' role='dimension' type='nominal' />
+      <column caption='Biking cycling' datatype='string' name='[Biking_cycling]' role='dimension' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;Ahangama&quot;' value='&quot;Southern&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Count Country' datatype='integer' name='[Count_Country]' role='measure' type='quantitative' />
+      <column caption='Hiking climbing' datatype='string' name='[Hiking_climbing]' role='dimension' type='nominal' />
+      <column caption='Historical Sites' datatype='string' name='[Historical_Sites]' role='dimension' type='nominal' />
+      <column caption='InputID (act table)' datatype='integer' name='[InputID (act_table)]' role='dimension' type='ordinal' />
+      <column caption='Input ID1' datatype='integer' name='[InputID]' role='dimension' type='ordinal' />
+      <column caption='Location Name' datatype='string' name='[Location_Name]' role='dimension' type='nominal' />
+      <column caption='Location Type' datatype='string' name='[Location_Type]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot; Anuradhapura, North Central Province&quot;' value='&quot;North Central&quot;' />
+          <semantic-value key='&quot; Eastern Province&quot;' value='&quot;Eastern&quot;' />
+          <semantic-value key='&quot; Galle District, Southern Province&quot;' value='&quot;Southern&quot;' />
+          <semantic-value key='&quot; Kandy District, Central Province&quot;' value='&quot;Central&quot;' />
+          <semantic-value key='&quot; Sabaragamuwa Province&quot;' value='&quot;Sabaragamuwa&quot;' />
+          <semantic-value key='&quot; Tangalle, Southern Province&quot;' value='&quot;Southern&quot;' />
+          <semantic-value key='&quot; Uva Province&quot;' value='&quot;Uva&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Rafting Kayaking' datatype='string' name='[Rafting_Kayaking]' role='dimension' type='nominal' />
+      <column caption='Rating1' datatype='integer' name='[Rating]' role='measure' type='quantitative' />
+      <column caption='Romantic holiday' datatype='string' name='[Romantic_holiday]' role='dimension' type='nominal' />
+      <column caption='Travel Date' datatype='string' name='[Travel_Date]' role='dimension' type='nominal' />
+      <column caption='Travel Month' datatype='integer' name='[Travel_Month]' role='dimension' type='quantitative' />
+      <column caption='Travel Year (loca rating)' datatype='integer' name='[Travel_Year (loca_rating)]' role='dimension' type='quantitative' />
+      <column caption='Travel Year' datatype='integer' name='[Travel_Year]' role='dimension' type='quantitative' />
+      <column caption='Traveller Country (country count)' datatype='string' name='[Traveller_Country (country_count)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Traveller Country' datatype='string' name='[Traveller_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Traveller ID (act table)' datatype='integer' name='[Traveller_ID (act_table)]' role='dimension' type='ordinal' />
+      <column caption='Traveller ID (activity)' datatype='integer' name='[Traveller_ID (activity)]' role='dimension' type='ordinal' />
+      <column caption='Traveller ID (loca rating)' datatype='integer' name='[Traveller_ID (loca_rating)]' role='dimension' type='ordinal' />
+      <column caption='Traveller ID' datatype='integer' name='[Traveller_ID]' role='dimension' type='ordinal' />
+      <column caption='Traveller act' datatype='string' name='[Traveller_act]' role='dimension' type='nominal' />
+      <column caption='Wildlife and Photography' datatype='string' name='[Wildlife_and_Photography]' role='dimension' type='nominal' />
+      <column caption='Wildlife nature' datatype='string' name='[Wildlife_nature]' role='dimension' type='nominal' />
+      <column caption='act_table' datatype='table' name='[__tableau_internal_object_id__].[act_table_FE4A9D54B9D54BBE8AC30B3239B1BCCE]' role='measure' type='quantitative' />
+      <column caption='activity' datatype='table' name='[__tableau_internal_object_id__].[activity_44B1CB6A6CC0491B81C6B532F8562CED]' role='measure' type='quantitative' />
+      <column caption='country_count' datatype='table' name='[__tableau_internal_object_id__].[country_count_2E8727E42A1841C39D4D564AE8CEA4DB]' role='measure' type='quantitative' />
+      <column caption='countrydate' datatype='table' name='[__tableau_internal_object_id__].[countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A]' role='measure' type='quantitative' />
+      <column caption='loca_rating' datatype='table' name='[__tableau_internal_object_id__].[loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8]' role='measure' type='quantitative' />
+      <column caption='inputID (loca rating)' datatype='integer' name='[inputID (loca_rating)]' role='dimension' type='ordinal' />
+      <column caption='Input ID' datatype='integer' name='[inputID]' role='dimension' type='ordinal' />
+      <column caption='Month (Loca Rating)' datatype='string' name='[month (loca_rating)]' role='dimension' type='nominal' />
+      <column caption='Month' datatype='string' name='[month]' role='dimension' type='nominal' />
+      <column caption='photography Interest' datatype='string' name='[photography_Interest]' role='dimension' type='nominal' />
+      <column caption='Rating' datatype='integer' name='[rating]' role='measure' type='quantitative' />
+      <column-instance column='[Location_Type]' derivation='None' name='[none:Location_Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Traveller_act]' derivation='None' name='[none:Traveller_act:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Travel Year (fromcountrydate),Traveller Country (fromcountrydate))' hidden='true' name='[Action (Travel Year (fromcountrydate),Traveller Country (fromcountrydate))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Travel_Year (fromcountrydate):ok]' />
+          <groupfilter function='level-members' level='[Traveller_Country (fromcountrydate)]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Travel_Year (visit_date))' hidden='true' name='[Action (Travel_Year (visit_date))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Travel_Year (visit_date):ok]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' object-id='' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='G:/BrainStation/Poject/Tableau book/date+ (project).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/16/2025 06:47:42 AM' username='tableau_internal_user'>
+          <relation type='collection'>
+            <relation name='traveller_786040A187974246AF4DDD4CBA4973FF' table='[Extract].[traveller_786040A187974246AF4DDD4CBA4973FF]' type='table' />
+            <relation name='country_7B59EB7F2D9445DCA77C973A989463F7' table='[Extract].[country_7B59EB7F2D9445DCA77C973A989463F7]' type='table' />
+            <relation name='country_count_701C7A2BF21F4714AF7338247B290404' table='[Extract].[country_count_701C7A2BF21F4714AF7338247B290404]' type='table' />
+            <relation name='dateall_0FDED6BE66664982BB440E7AF8C73399' table='[Extract].[dateall_0FDED6BE66664982BB440E7AF8C73399]' type='table' />
+            <relation name='fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873' table='[Extract].[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]' type='table' />
+            <relation name='loca_rating_C84E872C703248549434F9AD26EF220C' table='[Extract].[loca_rating_C84E872C703248549434F9AD26EF220C]' type='table' />
+            <relation name='location_92EAAAADABC94CEFADCAF6666C040ECF' table='[Extract].[location_92EAAAADABC94CEFADCAF6666C040ECF]' type='table' />
+            <relation name='rating_B79E25AA66964ED0A45B12BE63285539' table='[Extract].[rating_B79E25AA66964ED0A45B12BE63285539]' type='table' />
+            <relation name='comment_8EA5143563324CF4BA47834693265C77' table='[Extract].[comment_8EA5143563324CF4BA47834693265C77]' type='table' />
+            <relation name='sia_F832C1CA8A47403BA3695C1C1C3003CA' table='[Extract].[sia_F832C1CA8A47403BA3695C1C1C3003CA]' type='table' />
+            <relation name='vote_132A85886E9444EB88D0BDF7A555B24B' table='[Extract].[vote_132A85886E9444EB88D0BDF7A555B24B]' type='table' />
+            <relation name='visit_date_4B428A323F044EE7995FF1E44B7B35CB' table='[Extract].[visit_date_4B428A323F044EE7995FF1E44B7B35CB]' type='table' />
+          </relation>
+          <cols>
+            <map key='[City (loca_rating)]' value='[loca_rating_C84E872C703248549434F9AD26EF220C].[City]' />
+            <map key='[City]' value='[location_92EAAAADABC94CEFADCAF6666C040ECF].[City]' />
+            <map key='[Count_Country]' value='[country_count_701C7A2BF21F4714AF7338247B290404].[Count_Country]' />
+            <map key='[Helpful_Votes]' value='[vote_132A85886E9444EB88D0BDF7A555B24B].[Helpful_Votes]' />
+            <map key='[InputID (comment)]' value='[comment_8EA5143563324CF4BA47834693265C77].[InputID]' />
+            <map key='[InputID (dateall)]' value='[dateall_0FDED6BE66664982BB440E7AF8C73399].[InputID]' />
+            <map key='[InputID (location)]' value='[location_92EAAAADABC94CEFADCAF6666C040ECF].[InputID]' />
+            <map key='[InputID (rating)]' value='[rating_B79E25AA66964ED0A45B12BE63285539].[InputID]' />
+            <map key='[InputID (sia)]' value='[sia_F832C1CA8A47403BA3695C1C1C3003CA].[InputID]' />
+            <map key='[InputID (vote)]' value='[vote_132A85886E9444EB88D0BDF7A555B24B].[InputID]' />
+            <map key='[InputID]' value='[traveller_786040A187974246AF4DDD4CBA4973FF].[InputID]' />
+            <map key='[Location]' value='[location_92EAAAADABC94CEFADCAF6666C040ECF].[Location]' />
+            <map key='[Location_Name]' value='[rating_B79E25AA66964ED0A45B12BE63285539].[Location_Name]' />
+            <map key='[Location_Type]' value='[location_92EAAAADABC94CEFADCAF6666C040ECF].[Location_Type]' />
+            <map key='[Province]' value='[location_92EAAAADABC94CEFADCAF6666C040ECF].[Province]' />
+            <map key='[Published_Date]' value='[dateall_0FDED6BE66664982BB440E7AF8C73399].[Published_Date]' />
+            <map key='[Rating]' value='[rating_B79E25AA66964ED0A45B12BE63285539].[Rating]' />
+            <map key='[Title]' value='[comment_8EA5143563324CF4BA47834693265C77].[Title]' />
+            <map key='[Travel_Date (fromcountrydate)]' value='[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873].[Travel_Date]' />
+            <map key='[Travel_Date (visit_date)]' value='[visit_date_4B428A323F044EE7995FF1E44B7B35CB].[Travel_Date]' />
+            <map key='[Travel_Date]' value='[dateall_0FDED6BE66664982BB440E7AF8C73399].[Travel_Date]' />
+            <map key='[Travel_Month (fromcountrydate)]' value='[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873].[Travel_Month]' />
+            <map key='[Travel_Month (visit_date)]' value='[visit_date_4B428A323F044EE7995FF1E44B7B35CB].[Travel_Month]' />
+            <map key='[Travel_Month]' value='[dateall_0FDED6BE66664982BB440E7AF8C73399].[Travel_Month]' />
+            <map key='[Travel_Year (fromcountrydate)]' value='[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873].[Travel_Year]' />
+            <map key='[Travel_Year (loca_rating)]' value='[loca_rating_C84E872C703248549434F9AD26EF220C].[Travel_Year]' />
+            <map key='[Travel_Year (visit_date)]' value='[visit_date_4B428A323F044EE7995FF1E44B7B35CB].[Travel_Year]' />
+            <map key='[Travel_Year]' value='[dateall_0FDED6BE66664982BB440E7AF8C73399].[Travel_Year]' />
+            <map key='[Traveller_Country (country_count)]' value='[country_count_701C7A2BF21F4714AF7338247B290404].[Traveller_Country]' />
+            <map key='[Traveller_Country (fromcountrydate)]' value='[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873].[Traveller_Country]' />
+            <map key='[Traveller_Country]' value='[country_7B59EB7F2D9445DCA77C973A989463F7].[Traveller_Country]' />
+            <map key='[Traveller_ID (comment)]' value='[comment_8EA5143563324CF4BA47834693265C77].[Traveller_ID]' />
+            <map key='[Traveller_ID (dateall)]' value='[dateall_0FDED6BE66664982BB440E7AF8C73399].[Traveller_ID]' />
+            <map key='[Traveller_ID (fromcountrydate)]' value='[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873].[Traveller_ID]' />
+            <map key='[Traveller_ID (loca_rating)]' value='[loca_rating_C84E872C703248549434F9AD26EF220C].[Traveller_ID]' />
+            <map key='[Traveller_ID (location)]' value='[location_92EAAAADABC94CEFADCAF6666C040ECF].[Traveller_ID]' />
+            <map key='[Traveller_ID (rating)]' value='[rating_B79E25AA66964ED0A45B12BE63285539].[Traveller_ID]' />
+            <map key='[Traveller_ID (sia)]' value='[sia_F832C1CA8A47403BA3695C1C1C3003CA].[Traveller_ID]' />
+            <map key='[Traveller_ID (visit_date)]' value='[visit_date_4B428A323F044EE7995FF1E44B7B35CB].[Traveller_ID]' />
+            <map key='[Traveller_ID (vote)]' value='[vote_132A85886E9444EB88D0BDF7A555B24B].[Traveller_ID]' />
+            <map key='[Traveller_ID]' value='[traveller_786040A187974246AF4DDD4CBA4973FF].[Traveller_ID]' />
+            <map key='[Traveller_Location (country)]' value='[country_7B59EB7F2D9445DCA77C973A989463F7].[Traveller_Location]' />
+            <map key='[Traveller_Location]' value='[traveller_786040A187974246AF4DDD4CBA4973FF].[Traveller_Location]' />
+            <map key='[comments]' value='[comment_8EA5143563324CF4BA47834693265C77].[comments]' />
+            <map key='[inputID (fromcountrydate)]' value='[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873].[inputID]' />
+            <map key='[inputID (loca_rating)]' value='[loca_rating_C84E872C703248549434F9AD26EF220C].[inputID]' />
+            <map key='[inputID]' value='[visit_date_4B428A323F044EE7995FF1E44B7B35CB].[inputID]' />
+            <map key='[month (fromcountrydate)]' value='[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873].[month]' />
+            <map key='[month (loca_rating)]' value='[loca_rating_C84E872C703248549434F9AD26EF220C].[month]' />
+            <map key='[month]' value='[dateall_0FDED6BE66664982BB440E7AF8C73399].[month]' />
+            <map key='[processed_comments]' value='[sia_F832C1CA8A47403BA3695C1C1C3003CA].[processed_comments]' />
+            <map key='[rating]' value='[loca_rating_C84E872C703248549434F9AD26EF220C].[rating]' />
+            <map key='[sentiment_comments]' value='[sia_F832C1CA8A47403BA3695C1C1C3003CA].[sentiment_comments]' />
+          </cols>
+          <refresh>
+            <refresh-event add-from-file-path='date+ (project)' increment-value='%null%' refresh-type='create' rows-inserted='164837' timestamp-start='2025-01-16 06:47:38.522' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>InputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InputID]</local-name>
+              <parent-name>[traveller_786040A187974246AF4DDD4CBA4973FF]</parent-name>
+              <remote-alias>InputID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>traveller</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[traveller_786040A187974246AF4DDD4CBA4973FF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID]</local-name>
+              <parent-name>[traveller_786040A187974246AF4DDD4CBA4973FF]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>1</ordinal>
+              <family>traveller</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5714</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[traveller_786040A187974246AF4DDD4CBA4973FF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Traveller_Location]</local-name>
+              <parent-name>[traveller_786040A187974246AF4DDD4CBA4973FF]</parent-name>
+              <remote-alias>Traveller_Location</remote-alias>
+              <ordinal>2</ordinal>
+              <family>traveller</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1872</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[traveller_786040A187974246AF4DDD4CBA4973FF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Traveller_Location (country)]</local-name>
+              <parent-name>[country_7B59EB7F2D9445DCA77C973A989463F7]</parent-name>
+              <remote-alias>Traveller_Location</remote-alias>
+              <ordinal>3</ordinal>
+              <family>country</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3267</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[country_7B59EB7F2D9445DCA77C973A989463F7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Traveller_Country]</local-name>
+              <parent-name>[country_7B59EB7F2D9445DCA77C973A989463F7]</parent-name>
+              <remote-alias>Traveller_Country</remote-alias>
+              <ordinal>4</ordinal>
+              <family>country</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>112</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[country_7B59EB7F2D9445DCA77C973A989463F7]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Traveller_Country (country_count)]</local-name>
+              <parent-name>[country_count_701C7A2BF21F4714AF7338247B290404]</parent-name>
+              <remote-alias>Traveller_Country</remote-alias>
+              <ordinal>5</ordinal>
+              <family>country_count</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[country_count_701C7A2BF21F4714AF7338247B290404]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Count_Country</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Count_Country]</local-name>
+              <parent-name>[country_count_701C7A2BF21F4714AF7338247B290404]</parent-name>
+              <remote-alias>Count_Country</remote-alias>
+              <ordinal>6</ordinal>
+              <family>country_count</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[country_count_701C7A2BF21F4714AF7338247B290404]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InputID (dateall)]</local-name>
+              <parent-name>[dateall_0FDED6BE66664982BB440E7AF8C73399]</parent-name>
+              <remote-alias>InputID</remote-alias>
+              <ordinal>7</ordinal>
+              <family>dateall</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dateall_0FDED6BE66664982BB440E7AF8C73399]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID (dateall)]</local-name>
+              <parent-name>[dateall_0FDED6BE66664982BB440E7AF8C73399]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>8</ordinal>
+              <family>dateall</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5356</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dateall_0FDED6BE66664982BB440E7AF8C73399]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Travel_Date]</local-name>
+              <parent-name>[dateall_0FDED6BE66664982BB440E7AF8C73399]</parent-name>
+              <remote-alias>Travel_Date</remote-alias>
+              <ordinal>9</ordinal>
+              <family>dateall</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>159</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[dateall_0FDED6BE66664982BB440E7AF8C73399]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Travel_Year]</local-name>
+              <parent-name>[dateall_0FDED6BE66664982BB440E7AF8C73399]</parent-name>
+              <remote-alias>Travel_Year</remote-alias>
+              <ordinal>10</ordinal>
+              <family>dateall</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dateall_0FDED6BE66664982BB440E7AF8C73399]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Travel_Month]</local-name>
+              <parent-name>[dateall_0FDED6BE66664982BB440E7AF8C73399]</parent-name>
+              <remote-alias>Travel_Month</remote-alias>
+              <ordinal>11</ordinal>
+              <family>dateall</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[dateall_0FDED6BE66664982BB440E7AF8C73399]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>month</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[month]</local-name>
+              <parent-name>[dateall_0FDED6BE66664982BB440E7AF8C73399]</parent-name>
+              <remote-alias>month</remote-alias>
+              <ordinal>12</ordinal>
+              <family>dateall</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[dateall_0FDED6BE66664982BB440E7AF8C73399]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Published_Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Published_Date]</local-name>
+              <parent-name>[dateall_0FDED6BE66664982BB440E7AF8C73399]</parent-name>
+              <remote-alias>Published_Date</remote-alias>
+              <ordinal>13</ordinal>
+              <family>dateall</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[dateall_0FDED6BE66664982BB440E7AF8C73399]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>inputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[inputID (fromcountrydate)]</local-name>
+              <parent-name>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</parent-name>
+              <remote-alias>inputID</remote-alias>
+              <ordinal>14</ordinal>
+              <family>fromcountrydate</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID (fromcountrydate)]</local-name>
+              <parent-name>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>15</ordinal>
+              <family>fromcountrydate</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5326</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Traveller_Country (fromcountrydate)]</local-name>
+              <parent-name>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</parent-name>
+              <remote-alias>Traveller_Country</remote-alias>
+              <ordinal>16</ordinal>
+              <family>fromcountrydate</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>147</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Travel_Date (fromcountrydate)]</local-name>
+              <parent-name>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</parent-name>
+              <remote-alias>Travel_Date</remote-alias>
+              <ordinal>17</ordinal>
+              <family>fromcountrydate</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>174</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Travel_Year (fromcountrydate)]</local-name>
+              <parent-name>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</parent-name>
+              <remote-alias>Travel_Year</remote-alias>
+              <ordinal>18</ordinal>
+              <family>fromcountrydate</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Travel_Month (fromcountrydate)]</local-name>
+              <parent-name>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</parent-name>
+              <remote-alias>Travel_Month</remote-alias>
+              <ordinal>19</ordinal>
+              <family>fromcountrydate</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>month</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[month (fromcountrydate)]</local-name>
+              <parent-name>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</parent-name>
+              <remote-alias>month</remote-alias>
+              <ordinal>20</ordinal>
+              <family>fromcountrydate</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>inputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[inputID (loca_rating)]</local-name>
+              <parent-name>[loca_rating_C84E872C703248549434F9AD26EF220C]</parent-name>
+              <remote-alias>inputID</remote-alias>
+              <ordinal>21</ordinal>
+              <family>loca_rating</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[loca_rating_C84E872C703248549434F9AD26EF220C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID (loca_rating)]</local-name>
+              <parent-name>[loca_rating_C84E872C703248549434F9AD26EF220C]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>22</ordinal>
+              <family>loca_rating</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5171</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[loca_rating_C84E872C703248549434F9AD26EF220C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Travel_Year (loca_rating)]</local-name>
+              <parent-name>[loca_rating_C84E872C703248549434F9AD26EF220C]</parent-name>
+              <remote-alias>Travel_Year</remote-alias>
+              <ordinal>23</ordinal>
+              <family>loca_rating</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[loca_rating_C84E872C703248549434F9AD26EF220C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>month</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[month (loca_rating)]</local-name>
+              <parent-name>[loca_rating_C84E872C703248549434F9AD26EF220C]</parent-name>
+              <remote-alias>month</remote-alias>
+              <ordinal>24</ordinal>
+              <family>loca_rating</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[loca_rating_C84E872C703248549434F9AD26EF220C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City (loca_rating)]</local-name>
+              <parent-name>[loca_rating_C84E872C703248549434F9AD26EF220C]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>25</ordinal>
+              <family>loca_rating</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[loca_rating_C84E872C703248549434F9AD26EF220C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rating</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[rating]</local-name>
+              <parent-name>[loca_rating_C84E872C703248549434F9AD26EF220C]</parent-name>
+              <remote-alias>rating</remote-alias>
+              <ordinal>26</ordinal>
+              <family>loca_rating</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[loca_rating_C84E872C703248549434F9AD26EF220C]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InputID (location)]</local-name>
+              <parent-name>[location_92EAAAADABC94CEFADCAF6666C040ECF]</parent-name>
+              <remote-alias>InputID</remote-alias>
+              <ordinal>27</ordinal>
+              <family>location</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[location_92EAAAADABC94CEFADCAF6666C040ECF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID (location)]</local-name>
+              <parent-name>[location_92EAAAADABC94CEFADCAF6666C040ECF]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>28</ordinal>
+              <family>location</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5884</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[location_92EAAAADABC94CEFADCAF6666C040ECF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location]</local-name>
+              <parent-name>[location_92EAAAADABC94CEFADCAF6666C040ECF]</parent-name>
+              <remote-alias>Location</remote-alias>
+              <ordinal>29</ordinal>
+              <family>location</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[location_92EAAAADABC94CEFADCAF6666C040ECF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[location_92EAAAADABC94CEFADCAF6666C040ECF]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>30</ordinal>
+              <family>location</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[location_92EAAAADABC94CEFADCAF6666C040ECF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Province</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Province]</local-name>
+              <parent-name>[location_92EAAAADABC94CEFADCAF6666C040ECF]</parent-name>
+              <remote-alias>Province</remote-alias>
+              <ordinal>31</ordinal>
+              <family>location</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[location_92EAAAADABC94CEFADCAF6666C040ECF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location_Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location_Type]</local-name>
+              <parent-name>[location_92EAAAADABC94CEFADCAF6666C040ECF]</parent-name>
+              <remote-alias>Location_Type</remote-alias>
+              <ordinal>32</ordinal>
+              <family>location</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[location_92EAAAADABC94CEFADCAF6666C040ECF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InputID (rating)]</local-name>
+              <parent-name>[rating_B79E25AA66964ED0A45B12BE63285539]</parent-name>
+              <remote-alias>InputID</remote-alias>
+              <ordinal>33</ordinal>
+              <family>rating</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[rating_B79E25AA66964ED0A45B12BE63285539]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID (rating)]</local-name>
+              <parent-name>[rating_B79E25AA66964ED0A45B12BE63285539]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>34</ordinal>
+              <family>rating</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5652</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[rating_B79E25AA66964ED0A45B12BE63285539]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location_Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location_Name]</local-name>
+              <parent-name>[rating_B79E25AA66964ED0A45B12BE63285539]</parent-name>
+              <remote-alias>Location_Name</remote-alias>
+              <ordinal>35</ordinal>
+              <family>rating</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>78</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[rating_B79E25AA66964ED0A45B12BE63285539]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rating</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rating]</local-name>
+              <parent-name>[rating_B79E25AA66964ED0A45B12BE63285539]</parent-name>
+              <remote-alias>Rating</remote-alias>
+              <ordinal>36</ordinal>
+              <family>rating</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[rating_B79E25AA66964ED0A45B12BE63285539]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InputID (comment)]</local-name>
+              <parent-name>[comment_8EA5143563324CF4BA47834693265C77]</parent-name>
+              <remote-alias>InputID</remote-alias>
+              <ordinal>37</ordinal>
+              <family>comment</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[comment_8EA5143563324CF4BA47834693265C77]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID (comment)]</local-name>
+              <parent-name>[comment_8EA5143563324CF4BA47834693265C77]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>38</ordinal>
+              <family>comment</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5604</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[comment_8EA5143563324CF4BA47834693265C77]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Title]</local-name>
+              <parent-name>[comment_8EA5143563324CF4BA47834693265C77]</parent-name>
+              <remote-alias>Title</remote-alias>
+              <ordinal>39</ordinal>
+              <family>comment</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6849</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[comment_8EA5143563324CF4BA47834693265C77]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>comments</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[comments]</local-name>
+              <parent-name>[comment_8EA5143563324CF4BA47834693265C77]</parent-name>
+              <remote-alias>comments</remote-alias>
+              <ordinal>40</ordinal>
+              <family>comment</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[comment_8EA5143563324CF4BA47834693265C77]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InputID (sia)]</local-name>
+              <parent-name>[sia_F832C1CA8A47403BA3695C1C1C3003CA]</parent-name>
+              <remote-alias>InputID</remote-alias>
+              <ordinal>41</ordinal>
+              <family>sia</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sia_F832C1CA8A47403BA3695C1C1C3003CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID (sia)]</local-name>
+              <parent-name>[sia_F832C1CA8A47403BA3695C1C1C3003CA]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>42</ordinal>
+              <family>sia</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5285</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sia_F832C1CA8A47403BA3695C1C1C3003CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>processed_comments</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[processed_comments]</local-name>
+              <parent-name>[sia_F832C1CA8A47403BA3695C1C1C3003CA]</parent-name>
+              <remote-alias>processed_comments</remote-alias>
+              <ordinal>43</ordinal>
+              <family>sia</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[sia_F832C1CA8A47403BA3695C1C1C3003CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sentiment_comments</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[sentiment_comments]</local-name>
+              <parent-name>[sia_F832C1CA8A47403BA3695C1C1C3003CA]</parent-name>
+              <remote-alias>sentiment_comments</remote-alias>
+              <ordinal>44</ordinal>
+              <family>sia</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[sia_F832C1CA8A47403BA3695C1C1C3003CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InputID (vote)]</local-name>
+              <parent-name>[vote_132A85886E9444EB88D0BDF7A555B24B]</parent-name>
+              <remote-alias>InputID</remote-alias>
+              <ordinal>45</ordinal>
+              <family>vote</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vote_132A85886E9444EB88D0BDF7A555B24B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID (vote)]</local-name>
+              <parent-name>[vote_132A85886E9444EB88D0BDF7A555B24B]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>46</ordinal>
+              <family>vote</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5583</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vote_132A85886E9444EB88D0BDF7A555B24B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Helpful_Votes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Helpful_Votes]</local-name>
+              <parent-name>[vote_132A85886E9444EB88D0BDF7A555B24B]</parent-name>
+              <remote-alias>Helpful_Votes</remote-alias>
+              <ordinal>47</ordinal>
+              <family>vote</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vote_132A85886E9444EB88D0BDF7A555B24B]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>inputID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[inputID]</local-name>
+              <parent-name>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</parent-name>
+              <remote-alias>inputID</remote-alias>
+              <ordinal>48</ordinal>
+              <family>visit_date</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16156</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Traveller_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Traveller_ID (visit_date)]</local-name>
+              <parent-name>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</parent-name>
+              <remote-alias>Traveller_ID</remote-alias>
+              <ordinal>49</ordinal>
+              <family>visit_date</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5362</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Travel_Date (visit_date)]</local-name>
+              <parent-name>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</parent-name>
+              <remote-alias>Travel_Date</remote-alias>
+              <ordinal>50</ordinal>
+              <family>visit_date</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>174</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+              <object-id>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Travel_Year (visit_date)]</local-name>
+              <parent-name>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</parent-name>
+              <remote-alias>Travel_Year</remote-alias>
+              <ordinal>51</ordinal>
+              <family>visit_date</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Travel_Month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Travel_Month (visit_date)]</local-name>
+              <parent-name>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</parent-name>
+              <remote-alias>Travel_Month</remote-alias>
+              <ordinal>52</ordinal>
+              <family>visit_date</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[visit_date_4B428A323F044EE7995FF1E44B7B35CB]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout common-percentage='0.969415' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.0305851' rowDisplayCount='100' show-structure='true' user-set-layout-v2='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Location_Type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Beaches&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Museums&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Gardens&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Historic Sites&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Waterfalls&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nature &amp; Wildlife Areas&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Farms&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;National Parks&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bodies of Water&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Zoological Gardens&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Religious Sites&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Traveller_act:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;photography&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Wildlife_and_Photography&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sightseeing&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[City].[Name]' value='%null%' />
+        <semantic-value key='[Country].[Name]' value='&quot;Sri Lanka&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='act_table' id='act_table_FE4A9D54B9D54BBE8AC30B3239B1BCCE'>
+            <properties context=''>
+              <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='act_table' table='[act_table]' type='table' />
+            </properties>
+          </object>
+          <object caption='activity' id='activity_44B1CB6A6CC0491B81C6B532F8562CED'>
+            <properties context=''>
+              <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='activity' table='[activity]' type='table' />
+            </properties>
+          </object>
+          <object caption='comment' id='comment_8EA5143563324CF4BA47834693265C77'>
+            <properties context='extract'>
+              <relation name='comment_8EA5143563324CF4BA47834693265C77' table='[Extract].[comment_8EA5143563324CF4BA47834693265C77]' type='table' />
+            </properties>
+          </object>
+          <object caption='country' id='country_7B59EB7F2D9445DCA77C973A989463F7'>
+            <properties context='extract'>
+              <relation name='country_7B59EB7F2D9445DCA77C973A989463F7' table='[Extract].[country_7B59EB7F2D9445DCA77C973A989463F7]' type='table' />
+            </properties>
+          </object>
+          <object caption='country_count' id='country_count_2E8727E42A1841C39D4D564AE8CEA4DB'>
+            <properties context=''>
+              <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='country_count' table='[country_count]' type='table' />
+            </properties>
+          </object>
+          <object caption='country_count' id='country_count_701C7A2BF21F4714AF7338247B290404'>
+            <properties context='extract'>
+              <relation name='country_count_701C7A2BF21F4714AF7338247B290404' table='[Extract].[country_count_701C7A2BF21F4714AF7338247B290404]' type='table' />
+            </properties>
+          </object>
+          <object caption='countrydate' id='countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A'>
+            <properties context=''>
+              <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='countrydate' table='[countrydate]' type='table' />
+            </properties>
+          </object>
+          <object caption='dateall' id='dateall_0FDED6BE66664982BB440E7AF8C73399'>
+            <properties context='extract'>
+              <relation name='dateall_0FDED6BE66664982BB440E7AF8C73399' table='[Extract].[dateall_0FDED6BE66664982BB440E7AF8C73399]' type='table' />
+            </properties>
+          </object>
+          <object caption='fromcountrydate' id='fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873'>
+            <properties context='extract'>
+              <relation name='fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873' table='[Extract].[fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873]' type='table' />
+            </properties>
+          </object>
+          <object caption='loca_rating' id='loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8'>
+            <properties context=''>
+              <relation connection='mysql.1submfq0el74t61dtn7vn1plkymo' name='loca_rating' table='[loca_rating]' type='table' />
+            </properties>
+          </object>
+          <object caption='loca_rating' id='loca_rating_C84E872C703248549434F9AD26EF220C'>
+            <properties context='extract'>
+              <relation name='loca_rating_C84E872C703248549434F9AD26EF220C' table='[Extract].[loca_rating_C84E872C703248549434F9AD26EF220C]' type='table' />
+            </properties>
+          </object>
+          <object caption='location' id='location_92EAAAADABC94CEFADCAF6666C040ECF'>
+            <properties context='extract'>
+              <relation name='location_92EAAAADABC94CEFADCAF6666C040ECF' table='[Extract].[location_92EAAAADABC94CEFADCAF6666C040ECF]' type='table' />
+            </properties>
+          </object>
+          <object caption='rating' id='rating_B79E25AA66964ED0A45B12BE63285539'>
+            <properties context='extract'>
+              <relation name='rating_B79E25AA66964ED0A45B12BE63285539' table='[Extract].[rating_B79E25AA66964ED0A45B12BE63285539]' type='table' />
+            </properties>
+          </object>
+          <object caption='sia' id='sia_F832C1CA8A47403BA3695C1C1C3003CA'>
+            <properties context='extract'>
+              <relation name='sia_F832C1CA8A47403BA3695C1C1C3003CA' table='[Extract].[sia_F832C1CA8A47403BA3695C1C1C3003CA]' type='table' />
+            </properties>
+          </object>
+          <object caption='traveller' id='traveller_786040A187974246AF4DDD4CBA4973FF'>
+            <properties context='extract'>
+              <relation name='traveller_786040A187974246AF4DDD4CBA4973FF' table='[Extract].[traveller_786040A187974246AF4DDD4CBA4973FF]' type='table' />
+            </properties>
+          </object>
+          <object caption='visit_date' id='visit_date_4B428A323F044EE7995FF1E44B7B35CB'>
+            <properties context='extract'>
+              <relation name='visit_date_4B428A323F044EE7995FF1E44B7B35CB' table='[Extract].[visit_date_4B428A323F044EE7995FF1E44B7B35CB]' type='table' />
+            </properties>
+          </object>
+          <object caption='vote' id='vote_132A85886E9444EB88D0BDF7A555B24B'>
+            <properties context='extract'>
+              <relation name='vote_132A85886E9444EB88D0BDF7A555B24B' table='[Extract].[vote_132A85886E9444EB88D0BDF7A555B24B]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[inputID]' />
+              <expression op='[InputID (act_table)]' />
+            </expression>
+            <first-end-point object-id='countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A' />
+            <second-end-point object-id='act_table_FE4A9D54B9D54BBE8AC30B3239B1BCCE' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[inputID]' />
+              <expression op='[InputID]' />
+            </expression>
+            <first-end-point object-id='countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A' unique-key='true' />
+            <second-end-point object-id='activity_44B1CB6A6CC0491B81C6B532F8562CED' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[InputID (rating)]' />
+              <expression op='[InputID (comment)]' />
+            </expression>
+            <first-end-point is-db-set-unique-key='true' object-id='rating_B79E25AA66964ED0A45B12BE63285539' unique-key='true' />
+            <second-end-point is-db-set-unique-key='true' object-id='comment_8EA5143563324CF4BA47834693265C77' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Traveller_Location]' />
+              <expression op='[Traveller_Location (country)]' />
+            </expression>
+            <first-end-point object-id='traveller_786040A187974246AF4DDD4CBA4973FF' />
+            <second-end-point object-id='country_7B59EB7F2D9445DCA77C973A989463F7' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Traveller_Country]' />
+              <expression op='[Traveller_Country (country_count)]' />
+            </expression>
+            <first-end-point object-id='countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A' />
+            <second-end-point object-id='country_count_2E8727E42A1841C39D4D564AE8CEA4DB' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Traveller_Country]' />
+              <expression op='[Traveller_Country (country_count)]' />
+            </expression>
+            <first-end-point object-id='country_7B59EB7F2D9445DCA77C973A989463F7' />
+            <second-end-point object-id='country_count_701C7A2BF21F4714AF7338247B290404' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[InputID]' />
+              <expression op='[InputID (dateall)]' />
+            </expression>
+            <first-end-point is-db-set-unique-key='true' object-id='traveller_786040A187974246AF4DDD4CBA4973FF' unique-key='true' />
+            <second-end-point is-db-set-unique-key='true' object-id='dateall_0FDED6BE66664982BB440E7AF8C73399' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[InputID]' />
+              <expression op='[inputID (fromcountrydate)]' />
+            </expression>
+            <first-end-point is-db-set-unique-key='true' object-id='traveller_786040A187974246AF4DDD4CBA4973FF' unique-key='true' />
+            <second-end-point object-id='fromcountrydate_CA1A018EB42F4CF3B1CFC6167E1C4873' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[inputID]' />
+              <expression op='[inputID (loca_rating)]' />
+            </expression>
+            <first-end-point object-id='countrydate_5FE7E8C955E64B93BFCBFF15E1527D2A' unique-key='true' />
+            <second-end-point object-id='loca_rating_B4AD60BC5F824591AA0E5CECFBF4E6E8' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[InputID]' />
+              <expression op='[inputID (loca_rating)]' />
+            </expression>
+            <first-end-point object-id='traveller_786040A187974246AF4DDD4CBA4973FF' />
+            <second-end-point object-id='loca_rating_C84E872C703248549434F9AD26EF220C' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[InputID]' />
+              <expression op='[InputID (location)]' />
+            </expression>
+            <first-end-point object-id='traveller_786040A187974246AF4DDD4CBA4973FF' unique-key='true' />
+            <second-end-point object-id='location_92EAAAADABC94CEFADCAF6666C040ECF' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[InputID]' />
+              <expression op='[InputID (rating)]' />
+            </expression>
+            <first-end-point object-id='traveller_786040A187974246AF4DDD4CBA4973FF' />
+            <second-end-point object-id='rating_B79E25AA66964ED0A45B12BE63285539' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[InputID (comment)]' />
+              <expression op='[InputID (sia)]' />
+            </expression>
+            <first-end-point is-db-set-unique-key='true' object-id='comment_8EA5143563324CF4BA47834693265C77' unique-key='true' />
+            <second-end-point is-db-set-unique-key='true' object-id='sia_F832C1CA8A47403BA3695C1C1C3003CA' unique-key='true' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[InputID]' />
+              <expression op='[inputID]' />
+            </expression>
+            <first-end-point is-db-set-unique-key='true' object-id='traveller_786040A187974246AF4DDD4CBA4973FF' unique-key='true' />
+            <second-end-point object-id='visit_date_4B428A323F044EE7995FF1E44B7B35CB' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[InputID (rating)]' />
+              <expression op='[InputID (vote)]' />
+            </expression>
+            <first-end-point is-db-set-unique-key='true' object-id='rating_B79E25AA66964ED0A45B12BE63285539' unique-key='true' />
+            <second-end-point is-db-set-unique-key='true' object-id='vote_132A85886E9444EB88D0BDF7A555B24B' unique-key='true' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='date+ (Eco Capture)' name='federated.0iqv7mb1pjmus0188hxnz0zonm2b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0iqv7mb1pjmus0188hxnz0zonm2b'>
+            <column caption='Activity Cat' datatype='string' name='[ActivityCat]' role='dimension' type='nominal' />
+            <column caption='Traveller act' datatype='string' name='[Traveller_act]' role='dimension' type='nominal' />
+            <column-instance column='[ActivityCat]' derivation='Count' name='[cnt:ActivityCat:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Traveller_act]' derivation='None' name='[none:Traveller_act:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Traveller_act:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Traveller_act:nk]' member='&quot;photography&quot;' />
+              <groupfilter function='member' level='[none:Traveller_act:nk]' member='&quot;Sightseeing&quot;' />
+              <groupfilter function='member' level='[none:Traveller_act:nk]' member='&quot;Wildlife_and_Photography&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Traveller_act:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Traveller_act:nk]' value='142' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Traveller_act:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='354' />
+                <format attr='maxheight' value='354' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[cnt:ActivityCat:qk]</rows>
+        <cols>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Traveller_act:nk]</cols>
+      </table>
+      <simple-id uuid='{78A790B0-CFC7-402F-A9A0-275392C483CF}' />
+    </worksheet>
+    <worksheet name='Wildlife and Photo'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='date+ (Eco Capture)' name='federated.0iqv7mb1pjmus0188hxnz0zonm2b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0iqv7mb1pjmus0188hxnz0zonm2b'>
+            <column caption='Location Type' datatype='string' name='[Location_Type]' role='dimension' type='nominal' />
+            <column caption='Rating1' datatype='integer' name='[Rating]' role='measure' type='quantitative' />
+            <column caption='Wildlife and Photography' datatype='string' name='[Wildlife_and_Photography]' role='dimension' type='nominal' />
+            <column-instance column='[Rating]' derivation='Avg' name='[avg:Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wildlife_and_Photography]' derivation='Count' name='[cnt:Wildlife_and_Photography:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location_Type]' derivation='None' name='[none:Location_Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Wildlife_and_Photography]' derivation='None' name='[none:Wildlife_and_Photography:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Wildlife_and_Photography:nk]'>
+            <groupfilter function='member' level='[none:Wildlife_and_Photography:nk]' member='&quot;1&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Wildlife_and_Photography:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Location_Type:nk]' />
+              <tooltip column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[avg:Rating:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[cnt:Wildlife_and_Photography:qk]</rows>
+        <cols>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Location_Type:nk]</cols>
+      </table>
+      <simple-id uuid='{02F25D0F-FFD9-4FAF-9A9B-C0117B22D11D}' />
+    </worksheet>
+    <worksheet name='World map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='date+ (Eco Capture)' name='federated.0iqv7mb1pjmus0188hxnz0zonm2b' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0iqv7mb1pjmus0188hxnz0zonm2b'>
+            <column caption='Count Country' datatype='integer' name='[Count_Country]' role='measure' type='quantitative' />
+            <column caption='Traveller Country (country count)' datatype='string' name='[Traveller_Country (country_count)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Traveller_Country (country_count)]' derivation='None' name='[none:Traveller_Country (country_count):nk]' pivot='key' type='nominal' />
+            <column-instance column='[Count_Country]' derivation='Sum' name='[sum:Count_Country:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[Longitude (generated)]' field-type='quantitative' max='35539122.331324771' min='-5992802.0753784673' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[Latitude (generated)]' field-type='quantitative' max='19249971.739303444' min='-5675657.3159136306' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[sum:Count_Country:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dae0f2</color>
+                <color>#c4cef3</color>
+                <color>#adbdf5</color>
+                <color>#97abf6</color>
+                <color>#7f9af8</color>
+                <color>#6888f9</color>
+                <color>#5075fa</color>
+                <color>#3863fc</color>
+                <color>#2050fd</color>
+                <color>#083eff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[sum:Count_Country:qk]' />
+              <text column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[sum:Count_Country:qk]' />
+              <text column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Traveller_Country (country_count):nk]' />
+              <lod column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Traveller_Country (country_count):nk]' />
+              <geometry column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[Latitude (generated)]</rows>
+        <cols>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{6413A371-5695-4ECE-94AA-64EB1BBAFD4F}' />
+    </worksheet>
+    <worksheet name='in genaral '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='date+ (Eco Capture)' name='federated.0iqv7mb1pjmus0188hxnz0zonm2b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0iqv7mb1pjmus0188hxnz0zonm2b'>
+            <column caption='Location Type' datatype='string' name='[Location_Type]' role='dimension' type='nominal' />
+            <column caption='Rating1' datatype='integer' name='[Rating]' role='measure' type='quantitative' />
+            <column-instance column='[Rating]' derivation='Avg' name='[avg:Rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location_Type]' derivation='Count' name='[cnt:Location_Type:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location_Type]' derivation='None' name='[none:Location_Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[avg:Rating:qk]' included-values='in-range'>
+            <min>3.1221000000000001</min>
+            <max>4.3883999999999999</max>
+          </filter>
+          <slices>
+            <column>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[avg:Rating:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Location_Type:nk]' value='78' />
+            <format attr='width' field='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[cnt:Location_Type:qk]' value='78' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Location_Type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[cnt:Location_Type:qk]</rows>
+        <cols>[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Location_Type:nk]</cols>
+      </table>
+      <simple-id uuid='{EDE99122-6AD8-432E-BAC1-5132BC38669D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='World map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[sum:Count_Country:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{38EACDA8-98C3-459E-B1FB-2D1AF2CA59CC}' />
+    </window>
+    <window class='worksheet' name='in genaral '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Location_Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{388B0B8C-87CE-4086-AA5B-5DB59958FA91}' />
+    </window>
+    <window class='worksheet' name='Wildlife and Photo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Location_Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{65DB517E-A588-4D80-9298-538F8DEB947F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='10' param='[federated.0iqv7mb1pjmus0188hxnz0zonm2b].[none:Traveller_act:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D90D90F6-3838-4F88-8767-B3CD4128CD36}' />
+    </window>
+  </windows>
+</workbook>

@@ -55,7 +55,7 @@ ORDER BY B.Travel_Date
 Drop VIEW IF EXISTS loca_Rating;
 CREATE VIEW loca_Rating AS
     SELECT 
-       A.inputID, A.Traveller_ID,B.Travel_Year,B.month, C.City, D.rating,concat(C.City,',',C.Province) as City_location
+       A.inputID, A.Traveller_ID,B.Travel_Year,B.month, D.rating,C.City, C.Province
        
     FROM
       Traveller_country  A
@@ -67,6 +67,47 @@ CREATE VIEW loca_Rating AS
         rating  D  on A.inputID = D.inputID
 ORDER BY C.location
 ;
+
+
+/****************************************************************/
+CREATE VIEW loca_count_ as
+ SELECT 
+ x.city,
+ X.cityC
+ FROM(
+	select city,
+	count(city) as cityC
+	from loca_Rating
+	group by city
+	order by cityC desc
+ /*limit 30*/
+ )AS X
+;
+
+CREATE VIEW loca_sum as 
+select 
+sum(cityC) as sumCitr
+from  loca_count_;
+
+drop view if exists  loca_count;
+CREATE VIEW loca_count as
+select
+x.city,
+X.cityC,
+X.sumCitr,
+(X.cityC / 36) as avgCal
+from 
+(
+select
+A.*,
+B.*
+from loca_count_ A
+join
+loca_sum B
+) as X
+;
+drop view if exists  loca_count_;
+drop view if exists  loca_sum; 
 
 
 
