@@ -66,7 +66,7 @@ con=engine
 Visit_date.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_visit_date.xlsx",index=False)
 
 V_fromcountrydate= pd.read_sql( 
-    "SELECT * FROM ecocapture.fromcountrydate",
+    "SELECT * FROM ecocapture.countrydate",
 con=engine 
 ) 
 V_fromcountrydate.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_romcountrydate.xlsx",index=False)    

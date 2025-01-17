@@ -40,8 +40,8 @@ CREATE VIEW Visit_Date AS
 ;
 
 
-Drop VIEW IF EXISTS FromCountryDate;
-CREATE VIEW FromCountryDate AS
+Drop VIEW IF EXISTS CountryDate;
+CREATE VIEW CountryDate AS
     SELECT 
        A.inputID, A.Traveller_ID,A.Traveller_Country, B.Travel_Date, B.Travel_Year, B.Travel_Month, B.month
     FROM
@@ -71,8 +71,8 @@ ORDER BY C.location
 
 
 /****************************************************************/
-Drop VIEW IF EXISTS FromCountryC;
-CREATE VIEW FromCountryC AS
+Drop VIEW IF EXISTS CountryByYear;
+CREATE VIEW CountryByYear AS
     SELECT
      X.Year,
      X.Country,
@@ -81,11 +81,11 @@ CREATE VIEW FromCountryC AS
      ( Select A.Travel_Year as Year,
 		A.Traveller_Country as Country ,
 		count(A.Traveller_Country) as countC
-		from FromCountryDate  A
+		from CountryDate  A
 		group by A.Travel_Year,A.Traveller_Country
   		ORDER BY A.Travel_Year,A.Traveller_Country
     ) AS X   
-	where X.Year between (2009 and 2024) and Country is not null  and X.countC is not null 
+	where Country is not null  and X.countC is not null 
     ORDER BY X.Country
 ;
 
@@ -95,17 +95,17 @@ SET @sql = null;
 SELECT GROUP_CONCAT(DISTINCT
            'MAX(CASE WHEN Country = "', Country, '" THEN countC END) AS "',Country, '"')
 INTO @sql
-FROM fromcountryc;
+FROM CountryByYear;
 
-SET @sql = CONCAT('CREATE VIEW CountryT AS SELECT Year, ', @sql, ' FROM fromcountryc GROUP BY Year;');
+SET @sql = CONCAT('CREATE VIEW CountryT AS SELECT Year, ', @sql, ' FROM CountryByYear GROUP BY Year;');
 PREPARE T_stmt FROM @sql;
 EXECUTE T_stmt;
 DEALLOCATE PREPARE T_stmt;
 
 /************************************************************/
 
-Drop VIEW IF EXISTS siarating;
-CREATE VIEW siarating AS
+Drop VIEW IF EXISTS siaRating;
+CREATE VIEW siaRating AS
     SELECT
 		A.*,
         B.Rating
