@@ -162,6 +162,22 @@ CREATE VIEW photographyCheck  AS
 		A.InputID,
 		A.Traveller_ID,
         A.activity,
+        B.Traveller_Country
+	FROM
+        activity A
+	LEFT JOIN
+		countrydate B ON A.InputID = B.InputID
+	where  activity='photography' or  activity='wildlife_nature' or activity='Wildlife_photography'
+	ORDER BY A.Traveller_ID
+;   
+
+/***photography intrest holidaymakers *********************************************************/
+drop View if exists Wildlife_photo_Rating;  
+CREATE VIEW Wildlife_photo_Rating  AS
+    SELECT 
+		A.InputID,
+		A.Traveller_ID,
+        A.activity,
         B.Traveller_Country,
         C.City,
         C.location_Type,
@@ -170,11 +186,12 @@ CREATE VIEW photographyCheck  AS
 	FROM
         activity A
 	LEFT JOIN
-		countrydate B ON A.Traveller_ID = B.Traveller_ID
+		countrydate B ON A.InputID = B.InputID
 	LEFT JOIN
-		location C ON A.Traveller_ID = C.Traveller_ID
-   LEFT JOIN
-		siarating D ON A.Traveller_ID = D.Traveller_ID     
-	where  activity='photography' or  activity='wildlife_nature' or activity='Wildlife_photography'
-;   
+		location C ON A.InputID = C.InputID
+	LEFT JOIN
+		siarating D ON A.InputID = D.InputID    
+	where  activity='Wildlife_photography'
+	ORDER BY A.Traveller_ID
+;  
 
