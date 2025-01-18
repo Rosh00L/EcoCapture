@@ -141,8 +141,8 @@ PREPARE T_stmt FROM @sql;
 EXECUTE T_stmt;
 DEALLOCATE PREPARE T_stmt;
 
-/************************************************************/
 
+/***sentiment analysis*********************************************************/
 Drop VIEW IF EXISTS siaRating;
 CREATE VIEW siaRating AS
     SELECT
@@ -154,3 +154,27 @@ CREATE VIEW siaRating AS
         rating B ON A.inputID = B.inputID
     ORDER BY sentiment_comments desc,B.Rating 
 ;       
+
+/***photography intrest holidaymakers *********************************************************/
+drop View if exists photographyCheck;  
+CREATE VIEW photographyCheck  AS
+    SELECT 
+		A.InputID,
+		A.Traveller_ID,
+        A.activity,
+        B.Traveller_Country,
+        C.City,
+        C.location_Type,
+        D.rating,
+        D.sentiment_comments        
+	FROM
+        activity A
+	LEFT JOIN
+		countrydate B ON A.Traveller_ID = B.Traveller_ID
+	LEFT JOIN
+		location C ON A.Traveller_ID = C.Traveller_ID
+   LEFT JOIN
+		siarating D ON A.Traveller_ID = D.Traveller_ID     
+	where  activity='photography' or  activity='wildlife_nature' or activity='Wildlife_photography'
+;   
+

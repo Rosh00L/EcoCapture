@@ -97,30 +97,6 @@ CREATE VIEW Hiking_climbing AS
     where act.Hiking_climbing="Hiking_climbing"  
     ORDER BY act.InputID
     ;
-/**Rafting_Kayaking**************************************************/
-    
-    CREATE VIEW Rafting_Kayaking AS
-	select 
-	    act.InputID,
-        act.Traveller_ID,
-        act.Rafting_Kayaking
-	    from
-        (
-		SELECT 
-        A.InputID as InputID, 
-        A.Traveller_ID as Traveller_ID,
-         LOWER(A.Comments) AS Comments,
-      CASE
-            WHEN LOWER(Comments) REGEXP LOWER('rafting|canoe|Kayaking') THEN "Rafting_Kayaking"
-            ELSE ' '
-        END AS Rafting_Kayaking
-          FROM
-       Comment A
-     ORDER BY A.InputID AND A.Traveller_ID
-    ) AS act
-    where act.Rafting_Kayaking="Rafting_Kayaking"  
-    ORDER BY act.InputID
-    ;
     
     /**Biking_cycling**************************************************/
     
@@ -186,7 +162,7 @@ CREATE VIEW Hiking_climbing AS
         A.Traveller_ID as Traveller_ID,
          LOWER(A.Comments) AS Comments,
       CASE
-            WHEN LOWER(Comments) REGEXP LOWER('surfing|diving|scuba|snorke|snorkeling|swim|swimming|boat|Boat trip|beach') THEN "Beach_Water_Sports"
+            WHEN LOWER(Comments) REGEXP LOWER('surfing|diving|scuba|snorke|snorkeling|swim|swimming|boat|Boat trip|beach|rafting|canoe|Kayaking') THEN "Beach_Water_Sports"
             ELSE ' '
         END AS Beach_Water_Sports
           FROM
@@ -301,8 +277,6 @@ union all
 select * from  Wildlife_photography  
 union all
 select * from  Hiking_climbing
-union all
-select * from  Rafting_Kayaking
 union all
 select * from  Biking_cycling
 union all
