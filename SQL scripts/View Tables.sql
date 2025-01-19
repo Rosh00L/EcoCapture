@@ -67,7 +67,9 @@ CREATE VIEW loca_Rating AS
 ORDER BY C.location
 ;
 
-/****************************************************************/
+/*
+***
+***********************************************************
 CREATE VIEW loca_count_ as
  SELECT 
  x.city,
@@ -81,6 +83,7 @@ CREATE VIEW loca_count_ as
  /*limit 30*/
  )AS X
 ;
+*/
 
 CREATE VIEW loca_sum as 
 select 
@@ -171,7 +174,7 @@ CREATE VIEW photographyCheck  AS
 	ORDER BY A.Traveller_ID
 ;   
 
-/***photography intrest holidaymakers *********************************************************/
+/***Wildlife_photo_Rating *********************************************************/
 drop View if exists Wildlife_photo_Rating;  
 CREATE VIEW Wildlife_photo_Rating  AS
     SELECT 
