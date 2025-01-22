@@ -52,3 +52,13 @@ CHANGE COLUMN Traveller_ID Traveller_ID INT NOT NULL ,
 ADD PRIMARY KEY (InputID),
 ADD UNIQUE INDEX InputID_UNIQUE (InputID ASC) VISIBLE;
 ;
+
+ALTER TABLE ecocapture.activity 
+ADD INDEX InputID_idx (InputID ASC) VISIBLE;
+;
+ALTER TABLE ecocapture.activity 
+ADD CONSTRAINT InputID
+  FOREIGN KEY (InputID)
+  REFERENCES ecocapture.traveller (InputID)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;

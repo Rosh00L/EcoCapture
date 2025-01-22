@@ -173,7 +173,7 @@ CREATE VIEW Hiking_climbing AS
     ORDER BY act.InputID
     ;
     
-    /**Beach_Water_Sports**************************************************/
+    /** Sightseeing **************************************************/
     CREATE VIEW Sightseeing AS
 	select 
 	    act.InputID,
@@ -299,7 +299,6 @@ DROP view if exists photography;
 DROP view if exists Wildlife_nature;
 drop view if exists Wildlife_photography;
 DROP view if exists Hiking_climbing;
-DROP view if exists Rafting_Kayaking;
 DROP view if exists Biking_cycling;
 DROP view if exists Historical_Sites;
 DROP view if exists Beach_Water_Sports;

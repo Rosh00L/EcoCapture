@@ -1,0 +1,1462 @@
+InputID,Traveller_ID,activity,Traveller_Country,City,location_Type,Travel_Year,Travel_month,month,rating,sentiment_comments
+10006,6,Beach_Water_Sports,"United Arab Emirates","Arugam Bay",Beaches,2019,6,June,5,positive
+10006,6,wildlife_nature,"United Arab Emirates","Arugam Bay",Beaches,2019,6,June,5,positive
+10006,6,Relaxing,"United Arab Emirates","Arugam Bay",Beaches,2019,6,June,5,positive
+30202,201,Beach_Water_Sports,"United Kingdom",Bentota,Beaches,2019,11,November,4,positive
+30202,201,Relaxing,"United Kingdom",Bentota,Beaches,2019,11,November,4,positive
+30510,502,Beach_Water_Sports,"United Kingdom",Hikkaduwa,Beaches,2019,2,February,3,positive
+30510,502,Hiking_climbing,"United Kingdom",Hikkaduwa,Beaches,2019,2,February,3,positive
+30519,511,Beach_Water_Sports,Australia,Hikkaduwa,Beaches,2018,10,October,5,positive
+30522,513,Beach_Water_Sports,"United Kingdom",Hikkaduwa,Beaches,2018,10,October,1,positive
+30522,513,wildlife_nature,"United Kingdom",Hikkaduwa,Beaches,2018,10,October,1,positive
+30522,513,Hiking_climbing,"United Kingdom",Hikkaduwa,Beaches,2018,10,October,1,positive
+30522,513,Relaxing,"United Kingdom",Hikkaduwa,Beaches,2018,10,October,1,positive
+30583,573,Beach_Water_Sports,Turkey,Hikkaduwa,Beaches,2018,12,December,1,positive
+30583,573,wildlife_nature,Turkey,Hikkaduwa,Beaches,2018,12,December,1,positive
+30735,719,Beach_Water_Sports,"United Kingdom",Unawatuna,Beaches,2019,1,January,3,positive
+30751,734,Beach_Water_Sports,Australia,Unawatuna,Beaches,2019,10,October,5,positive
+30751,734,wildlife_nature,Australia,Unawatuna,Beaches,2019,10,October,5,positive
+30805,785,Beach_Water_Sports,Australia,Unawatuna,Beaches,2019,9,September,1,negative
+30805,785,wildlife_nature,Australia,Unawatuna,Beaches,2019,9,September,1,negative
+30823,801,Beach_Water_Sports,Spain,Kalutara,Beaches,2020,2,February,4,positive
+30823,801,wildlife_nature,Spain,Kalutara,Beaches,2020,2,February,4,positive
+30838,815,Beach_Water_Sports,"United Kingdom",Kalutara,Beaches,2019,3,March,2,positive
+30838,815,Relaxing,"United Kingdom",Kalutara,Beaches,2019,3,March,2,positive
+30899,875,Beach_Water_Sports,"United Kingdom",Kalutara,Beaches,2017,5,May,4,positive
+30943,918,Beach_Water_Sports,"United Kingdom",Kalutara,Beaches,2017,4,April,2,positive
+30961,936,Beach_Water_Sports,"United Kingdom",Kalutara,Beaches,2016,8,August,5,positive
+30961,936,Hiking_climbing,"United Kingdom",Kalutara,Beaches,2016,8,August,5,positive
+41026,1001,Beach_Water_Sports,Australia,Kalutara,Beaches,2016,10,October,4,positive
+41130,1100,Beach_Water_Sports,"United Kingdom",Trincomalee,Beaches,2015,8,August,3,positive
+41140,1110,Beach_Water_Sports,"United States",Trincomalee,Beaches,2013,5,May,1,positive
+41140,1110,Relaxing,"United States",Trincomalee,Beaches,2013,5,May,1,positive
+41145,1115,Beach_Water_Sports,"United States",Trincomalee,Beaches,2013,6,June,5,positive
+41145,1115,Hiking_climbing,"United States",Trincomalee,Beaches,2013,6,June,5,positive
+41145,1115,Relaxing,"United States",Trincomalee,Beaches,2013,6,June,5,positive
+41179,1148,Beach_Water_Sports,India,Mirissa,Beaches,2021,12,December,5,positive
+41181,1150,Beach_Water_Sports,India,Mirissa,Beaches,2021,12,December,5,positive
+41181,1150,Hiking_climbing,India,Mirissa,Beaches,2021,12,December,5,positive
+41189,1157,Beach_Water_Sports,Spain,Mirissa,Beaches,2023,3,March,5,positive
+41189,1157,Relaxing,Spain,Mirissa,Beaches,2023,3,March,5,positive
+41220,1184,Beach_Water_Sports,"United Kingdom",Mirissa,Beaches,2020,1,January,5,positive
+41220,1184,wildlife_nature,"United Kingdom",Mirissa,Beaches,2020,1,January,5,positive
+41220,1184,Hiking_climbing,"United Kingdom",Mirissa,Beaches,2020,1,January,5,positive
+41220,1184,Relaxing,"United Kingdom",Mirissa,Beaches,2020,1,January,5,positive
+41246,1206,Beach_Water_Sports,"United States",Mirissa,Beaches,2019,4,April,4,positive
+41246,1206,Relaxing,"United States",Mirissa,Beaches,2019,4,April,4,positive
+41278,1232,Beach_Water_Sports,Romania,Mirissa,Beaches,2019,3,March,5,positive
+41278,1232,wildlife_nature,Romania,Mirissa,Beaches,2019,3,March,5,positive
+41450,1384,Beach_Water_Sports,"Saudi Arabia",Colombo,Beaches,2017,10,October,5,positive
+41450,1384,Hiking_climbing,"Saudi Arabia",Colombo,Beaches,2017,10,October,5,positive
+41472,1402,Beach_Water_Sports,"United States",Colombo,Beaches,2018,6,June,5,positive
+41472,1402,Hiking_climbing,"United States",Colombo,Beaches,2018,6,June,5,positive
+41587,1507,Beach_Water_Sports,Australia,Negombo,Beaches,2020,3,March,4,positive
+41599,1518,Beach_Water_Sports,India,Negombo,Beaches,2020,1,January,4,positive
+41630,1542,Beach_Water_Sports,Australia,Negombo,Beaches,2019,2,February,4,positive
+41630,1542,wildlife_nature,Australia,Negombo,Beaches,2019,2,February,4,positive
+41641,1325,Beach_Water_Sports,India,Negombo,Beaches,2019,5,May,3,positive
+41641,1325,Relaxing,India,Negombo,Beaches,2019,5,May,3,positive
+41685,1592,Beach_Water_Sports,Lithuania,Negombo,Beaches,2019,1,January,2,positive
+41713,1307,Beach_Water_Sports,China,Negombo,Beaches,2019,1,January,4,positive
+41739,1305,Beach_Water_Sports,China,Negombo,Beaches,2019,2,February,4,positive
+41747,1647,Beach_Water_Sports,"United Arab Emirates",Negombo,Beaches,2018,8,August,2,negative
+41747,1647,Hiking_climbing,"United Arab Emirates",Negombo,Beaches,2018,8,August,2,negative
+41766,1665,Beach_Water_Sports,"United States",Negombo,Beaches,2018,7,July,3,positive
+41766,1665,wildlife_nature,"United States",Negombo,Beaches,2018,7,July,3,positive
+41766,1665,Hiking_climbing,"United States",Negombo,Beaches,2018,7,July,3,positive
+42058,1923,Beach_Water_Sports,Mauritius,Kalkudah,Beaches,2017,3,March,5,positive
+42058,1923,wildlife_nature,Mauritius,Kalkudah,Beaches,2017,3,March,5,positive
+42122,1979,Beach_Water_Sports,India,"Nuwara Eliya","Bodies of Water",2020,2,February,5,positive
+42122,1979,Sightseeing,India,"Nuwara Eliya","Bodies of Water",2020,2,February,5,positive
+42125,1982,Hiking_climbing,India,"Nuwara Eliya","Bodies of Water",2019,12,December,3,positive
+42125,1982,Sightseeing,India,"Nuwara Eliya","Bodies of Water",2019,12,December,3,positive
+42153,2004,Beach_Water_Sports,Jordan,"Nuwara Eliya","Bodies of Water",2019,2,February,5,positive
+42153,2004,Hiking_climbing,Jordan,"Nuwara Eliya","Bodies of Water",2019,2,February,5,positive
+42153,2004,Biking_cycling,Jordan,"Nuwara Eliya","Bodies of Water",2019,2,February,5,positive
+42153,2004,Sightseeing,Jordan,"Nuwara Eliya","Bodies of Water",2019,2,February,5,positive
+42166,282,Beach_Water_Sports,Egypt,"Nuwara Eliya","Bodies of Water",2018,12,December,4,positive
+42166,282,Sightseeing,Egypt,"Nuwara Eliya","Bodies of Water",2018,12,December,4,positive
+42180,2022,Beach_Water_Sports,India,"Nuwara Eliya","Bodies of Water",2019,12,December,4,positive
+42180,2022,Hiking_climbing,India,"Nuwara Eliya","Bodies of Water",2019,12,December,4,positive
+42180,2022,Sightseeing,India,"Nuwara Eliya","Bodies of Water",2019,12,December,4,positive
+42192,2030,Beach_Water_Sports,"United Arab Emirates","Nuwara Eliya","Bodies of Water",2019,12,December,3,positive
+42192,2030,Sightseeing,"United Arab Emirates","Nuwara Eliya","Bodies of Water",2019,12,December,3,positive
+42193,2031,Beach_Water_Sports,Oman,"Nuwara Eliya","Bodies of Water",2019,12,December,3,positive
+42193,2031,Sightseeing,Oman,"Nuwara Eliya","Bodies of Water",2019,12,December,3,positive
+42220,2055,Beach_Water_Sports,"United Kingdom","Nuwara Eliya","Bodies of Water",2019,2,February,4,neutral
+42220,2055,Sightseeing,"United Kingdom","Nuwara Eliya","Bodies of Water",2019,2,February,4,neutral
+42256,1660,Beach_Water_Sports,Singapore,"Nuwara Eliya","Bodies of Water",2018,3,March,5,positive
+42256,1660,wildlife_nature,Singapore,"Nuwara Eliya","Bodies of Water",2018,3,March,5,positive
+42256,1660,Sightseeing,Singapore,"Nuwara Eliya","Bodies of Water",2018,3,March,5,positive
+42274,1012,Beach_Water_Sports,India,"Nuwara Eliya","Bodies of Water",2018,2,February,5,positive
+42274,1012,Sightseeing,India,"Nuwara Eliya","Bodies of Water",2018,2,February,5,positive
+42290,2117,Hiking_climbing,Canada,"Nuwara Eliya","Bodies of Water",2018,3,March,3,positive
+42290,2117,Sightseeing,Canada,"Nuwara Eliya","Bodies of Water",2018,3,March,3,positive
+42303,2129,Beach_Water_Sports,Oman,"Nuwara Eliya","Bodies of Water",2023,2,February,4,positive
+42303,2129,Hiking_climbing,Oman,"Nuwara Eliya","Bodies of Water",2023,2,February,4,positive
+42303,2129,Sightseeing,Oman,"Nuwara Eliya","Bodies of Water",2023,2,February,4,positive
+42319,2004,Beach_Water_Sports,Jordan,"Nuwara Eliya","Bodies of Water",2019,10,October,5,positive
+42361,2176,Sightseeing,India,"Nuwara Eliya","Bodies of Water",2018,12,December,5,positive
+42374,1516,wildlife_nature,Canada,Kandy,"Bodies of Water",2020,2,February,5,positive
+42374,1516,Hiking_climbing,Canada,Kandy,"Bodies of Water",2020,2,February,5,positive
+42374,1516,Historical_Sites,Canada,Kandy,"Bodies of Water",2020,2,February,5,positive
+42374,1516,Sightseeing,Canada,Kandy,"Bodies of Water",2020,2,February,5,positive
+42383,641,Sightseeing,"United Kingdom",Kandy,"Bodies of Water",2022,1,January,4,positive
+42383,641,Religious,"United Kingdom",Kandy,"Bodies of Water",2022,1,January,4,positive
+42384,2193,wildlife_nature,"United Kingdom",Kandy,"Bodies of Water",2022,2,February,5,negative
+42384,2193,Sightseeing,"United Kingdom",Kandy,"Bodies of Water",2022,2,February,5,negative
+42397,2200,Hiking_climbing,Cambodia,Kandy,"Bodies of Water",2019,8,August,4,positive
+42397,2200,Sightseeing,Cambodia,Kandy,"Bodies of Water",2019,8,August,4,positive
+42402,1353,Hiking_climbing,India,Kandy,"Bodies of Water",2020,2,February,5,positive
+42402,1353,Sightseeing,India,Kandy,"Bodies of Water",2020,2,February,5,positive
+42402,1353,Religious,India,Kandy,"Bodies of Water",2020,2,February,5,positive
+42415,2210,Hiking_climbing,India,Kandy,"Bodies of Water",2019,12,December,5,positive
+42415,2210,Sightseeing,India,Kandy,"Bodies of Water",2019,12,December,5,positive
+42415,2210,Religious,India,Kandy,"Bodies of Water",2019,12,December,5,positive
+42419,2212,wildlife_nature,France,Kandy,"Bodies of Water",2019,3,March,2,positive
+42419,2212,Hiking_climbing,France,Kandy,"Bodies of Water",2019,3,March,2,positive
+42419,2212,Sightseeing,France,Kandy,"Bodies of Water",2019,3,March,2,positive
+42426,282,Religious,Egypt,Kandy,"Bodies of Water",2018,12,December,4,positive
+42434,2219,Hiking_climbing,Australia,Kandy,"Bodies of Water",2019,2,February,3,positive
+42434,2219,Sightseeing,Australia,Kandy,"Bodies of Water",2019,2,February,3,positive
+42437,2222,Beach_Water_Sports,Oman,Kandy,"Bodies of Water",2019,5,May,4,positive
+42437,2222,Sightseeing,Oman,Kandy,"Bodies of Water",2019,5,May,4,positive
+42537,2296,wildlife_nature,Australia,Kandy,"Bodies of Water",2018,7,July,4,positive
+42537,2296,Hiking_climbing,Australia,Kandy,"Bodies of Water",2018,7,July,4,positive
+42537,2296,Sightseeing,Australia,Kandy,"Bodies of Water",2018,7,July,4,positive
+42545,410,Beach_Water_Sports,India,Kandy,"Bodies of Water",2018,9,September,4,positive
+42545,410,wildlife_nature,India,Kandy,"Bodies of Water",2018,9,September,4,positive
+42545,410,Sightseeing,India,Kandy,"Bodies of Water",2018,9,September,4,positive
+42545,410,Religious,India,Kandy,"Bodies of Water",2018,9,September,4,positive
+42553,511,wildlife_nature,Australia,Kandy,"Bodies of Water",2018,9,September,5,positive
+42553,511,Hiking_climbing,Australia,Kandy,"Bodies of Water",2018,9,September,5,positive
+42553,511,Sightseeing,Australia,Kandy,"Bodies of Water",2018,9,September,5,positive
+42570,2319,Hiking_climbing,Philippines,Kandy,"Bodies of Water",2019,12,December,4,positive
+42570,2319,Sightseeing,Philippines,Kandy,"Bodies of Water",2019,12,December,4,positive
+42570,2319,Relaxing,Philippines,Kandy,"Bodies of Water",2019,12,December,4,positive
+42590,2332,Hiking_climbing,"United Kingdom",Kandy,"Bodies of Water",2019,3,March,4,positive
+42590,2332,Sightseeing,"United Kingdom",Kandy,"Bodies of Water",2019,3,March,4,positive
+42590,2332,Religious,"United Kingdom",Kandy,"Bodies of Water",2019,3,March,4,positive
+42594,229,Sightseeing,India,Kandy,"Bodies of Water",2019,4,April,5,positive
+42607,2176,Sightseeing,India,Kandy,"Bodies of Water",2018,12,December,3,positive
+42616,2350,Hiking_climbing,"United Kingdom",Kandy,"Bodies of Water",2018,12,December,4,positive
+42616,2350,Sightseeing,"United Kingdom",Kandy,"Bodies of Water",2018,12,December,4,positive
+42616,2350,Religious,"United Kingdom",Kandy,"Bodies of Water",2018,12,December,4,positive
+42630,2360,Hiking_climbing,Sweden,Kandy,"Bodies of Water",2018,7,July,4,positive
+42630,2360,Sightseeing,Sweden,Kandy,"Bodies of Water",2018,7,July,4,positive
+42633,2363,Sightseeing,"United Kingdom",Kandy,"Bodies of Water",2018,7,July,5,positive
+42645,2042,Historical_Sites,India,Kandy,"Bodies of Water",2018,5,May,4,positive
+42645,2042,Sightseeing,India,Kandy,"Bodies of Water",2018,5,May,4,positive
+42645,2042,Religious,India,Kandy,"Bodies of Water",2018,5,May,4,positive
+42655,2376,Hiking_climbing,"United Kingdom",Kandy,"Bodies of Water",2019,2,February,3,positive
+42655,2376,Sightseeing,"United Kingdom",Kandy,"Bodies of Water",2019,2,February,3,positive
+42656,237,Hiking_climbing,Oman,Kandy,"Bodies of Water",2019,4,April,5,positive
+42656,237,Sightseeing,Oman,Kandy,"Bodies of Water",2019,4,April,5,positive
+42656,237,Religious,Oman,Kandy,"Bodies of Water",2019,4,April,5,positive
+42710,2420,Sightseeing,Malaysia,Tissamaharama,"Bodies of Water",2017,7,July,5,positive
+42718,2426,Beach_Water_Sports,Vietnam,Tissamaharama,"Bodies of Water",2016,4,April,5,positive
+42718,2426,wildlife_nature,Vietnam,Tissamaharama,"Bodies of Water",2016,4,April,5,positive
+42718,2426,Hiking_climbing,Vietnam,Tissamaharama,"Bodies of Water",2016,4,April,5,positive
+42718,2426,Sightseeing,Vietnam,Tissamaharama,"Bodies of Water",2016,4,April,5,positive
+42738,2441,wildlife_nature,Germany,Tissamaharama,"Bodies of Water",2019,12,December,5,positive
+42740,2442,wildlife_nature,"United Kingdom",Tissamaharama,"Bodies of Water",2019,3,March,4,positive
+42740,2442,Sightseeing,"United Kingdom",Tissamaharama,"Bodies of Water",2019,3,March,4,positive
+42743,2444,Beach_Water_Sports,Australia,Tissamaharama,"Bodies of Water",2016,10,October,5,positive
+42743,2444,wildlife_nature,Australia,Tissamaharama,"Bodies of Water",2016,10,October,5,positive
+42745,2446,Sightseeing,Australia,Tissamaharama,"Bodies of Water",2016,8,August,5,positive
+42804,2495,Historical_Sites,"United Kingdom",Anuradhapura,"Bodies of Water",2016,10,October,4,positive
+42821,2507,wildlife_nature,India,Anuradhapura,"Bodies of Water",2015,1,January,3,positive
+42830,2515,Historical_Sites,"United Kingdom",Anuradhapura,"Bodies of Water",2014,10,October,4,positive
+42830,2515,Sightseeing,"United Kingdom",Anuradhapura,"Bodies of Water",2014,10,October,4,positive
+42838,2523,Historical_Sites,India,Anuradhapura,"Bodies of Water",2013,11,November,4,positive
+42858,1637,wildlife_nature,"United States",Anuradhapura,"Bodies of Water",2019,2,February,5,positive
+42893,2560,wildlife_nature,Turkiye,Anuradhapura,"Bodies of Water",2016,1,January,4,positive
+42910,2574,wildlife_nature,Australia,Anuradhapura,"Bodies of Water",2015,6,June,5,neutral
+42913,1777,Beach_Water_Sports,"United States",Anuradhapura,"Bodies of Water",2015,2,February,4,positive
+42934,2596,Sightseeing,"Czech Republic",Anuradhapura,"Bodies of Water",2016,3,March,4,positive
+42981,2630,wildlife_nature,"United Arab Emirates","Nuwara Eliya",Farms,2017,6,June,4,positive
+42981,2630,Sightseeing,"United Arab Emirates","Nuwara Eliya",Farms,2017,6,June,4,positive
+42983,2630,wildlife_nature,"United Arab Emirates","Nuwara Eliya",Farms,2018,1,January,4,positive
+43035,1189,Hiking_climbing,Germany,"Nuwara Eliya",Farms,2017,4,April,4,positive
+43059,2695,wildlife_nature,Oman,"Nuwara Eliya",Farms,2016,3,March,3,positive
+43074,2709,Sightseeing,India,"Nuwara Eliya",Farms,2016,3,March,5,positive
+43136,2749,wildlife_nature,China,"Nuwara Eliya",Farms,2018,12,December,3,positive
+43149,2758,Hiking_climbing,"United Arab Emirates","Nuwara Eliya",Farms,2018,5,May,4,positive
+43190,2079,wildlife_nature,India,"Nuwara Eliya",Farms,2018,9,September,4,positive
+43193,2791,wildlife_nature,"United Kingdom","Nuwara Eliya",Farms,2018,3,March,5,positive
+43193,2791,Hiking_climbing,"United Kingdom","Nuwara Eliya",Farms,2018,3,March,5,positive
+43219,2811,wildlife_nature,"United Kingdom","Nuwara Eliya",Farms,2018,4,April,4,positive
+43285,2863,wildlife_nature,"United Kingdom","Nuwara Eliya",Farms,2017,4,April,4,positive
+43294,2872,wildlife_nature,"United States","Nuwara Eliya",Farms,2016,12,December,5,positive
+43299,2876,wildlife_nature,Singapore,"Nuwara Eliya",Farms,2017,3,March,4,positive
+43309,2886,wildlife_nature,Jordan,"Nuwara Eliya",Farms,2017,4,April,4,positive
+43374,2946,Hiking_climbing,"United Kingdom","Nuwara Eliya",Farms,2017,12,December,5,positive
+43390,2962,Relaxing,China,"Nuwara Eliya",Farms,2017,1,January,4,positive
+43423,2992,Hiking_climbing,France,Haputale,Farms,2018,2,February,1,negative
+43443,3009,wildlife_nature,"Czech Republic",Haputale,Farms,2018,1,January,5,neutral
+43504,3060,Hiking_climbing,Australia,Haputale,Farms,2015,12,December,5,positive
+43536,3090,wildlife_nature,"United Kingdom",Haputale,Farms,2015,1,January,4,positive
+43555,2452,Hiking_climbing,Thailand,Haputale,Farms,2017,2,February,4,positive
+43589,641,Hiking_climbing,"United Kingdom","Nuwara Eliya",Farms,2022,1,January,4,positive
+43644,392,wildlife_nature,India,"Nuwara Eliya",Farms,2019,3,March,5,positive
+43696,3207,wildlife_nature,"United Kingdom",Katukitula,Farms,2019,1,January,5,positive
+43697,2275,wildlife_nature,Switzerland,Katukitula,Farms,2019,1,January,4,positive
+43739,3243,wildlife_nature,Italy,Katukitula,Farms,2017,6,June,4,positive
+43776,3277,Hiking_climbing,Singapore,Katukitula,Farms,2018,2,February,4,positive
+43785,3285,wildlife_nature,Australia,Katukitula,Farms,2018,1,January,1,negative
+43821,3317,wildlife_nature,Indonesia,Katukitula,Farms,2016,7,July,4,positive
+43828,3324,wildlife_nature,Australia,Katukitula,Farms,2016,12,December,5,positive
+43833,3328,wildlife_nature,"United Kingdom",Katukitula,Farms,2016,11,November,4,positive
+43833,3328,Historical_Sites,"United Kingdom",Katukitula,Farms,2016,11,November,4,positive
+43837,3331,wildlife_nature,"United Kingdom",Katukitula,Farms,2016,9,September,5,positive
+43927,3413,Hiking_climbing,"United Kingdom",Katukitula,Farms,2013,1,January,4,positive
+43957,3442,wildlife_nature,"United Kingdom",Katukitula,Farms,2013,12,December,2,positive
+44167,3629,wildlife_nature,Canada,Ella,Farms,2017,8,August,3,negative
+44169,3631,Hiking_climbing,Switzerland,Ella,Farms,2017,4,April,5,positive
+44183,3645,Hiking_climbing,"United States",Ella,Farms,2017,9,September,5,positive
+44229,3689,wildlife_nature,"United Kingdom",Ahangama,Farms,2020,1,January,2,negative
+44229,3689,Hiking_climbing,"United Kingdom",Ahangama,Farms,2020,1,January,2,negative
+44229,3689,Historical_Sites,"United Kingdom",Ahangama,Farms,2020,1,January,2,negative
+44258,3712,Hiking_climbing,Australia,Ahangama,Farms,2019,7,July,5,positive
+44411,3850,wildlife_nature,"United Kingdom",Ahangama,Farms,2017,4,April,5,positive
+44411,3850,Hiking_climbing,"United Kingdom",Ahangama,Farms,2017,4,April,5,positive
+44411,3850,Sightseeing,"United Kingdom",Ahangama,Farms,2017,4,April,5,positive
+44445,3882,Hiking_climbing,Sweden,Ahangama,Farms,2016,1,January,5,positive
+44454,3891,wildlife_nature,Australia,Ahangama,Farms,2015,4,April,2,positive
+44486,3921,wildlife_nature,"United Arab Emirates",Ahangama,Farms,2015,9,September,5,positive
+44491,3926,wildlife_nature,"United Kingdom",Ahangama,Farms,2015,8,August,5,positive
+44515,3947,Beach_Water_Sports,"United Arab Emirates",Ahangama,Farms,2014,12,December,5,positive
+44537,3141,Hiking_climbing,"New Zealand","Nuwara Eliya",Farms,2020,3,March,2,positive
+44578,3158,Historical_Sites,"United States","Nuwara Eliya",Farms,2019,11,November,5,positive
+44637,4042,wildlife_nature,"United Kingdom","Nuwara Eliya",Farms,2018,2,February,4,positive
+44688,2467,wildlife_nature,Norway,"Nuwara Eliya",Farms,2018,2,February,4,positive
+44723,4109,wildlife_nature,Canada,"Nuwara Eliya",Farms,2018,5,May,3,positive
+44765,4146,Hiking_climbing,England,"Nuwara Eliya",Farms,2017,1,January,4,positive
+44832,4196,Sightseeing,Croatia,"Nuwara Eliya",Farms,2016,12,December,4,positive
+44835,4198,wildlife_nature,"United Kingdom",Beruwala,Gardens,2019,10,October,4,positive
+44835,4198,Hiking_climbing,"United Kingdom",Beruwala,Gardens,2019,10,October,4,positive
+44835,4198,Relaxing,"United Kingdom",Beruwala,Gardens,2019,10,October,4,positive
+44851,4213,wildlife_nature,Sweden,Beruwala,Gardens,2023,2,February,5,positive
+44860,2463,wildlife_nature,"United Kingdom",Beruwala,Gardens,2018,4,April,5,positive
+44862,4218,wildlife_nature,Australia,Beruwala,Gardens,2018,2,February,5,positive
+44863,4219,wildlife_nature,"United Arab Emirates",Beruwala,Gardens,2018,3,March,5,positive
+44863,4219,Sightseeing,"United Arab Emirates",Beruwala,Gardens,2018,3,March,5,positive
+44871,4224,wildlife_nature,"Trinidad and Tobago",Beruwala,Gardens,2019,1,January,5,positive
+44871,4224,Sightseeing,"Trinidad and Tobago",Beruwala,Gardens,2019,1,January,5,positive
+44874,4225,wildlife_nature,Australia,Beruwala,Gardens,2019,1,January,4,positive
+44886,4236,wildlife_nature,"United Kingdom",Beruwala,Gardens,2017,4,April,3,positive
+44886,4236,Sightseeing,"United Kingdom",Beruwala,Gardens,2017,4,April,3,positive
+44897,4247,wildlife_nature,"United Kingdom",Beruwala,Gardens,2016,2,February,4,positive
+44904,3055,wildlife_nature,"United Kingdom",Beruwala,Gardens,2016,2,February,5,positive
+44904,3055,Relaxing,"United Kingdom",Beruwala,Gardens,2016,2,February,5,positive
+44921,4268,wildlife_nature,"United States",Beruwala,Gardens,2017,12,December,5,positive
+44921,4268,Hiking_climbing,"United States",Beruwala,Gardens,2017,12,December,5,positive
+44923,863,wildlife_nature,"United Kingdom",Beruwala,Gardens,2017,10,October,4,positive
+44933,4278,wildlife_nature,Japan,Beruwala,Gardens,2016,11,November,5,positive
+44967,3923,wildlife_nature,"United Kingdom",Beruwala,Gardens,2015,9,September,5,positive
+44986,4327,wildlife_nature,Australia,Beruwala,Gardens,2015,1,January,5,positive
+44996,4337,wildlife_nature,"United Kingdom",Beruwala,Gardens,2014,12,December,5,positive
+44997,4338,wildlife_nature,"United Kingdom",Beruwala,Gardens,2014,12,December,5,positive
+45000,4341,wildlife_nature,"United Kingdom",Beruwala,Gardens,2014,11,November,5,positive
+45004,4345,wildlife_nature,"United Kingdom",Beruwala,Gardens,2014,9,September,5,positive
+45004,4345,Sightseeing,"United Kingdom",Beruwala,Gardens,2014,9,September,5,positive
+45012,4352,wildlife_nature,Vietnam,Beruwala,Gardens,2014,3,March,2,negative
+45015,4355,wildlife_nature,"United Kingdom",Beruwala,Gardens,2014,5,May,2,positive
+45015,4355,Hiking_climbing,"United Kingdom",Beruwala,Gardens,2014,5,May,2,positive
+45018,4358,wildlife_nature,"United Kingdom",Beruwala,Gardens,2013,8,August,5,positive
+45019,4359,wildlife_nature,"United Kingdom",Beruwala,Gardens,2014,3,March,3,positive
+45020,4360,wildlife_nature,"United Kingdom",Beruwala,Gardens,2014,2,February,4,positive
+45034,4373,wildlife_nature,Italy,Beruwala,Gardens,2012,5,May,4,positive
+45035,4374,wildlife_nature,"United Kingdom",Beruwala,Gardens,2012,4,April,5,positive
+45035,4374,Sightseeing,"United Kingdom",Beruwala,Gardens,2012,4,April,5,positive
+45044,3305,wildlife_nature,Ireland,Beruwala,Gardens,2016,9,September,5,positive
+45082,4415,wildlife_nature,Germany,Beruwala,Gardens,2011,11,November,4,positive
+45087,4420,wildlife_nature,Australia,Beruwala,Gardens,2011,8,August,4,positive
+45090,4350,wildlife_nature,Australia,Beruwala,Gardens,2013,9,September,4,positive
+45090,4350,Relaxing,Australia,Beruwala,Gardens,2013,9,September,4,positive
+45095,4427,wildlife_nature,"United Kingdom",Beruwala,Gardens,2013,5,May,5,positive
+45097,4429,wildlife_nature,"United States",Beruwala,Gardens,2013,5,May,5,positive
+45097,4429,Sightseeing,"United States",Beruwala,Gardens,2013,5,May,5,positive
+45107,4438,wildlife_nature,"United Kingdom",Beruwala,Gardens,2013,2,February,5,positive
+45109,4440,wildlife_nature,Thailand,Beruwala,Gardens,2013,3,March,5,positive
+45114,4445,wildlife_nature,"United Kingdom",Beruwala,Gardens,2013,2,February,5,positive
+45114,4445,Sightseeing,"United Kingdom",Beruwala,Gardens,2013,2,February,5,positive
+45115,4446,wildlife_nature,"United Kingdom",Beruwala,Gardens,2013,1,January,4,positive
+45124,4455,wildlife_nature,"United Kingdom",Beruwala,Gardens,2012,9,September,5,positive
+45133,2004,wildlife_nature,Jordan,"Nuwara Eliya",Gardens,2019,9,September,4,positive
+45137,4458,wildlife_nature,Singapore,"Nuwara Eliya",Gardens,2019,9,September,3,positive
+45137,4458,Hiking_climbing,Singapore,"Nuwara Eliya",Gardens,2019,9,September,3,positive
+45137,4458,Relaxing,Singapore,"Nuwara Eliya",Gardens,2019,9,September,3,positive
+45152,4462,wildlife_nature,India,"Nuwara Eliya",Gardens,2018,12,December,5,positive
+45154,2171,wildlife_nature,Australia,"Nuwara Eliya",Gardens,2019,1,January,4,positive
+45190,2790,wildlife_nature,"United Kingdom","Nuwara Eliya",Gardens,2018,3,March,4,positive
+45190,2790,Sightseeing,"United Kingdom","Nuwara Eliya",Gardens,2018,3,March,4,positive
+45207,4489,wildlife_nature,Australia,"Nuwara Eliya",Gardens,2017,12,December,5,positive
+45209,2941,wildlife_nature,India,"Nuwara Eliya",Gardens,2017,12,December,5,positive
+45209,2941,Sightseeing,India,"Nuwara Eliya",Gardens,2017,12,December,5,positive
+45210,2954,wildlife_nature,Singapore,"Nuwara Eliya",Gardens,2017,12,December,2,positive
+45238,2689,wildlife_nature,India,"Nuwara Eliya",Gardens,2016,10,October,1,neutral
+45243,4509,wildlife_nature,Afghanistan,"Nuwara Eliya",Gardens,2016,12,December,3,positive
+45265,4524,wildlife_nature,India,"Nuwara Eliya",Gardens,2015,12,December,3,positive
+45292,3258,wildlife_nature,"United Arab Emirates","Nuwara Eliya",Gardens,2016,12,December,4,positive
+45306,99,wildlife_nature,China,"Nuwara Eliya",Gardens,2016,2,February,5,positive
+45319,4563,wildlife_nature,Bangladesh,"Nuwara Eliya",Gardens,2017,6,June,4,positive
+45319,4563,Hiking_climbing,Bangladesh,"Nuwara Eliya",Gardens,2017,6,June,4,positive
+45319,4563,Relaxing,Bangladesh,"Nuwara Eliya",Gardens,2017,6,June,4,positive
+45330,4572,wildlife_nature,"United States","Nuwara Eliya",Gardens,2015,12,December,5,positive
+45342,4583,wildlife_nature,India,"Nuwara Eliya",Gardens,2016,3,March,5,positive
+45342,4583,Relaxing,India,"Nuwara Eliya",Gardens,2016,3,March,5,positive
+45530,4732,wildlife_nature,Denmark,Kandy,Gardens,2013,12,December,3,positive
+45592,2130,wildlife_nature,India,Peradeniya,Gardens,2022,9,September,4,positive
+45618,4796,wildlife_nature,"United Kingdom",Peradeniya,Gardens,2020,2,February,5,positive
+45625,645,wildlife_nature,Spain,Peradeniya,Gardens,2021,11,November,5,positive
+45634,451,wildlife_nature,Australia,Peradeniya,Gardens,2019,10,October,5,positive
+45634,451,Hiking_climbing,Australia,Peradeniya,Gardens,2019,10,October,5,positive
+45634,451,Historical_Sites,Australia,Peradeniya,Gardens,2019,10,October,5,positive
+45634,451,Relaxing,Australia,Peradeniya,Gardens,2019,10,October,5,positive
+45636,4806,wildlife_nature,"United Arab Emirates",Peradeniya,Gardens,2019,4,April,5,positive
+45636,4806,Relaxing,"United Arab Emirates",Peradeniya,Gardens,2019,4,April,5,positive
+45641,4809,wildlife_nature,Australia,Peradeniya,Gardens,2019,10,October,5,positive
+45663,4822,wildlife_nature,"United Kingdom",Peradeniya,Gardens,2019,11,November,5,positive
+45690,4839,wildlife_nature,"United States",Peradeniya,Gardens,2019,3,March,4,positive
+45697,4844,wildlife_nature,"United Kingdom",Peradeniya,Gardens,2019,4,April,5,positive
+45727,1217,wildlife_nature,Canada,Peradeniya,Gardens,2018,12,December,5,positive
+45727,1217,Relaxing,Canada,Peradeniya,Gardens,2018,12,December,5,positive
+45741,4868,wildlife_nature,"United Kingdom",Peradeniya,Gardens,2019,3,March,5,positive
+45741,4868,Hiking_climbing,"United Kingdom",Peradeniya,Gardens,2019,3,March,5,positive
+45741,4868,Relaxing,"United Kingdom",Peradeniya,Gardens,2019,3,March,5,positive
+45756,568,wildlife_nature,"United Kingdom",Peradeniya,Gardens,2019,1,January,4,positive
+45776,4222,wildlife_nature,"United Kingdom",Peradeniya,Gardens,2019,1,January,5,positive
+45780,3206,wildlife_nature,India,Peradeniya,Gardens,2019,1,January,4,negative
+45783,4894,wildlife_nature,China,Peradeniya,Gardens,2019,1,January,5,positive
+45783,4894,Hiking_climbing,China,Peradeniya,Gardens,2019,1,January,5,positive
+45832,4922,wildlife_nature,"United Kingdom",Peradeniya,Gardens,2019,1,January,5,positive
+45882,4949,wildlife_nature,Australia,Peradeniya,Gardens,2018,10,October,5,positive
+45901,4959,wildlife_nature,"United Kingdom",Peradeniya,Gardens,2018,9,September,5,positive
+45901,4959,Sightseeing,"United Kingdom",Peradeniya,Gardens,2018,9,September,5,positive
+45901,4959,Romantic_holiday,"United Kingdom",Peradeniya,Gardens,2018,9,September,5,positive
+45926,3146,wildlife_nature,Malaysia,"Nuwara Eliya",Gardens,2020,1,January,3,positive
+45982,2303,Hiking_climbing,Australia,"Nuwara Eliya",Gardens,2018,10,October,4,positive
+45983,4990,wildlife_nature,"United States","Nuwara Eliya",Gardens,2019,2,February,3,positive
+46010,5000,Relaxing,"United Kingdom","Nuwara Eliya",Gardens,2017,9,September,4,positive
+46016,1982,wildlife_nature,India,"Nuwara Eliya",Gardens,2019,12,December,4,positive
+46034,2074,wildlife_nature,India,"Nuwara Eliya",Gardens,2018,5,May,4,positive
+46053,2624,wildlife_nature,Sweden,"Nuwara Eliya",Gardens,2018,1,January,2,positive
+46097,5039,wildlife_nature,"United Kingdom","Nuwara Eliya",Gardens,2017,11,November,4,positive
+46097,5039,Romantic_holiday,"United Kingdom","Nuwara Eliya",Gardens,2017,11,November,4,positive
+46139,4144,Relaxing,Singapore,"Nuwara Eliya",Gardens,2017,2,February,4,positive
+46142,5070,wildlife_nature,Bahrain,"Nuwara Eliya",Gardens,2016,12,December,4,positive
+46142,5070,Hiking_climbing,Bahrain,"Nuwara Eliya",Gardens,2016,12,December,4,positive
+46238,4910,Hiking_climbing,Singapore,Galle,"Historic Sites",2020,2,February,5,positive
+46268,5138,wildlife_nature,India,Galle,"Historic Sites",2019,12,December,4,positive
+46285,2197,Beach_Water_Sports,Bangladesh,Galle,"Historic Sites",2018,8,August,5,positive
+46285,2197,Historical_Sites,Bangladesh,Galle,"Historic Sites",2018,8,August,5,positive
+46353,5186,Beach_Water_Sports,Malaysia,Galle,"Historic Sites",2018,12,December,4,positive
+46362,5193,Beach_Water_Sports,"United Arab Emirates",Galle,"Historic Sites",2019,11,November,5,positive
+46362,5193,Hiking_climbing,"United Arab Emirates",Galle,"Historic Sites",2019,11,November,5,positive
+46380,2539,Religious,Australia,Galle,"Historic Sites",2019,3,March,5,positive
+46406,5214,Hiking_climbing,"United Kingdom",Galle,"Historic Sites",2020,2,February,4,positive
+46470,1346,Religious,Australia,Jaffna,"Historic Sites",2019,8,August,4,positive
+46471,5246,wildlife_nature,"Sri Lanka",Jaffna,"Historic Sites",2019,5,May,5,positive
+46471,5246,Hiking_climbing,"Sri Lanka",Jaffna,"Historic Sites",2019,5,May,5,positive
+46471,5246,Historical_Sites,"Sri Lanka",Jaffna,"Historic Sites",2019,5,May,5,positive
+46599,5341,Hiking_climbing,Australia,Jaffna,"Historic Sites",2016,1,January,4,positive
+46600,2405,Historical_Sites,Netherlands,Jaffna,"Historic Sites",2015,12,December,5,positive
+46604,5345,wildlife_nature,"United Kingdom",Jaffna,"Historic Sites",2016,1,January,4,negative
+46670,4216,Religious,Australia,Jaffna,"Historic Sites",2017,7,July,5,negative
+46676,5403,Hiking_climbing,"United Kingdom",Jaffna,"Historic Sites",2015,9,September,3,negative
+46676,5403,Historical_Sites,"United Kingdom",Jaffna,"Historic Sites",2015,9,September,3,negative
+46676,5403,Religious,"United Kingdom",Jaffna,"Historic Sites",2015,9,September,3,negative
+46716,5432,Historical_Sites,Australia,Jaffna,"Historic Sites",2014,4,April,4,positive
+46746,5453,Hiking_climbing,"United Kingdom",Haputale,"Historic Sites",2019,4,April,5,positive
+46746,5453,Relaxing,"United Kingdom",Haputale,"Historic Sites",2019,4,April,5,positive
+46750,5456,wildlife_nature,France,Haputale,"Historic Sites",2019,1,January,1,negative
+46784,778,Hiking_climbing,"United Kingdom",Haputale,"Historic Sites",2018,8,August,5,positive
+46784,778,Sightseeing,"United Kingdom",Haputale,"Historic Sites",2018,8,August,5,positive
+46837,5502,Hiking_climbing,Canada,Haputale,"Historic Sites",2017,4,April,5,positive
+46839,5504,wildlife_nature,Australia,Haputale,"Historic Sites",2017,4,April,5,positive
+46843,4241,Hiking_climbing,"United Kingdom",Haputale,"Historic Sites",2017,3,March,4,positive
+46867,2445,Hiking_climbing,"United Kingdom",Haputale,"Historic Sites",2016,8,August,5,positive
+46867,2445,Relaxing,"United Kingdom",Haputale,"Historic Sites",2016,8,August,5,positive
+46874,5527,Hiking_climbing,Pakistan,Haputale,"Historic Sites",2016,9,September,5,positive
+46898,3024,Hiking_climbing,"United Kingdom",Haputale,"Historic Sites",2017,1,January,5,positive
+46902,5541,wildlife_nature,"United States",Haputale,"Historic Sites",2018,12,December,3,negative
+46902,5541,Hiking_climbing,"United States",Haputale,"Historic Sites",2018,12,December,3,negative
+46934,2111,Hiking_climbing,Philippines,Haputale,"Historic Sites",2018,3,March,5,positive
+46942,2986,Hiking_climbing,"South Africa",Haputale,"Historic Sites",2018,3,March,5,positive
+46942,2986,Relaxing,"South Africa",Haputale,"Historic Sites",2018,3,March,5,positive
+46949,2311,Beach_Water_Sports,Australia,Haputale,"Historic Sites",2020,1,January,5,positive
+46956,5102,Historical_Sites,Cyprus,Polonnaruwa,"Historic Sites",2023,4,April,4,positive
+47011,5590,wildlife_nature,Malaysia,Polonnaruwa,"Historic Sites",2019,6,June,4,positive
+47037,4897,wildlife_nature,"United Kingdom",Polonnaruwa,"Historic Sites",2019,1,January,5,positive
+47037,4897,Historical_Sites,"United Kingdom",Polonnaruwa,"Historic Sites",2019,1,January,5,positive
+47037,4897,Religious,"United Kingdom",Polonnaruwa,"Historic Sites",2019,1,January,5,positive
+47085,1917,wildlife_nature,"United Kingdom",Polonnaruwa,"Historic Sites",2018,12,December,5,positive
+47085,1917,Historical_Sites,"United Kingdom",Polonnaruwa,"Historic Sites",2018,12,December,5,positive
+47085,1917,Religious,"United Kingdom",Polonnaruwa,"Historic Sites",2018,12,December,5,positive
+47085,1917,Relaxing,"United Kingdom",Polonnaruwa,"Historic Sites",2018,12,December,5,positive
+47087,5624,wildlife_nature,"United Kingdom",Polonnaruwa,"Historic Sites",2018,12,December,4,positive
+47161,2811,Hiking_climbing,"United Kingdom",Polonnaruwa,"Historic Sites",2018,4,April,5,positive
+47161,2811,Sightseeing,"United Kingdom",Polonnaruwa,"Historic Sites",2018,4,April,5,positive
+47214,5692,wildlife_nature,Bulgaria,Polonnaruwa,"Historic Sites",2019,12,December,4,positive
+47214,5692,Historical_Sites,Bulgaria,Polonnaruwa,"Historic Sites",2019,12,December,4,positive
+47216,5694,Historical_Sites,Kuwait,Polonnaruwa,"Historic Sites",2019,11,November,5,positive
+47216,5694,Sightseeing,Kuwait,Polonnaruwa,"Historic Sites",2019,11,November,5,positive
+47216,5694,Religious,Kuwait,Polonnaruwa,"Historic Sites",2019,11,November,5,positive
+47234,242,Sightseeing,Australia,Polonnaruwa,"Historic Sites",2019,3,March,5,positive
+47236,5699,Hiking_climbing,"United Kingdom",Polonnaruwa,"Historic Sites",2019,3,March,5,positive
+47236,5699,Historical_Sites,"United Kingdom",Polonnaruwa,"Historic Sites",2019,3,March,5,positive
+47264,5713,wildlife_nature,"United Kingdom",Polonnaruwa,"Historic Sites",2018,6,June,4,positive
+47264,5713,Historical_Sites,"United Kingdom",Polonnaruwa,"Historic Sites",2018,6,June,4,positive
+47271,5720,wildlife_nature,Singapore,Polonnaruwa,"Historic Sites",2018,5,May,3,negative
+47271,5720,Sightseeing,Singapore,Polonnaruwa,"Historic Sites",2018,5,May,3,negative
+47297,5734,wildlife_nature,Australia,Anuradhapura,"Historic Sites",2018,2,February,5,positive
+47326,4595,wildlife_nature,China,Anuradhapura,"Historic Sites",2015,10,October,5,negative
+47326,4595,Hiking_climbing,China,Anuradhapura,"Historic Sites",2015,10,October,5,negative
+47350,5776,wildlife_nature,"United Kingdom",Anuradhapura,"Historic Sites",2015,1,January,5,positive
+47350,5776,Sightseeing,"United Kingdom",Anuradhapura,"Historic Sites",2015,1,January,5,positive
+47362,5787,wildlife_nature,"South Africa",Anuradhapura,"Historic Sites",2014,6,June,4,positive
+47441,2047,wildlife_nature,China,Sigiriya,"Historic Sites",2021,10,October,5,positive
+47441,2047,Hiking_climbing,China,Sigiriya,"Historic Sites",2021,10,October,5,positive
+47442,3122,wildlife_nature,"United Kingdom",Sigiriya,"Historic Sites",2023,4,April,5,positive
+47443,2127,Hiking_climbing,"United States",Sigiriya,"Historic Sites",2023,3,March,5,positive
+47443,2127,Historical_Sites,"United States",Sigiriya,"Historic Sites",2023,3,March,5,positive
+47450,2439,Hiking_climbing,"Czech Republic",Sigiriya,"Historic Sites",2022,12,December,4,positive
+47454,5850,Hiking_climbing,"United States",Sigiriya,"Historic Sites",2023,2,February,2,positive
+47454,5850,Historical_Sites,"United States",Sigiriya,"Historic Sites",2023,2,February,2,positive
+47507,5890,Hiking_climbing,"United States",Sigiriya,"Historic Sites",2020,2,February,4,positive
+47564,5922,Hiking_climbing,Australia,Sigiriya,"Historic Sites",2019,11,November,5,positive
+47569,5925,wildlife_nature,Singapore,Sigiriya,"Historic Sites",2019,12,December,4,positive
+47572,432,wildlife_nature,Greece,Sigiriya,"Historic Sites",2019,12,December,5,positive
+47572,432,Sightseeing,Greece,Sigiriya,"Historic Sites",2019,12,December,5,positive
+47582,5693,Hiking_climbing,"United Kingdom",Sigiriya,"Historic Sites",2019,12,December,5,positive
+47588,5695,Hiking_climbing,"United States",Sigiriya,"Historic Sites",2019,11,November,5,positive
+47588,5695,Historical_Sites,"United States",Sigiriya,"Historic Sites",2019,11,November,5,positive
+47596,5607,Historical_Sites,Singapore,Sigiriya,"Historic Sites",2019,10,October,5,positive
+47603,5607,Historical_Sites,Singapore,Sigiriya,"Historic Sites",2019,10,October,5,positive
+47607,5947,wildlife_nature,"United Kingdom",Sigiriya,"Historic Sites",2019,10,October,5,positive
+47643,5964,Historical_Sites,"United States",Sigiriya,"Historic Sites",2020,1,January,5,positive
+47677,1985,wildlife_nature,India,Sigiriya,"Historic Sites",2019,11,November,5,positive
+47677,1985,Relaxing,India,Sigiriya,"Historic Sites",2019,11,November,5,positive
+47683,451,wildlife_nature,Australia,Sigiriya,"Historic Sites",2019,10,October,5,negative
+47683,451,Historical_Sites,Australia,Sigiriya,"Historic Sites",2019,10,October,5,negative
+47698,423,wildlife_nature,Canada,Sigiriya,"Historic Sites",2020,1,January,5,positive
+47698,423,Historical_Sites,Canada,Sigiriya,"Historic Sites",2020,1,January,5,positive
+47702,5990,wildlife_nature,Canada,Sigiriya,"Historic Sites",2019,12,December,3,positive
+47702,5990,Hiking_climbing,Canada,Sigiriya,"Historic Sites",2019,12,December,3,positive
+47737,6017,wildlife_nature,Vietnam,Ambalangoda,Museums,2014,8,August,5,positive
+47770,6042,wildlife_nature,"United Kingdom",Ambalangoda,Museums,2013,10,October,3,positive
+47950,3823,Historical_Sites,"United Kingdom",Kandy,Museums,2016,9,September,5,positive
+47988,6198,wildlife_nature,"United Kingdom",Kandy,Museums,2015,2,February,4,positive
+47988,6198,Historical_Sites,"United Kingdom",Kandy,Museums,2015,2,February,4,positive
+48126,5167,Hiking_climbing,Bahrain,Colombo,Museums,2019,2,February,4,positive
+48197,1611,Hiking_climbing,"United Kingdom",Colombo,Museums,2018,9,September,5,positive
+48287,6408,Historical_Sites,Australia,Colombo,Museums,2017,11,November,3,positive
+48331,6435,Historical_Sites,"Czech Republic",Colombo,Museums,2018,5,May,4,positive
+48395,6479,wildlife_nature,Australia,Hikkaduwa,Museums,2020,2,February,5,positive
+48407,6486,wildlife_nature,Belgium,Hikkaduwa,Museums,2019,10,October,5,positive
+48432,242,Beach_Water_Sports,Australia,Hikkaduwa,Museums,2019,4,April,5,negative
+48434,6501,Beach_Water_Sports,"United Kingdom",Hikkaduwa,Museums,2019,3,March,5,positive
+48434,6501,wildlife_nature,"United Kingdom",Hikkaduwa,Museums,2019,3,March,5,positive
+48451,6512,Beach_Water_Sports,Australia,Hikkaduwa,Museums,2018,7,July,4,positive
+48451,6512,Relaxing,Australia,Hikkaduwa,Museums,2018,7,July,4,positive
+48458,6517,wildlife_nature,"United Kingdom",Hikkaduwa,Museums,2017,11,November,5,positive
+48488,6543,Beach_Water_Sports,Australia,Hikkaduwa,Museums,2018,1,January,5,positive
+48488,6543,wildlife_nature,Australia,Hikkaduwa,Museums,2018,1,January,5,positive
+48499,3563,Beach_Water_Sports,"United Kingdom",Hikkaduwa,Museums,2018,1,January,5,positive
+48499,3563,wildlife_nature,"United Kingdom",Hikkaduwa,Museums,2018,1,January,5,positive
+48499,3563,Hiking_climbing,"United Kingdom",Hikkaduwa,Museums,2018,1,January,5,positive
+48509,598,wildlife_nature,"United Kingdom",Hikkaduwa,Museums,2018,3,March,5,negative
+48517,1025,Beach_Water_Sports,India,Hikkaduwa,Museums,2017,9,September,4,negative
+48527,6562,wildlife_nature,"United Kingdom",Hikkaduwa,Museums,2017,4,April,4,positive
+48582,2386,Beach_Water_Sports,Australia,Hikkaduwa,Museums,2018,7,July,4,positive
+48584,6610,Beach_Water_Sports,"United Kingdom",Hikkaduwa,Museums,2016,12,December,4,negative
+48588,6613,Beach_Water_Sports,"New Zealand",Hikkaduwa,Museums,2016,12,December,5,positive
+48588,6613,Hiking_climbing,"New Zealand",Hikkaduwa,Museums,2016,12,December,5,positive
+48604,6626,Hiking_climbing,Australia,Hikkaduwa,Museums,2018,3,March,4,positive
+48613,6632,Beach_Water_Sports,"United Kingdom",Hikkaduwa,Museums,2018,2,February,5,positive
+48617,6635,wildlife_nature,"United Kingdom",Hikkaduwa,Museums,2016,7,July,5,negative
+48618,6636,wildlife_nature,"United Kingdom",Hikkaduwa,Museums,2016,8,August,5,positive
+48628,6641,wildlife_nature,"United Kingdom",Hikkaduwa,Museums,2016,7,July,5,positive
+48636,6648,wildlife_nature,Europe,Hikkaduwa,Museums,2016,7,July,5,positive
+48647,6657,wildlife_nature,Australia,Hikkaduwa,Museums,2016,2,February,4,negative
+48669,6676,Relaxing,"United Arab Emirates",Hikkaduwa,Museums,2016,3,March,5,positive
+48697,5597,wildlife_nature,"United Kingdom",Galle,Museums,2019,4,April,4,positive
+48715,6708,Historical_Sites,Netherlands,Galle,Museums,2018,3,March,4,positive
+48720,6711,Hiking_climbing,Belarus,Galle,Museums,2017,12,December,5,positive
+48726,6715,wildlife_nature,"United Kingdom",Galle,Museums,2015,1,January,5,positive
+48745,1735,Historical_Sites,"United Kingdom",Galle,Museums,2013,10,October,4,positive
+48772,5336,Historical_Sites,"Sri Lanka",Galle,Museums,2015,8,August,5,positive
+48794,6759,Historical_Sites,"United States",Sigiriya,Museums,2019,2,February,4,positive
+48829,5013,Hiking_climbing,"United Kingdom",Sigiriya,Museums,2018,1,January,4,positive
+48830,2632,Hiking_climbing,China,Sigiriya,Museums,2018,1,January,5,positive
+48830,2632,Historical_Sites,China,Sigiriya,Museums,2018,1,January,5,positive
+48831,6776,wildlife_nature,Singapore,Sigiriya,Museums,2018,1,January,5,positive
+48844,6785,wildlife_nature,Netherlands,Sigiriya,Museums,2017,9,September,3,positive
+48859,6474,Sightseeing,"United States",Sigiriya,Museums,2018,4,April,2,positive
+48868,6796,wildlife_nature,"United Kingdom",Sigiriya,Museums,2017,3,March,4,positive
+48876,2487,wildlife_nature,"United Kingdom",Sigiriya,Museums,2017,1,January,2,neutral
+48881,6805,Hiking_climbing,"United Arab Emirates",Sigiriya,Museums,2017,1,January,3,negative
+48887,6810,wildlife_nature,Australia,Sigiriya,Museums,2016,12,December,4,positive
+48887,6810,Historical_Sites,Australia,Sigiriya,Museums,2016,12,December,4,positive
+48937,6846,Sightseeing,Belgium,Sigiriya,Museums,2016,5,May,4,positive
+48948,6855,Historical_Sites,"United States",Sigiriya,Museums,2019,6,June,3,positive
+48953,2230,wildlife_nature,Singapore,Sigiriya,Museums,2019,3,March,3,positive
+48953,2230,Historical_Sites,Singapore,Sigiriya,Museums,2019,3,March,3,positive
+48993,6886,Hiking_climbing,"United Kingdom",Sigiriya,Museums,2015,3,March,3,positive
+48993,6886,Sightseeing,"United Kingdom",Sigiriya,Museums,2015,3,March,3,positive
+49018,3380,wildlife_nature,Ireland,Sigiriya,Museums,2015,2,February,4,positive
+49018,3380,Historical_Sites,Ireland,Sigiriya,Museums,2015,2,February,4,positive
+49040,6924,Hiking_climbing,"United Kingdom",Sigiriya,Museums,2014,9,September,5,positive
+49040,6924,Historical_Sites,"United Kingdom",Sigiriya,Museums,2014,9,September,5,positive
+49098,2042,Religious,India,Kandy,Museums,2018,5,May,4,positive
+49100,2290,Religious,Indonesia,Kandy,Museums,2018,3,March,5,positive
+49124,4108,Religious,"United Kingdom",Kandy,Museums,2018,5,May,4,positive
+49169,1046,Religious,"New Zealand",Kandy,Museums,2017,1,January,5,positive
+49170,7002,wildlife_nature,Australia,Kandy,Museums,2017,1,January,5,positive
+49170,7002,Religious,Australia,Kandy,Museums,2017,1,January,5,positive
+49171,7003,Religious,Jordan,Kandy,Museums,2017,1,January,4,positive
+49184,5363,Religious,"United States",Kandy,Museums,2015,1,January,4,positive
+49189,3372,Religious,Russia,Kandy,Museums,2015,4,April,3,positive
+49201,6946,Religious,"United Kingdom",Kandy,Museums,2016,1,January,5,positive
+49214,6254,Religious,India,Kandy,Museums,2014,2,February,5,positive
+49236,7046,wildlife_nature,"United States",Weligatta,"National Parks",2019,12,December,5,positive
+49238,7048,wildlife_nature,Netherlands,Weligatta,"National Parks",2019,12,December,5,positive
+49245,1976,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2020,2,February,5,positive
+49248,7056,wildlife_nature,Canada,Weligatta,"National Parks",2020,3,March,5,positive
+49259,7064,wildlife_nature,Australia,Weligatta,"National Parks",2019,5,May,4,positive
+49270,7072,wildlife_nature,"Solomon Islands",Weligatta,"National Parks",2018,12,December,5,positive
+49270,7072,Sightseeing,"Solomon Islands",Weligatta,"National Parks",2018,12,December,5,positive
+49274,7075,wildlife_nature,"United Arab Emirates",Weligatta,"National Parks",2018,12,December,5,positive
+49279,7080,wildlife_nature,Poland,Weligatta,"National Parks",2022,2,February,5,positive
+49285,6872,wildlife_nature,Canada,Weligatta,"National Parks",2019,2,February,4,positive
+49285,6872,Relaxing,Canada,Weligatta,"National Parks",2019,2,February,4,positive
+49300,7095,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2018,2,February,5,positive
+49313,6080,wildlife_nature,Croatia,Weligatta,"National Parks",2018,1,January,5,positive
+49331,7119,Beach_Water_Sports,"Hong Kong",Weligatta,"National Parks",2019,2,February,5,positive
+49331,7119,wildlife_nature,"Hong Kong",Weligatta,"National Parks",2019,2,February,5,positive
+49331,7119,Sightseeing,"Hong Kong",Weligatta,"National Parks",2019,2,February,5,positive
+49332,7120,wildlife_nature,Norway,Weligatta,"National Parks",2019,2,February,5,positive
+49348,5246,wildlife_nature,"Sri Lanka",Weligatta,"National Parks",2018,3,March,5,positive
+49348,5246,Sightseeing,"Sri Lanka",Weligatta,"National Parks",2018,3,March,5,positive
+49349,7136,wildlife_nature,India,Weligatta,"National Parks",2017,8,August,5,positive
+49353,7140,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2017,4,April,5,positive
+49354,7141,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2017,3,March,4,positive
+49371,7154,wildlife_nature,Hungary,Weligatta,"National Parks",2017,1,January,5,positive
+49371,7154,Hiking_climbing,Hungary,Weligatta,"National Parks",2017,1,January,5,positive
+49371,7154,Sightseeing,Hungary,Weligatta,"National Parks",2017,1,January,5,positive
+49384,7163,wildlife_nature,India,Weligatta,"National Parks",2016,12,December,3,positive
+49387,7165,Beach_Water_Sports,"United Kingdom",Weligatta,"National Parks",2017,1,January,5,positive
+49387,7165,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2017,1,January,5,positive
+49387,7165,Sightseeing,"United Kingdom",Weligatta,"National Parks",2017,1,January,5,positive
+49387,7165,Relaxing,"United Kingdom",Weligatta,"National Parks",2017,1,January,5,positive
+49389,7167,wildlife_nature,Germany,Weligatta,"National Parks",2017,12,December,5,positive
+49390,7168,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2017,11,November,4,positive
+49406,7181,wildlife_nature,Norway,Weligatta,"National Parks",2017,4,April,5,positive
+49407,7182,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2017,3,March,5,positive
+49408,7183,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2017,3,March,5,positive
+49408,7183,Sightseeing,"United Kingdom",Weligatta,"National Parks",2017,3,March,5,positive
+49410,1057,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2017,2,February,5,positive
+49417,7190,wildlife_nature,"United Kingdom",Weligatta,"National Parks",2017,2,February,5,positive
+49417,7190,Relaxing,"United Kingdom",Weligatta,"National Parks",2017,2,February,5,positive
+49422,7194,wildlife_nature,Russia,"Nuwara Eliya","National Parks",2022,1,January,4,positive
+49422,7194,Hiking_climbing,Russia,"Nuwara Eliya","National Parks",2022,1,January,4,positive
+49422,7194,Romantic_holiday,Russia,"Nuwara Eliya","National Parks",2022,1,January,4,positive
+49438,3961,Hiking_climbing,Australia,"Nuwara Eliya","National Parks",2023,2,February,4,positive
+49444,7206,Hiking_climbing,India,"Nuwara Eliya","National Parks",2022,4,April,4,positive
+49475,3182,wildlife_nature,Australia,"Nuwara Eliya","National Parks",2019,7,July,5,positive
+49475,3182,Hiking_climbing,Australia,"Nuwara Eliya","National Parks",2019,7,July,5,positive
+49475,3182,Sightseeing,Australia,"Nuwara Eliya","National Parks",2019,7,July,5,positive
+49476,7223,wildlife_nature,China,"Nuwara Eliya","National Parks",2018,10,October,5,positive
+49476,7223,Hiking_climbing,China,"Nuwara Eliya","National Parks",2018,10,October,5,positive
+49482,2056,wildlife_nature,Thailand,"Nuwara Eliya","National Parks",2019,7,July,5,positive
+49482,2056,Hiking_climbing,Thailand,"Nuwara Eliya","National Parks",2019,7,July,5,positive
+49510,2538,Hiking_climbing,"United Kingdom","Nuwara Eliya","National Parks",2019,3,March,4,positive
+49511,7240,wildlife_nature,India,"Nuwara Eliya","National Parks",2019,2,February,5,positive
+49511,7240,Hiking_climbing,India,"Nuwara Eliya","National Parks",2019,2,February,5,positive
+49511,7240,Sightseeing,India,"Nuwara Eliya","National Parks",2019,2,February,5,positive
+49520,227,wildlife_nature,"United Kingdom","Nuwara Eliya","National Parks",2020,1,January,4,positive
+49520,227,Hiking_climbing,"United Kingdom","Nuwara Eliya","National Parks",2020,1,January,4,positive
+49520,227,Sightseeing,"United Kingdom","Nuwara Eliya","National Parks",2020,1,January,4,positive
+49526,1190,Hiking_climbing,Malta,"Nuwara Eliya","National Parks",2020,1,January,5,positive
+49526,1190,Sightseeing,Malta,"Nuwara Eliya","National Parks",2020,1,January,5,positive
+49532,7248,wildlife_nature,"United Arab Emirates","Nuwara Eliya","National Parks",2019,12,December,5,positive
+49532,7248,Relaxing,"United Arab Emirates","Nuwara Eliya","National Parks",2019,12,December,5,positive
+49548,7255,wildlife_nature,"United Kingdom","Nuwara Eliya","National Parks",2019,1,January,2,positive
+49548,7255,Hiking_climbing,"United Kingdom","Nuwara Eliya","National Parks",2019,1,January,2,positive
+49561,2740,wildlife_nature,"United Kingdom","Nuwara Eliya","National Parks",2019,2,February,4,positive
+49561,2740,Hiking_climbing,"United Kingdom","Nuwara Eliya","National Parks",2019,2,February,4,positive
+49562,5442,wildlife_nature,"United States","Nuwara Eliya","National Parks",2019,2,February,5,positive
+49562,5442,Hiking_climbing,"United States","Nuwara Eliya","National Parks",2019,2,February,5,positive
+49564,7258,wildlife_nature,Romania,"Nuwara Eliya","National Parks",2019,2,February,5,positive
+49564,7258,Hiking_climbing,Romania,"Nuwara Eliya","National Parks",2019,2,February,5,positive
+49600,2172,wildlife_nature,China,"Nuwara Eliya","National Parks",2018,12,December,4,positive
+49600,2172,Hiking_climbing,China,"Nuwara Eliya","National Parks",2018,12,December,4,positive
+49608,626,wildlife_nature,"United States","Nuwara Eliya","National Parks",2018,12,December,3,positive
+49608,626,Hiking_climbing,"United States","Nuwara Eliya","National Parks",2018,12,December,3,positive
+49608,626,Sightseeing,"United States","Nuwara Eliya","National Parks",2018,12,December,3,positive
+49624,7287,wildlife_nature,Australia,Habarana,"National Parks",2019,10,October,5,positive
+49626,7289,wildlife_nature,Malta,Habarana,"National Parks",2019,9,September,5,positive
+49631,3176,wildlife_nature,"United Kingdom",Habarana,"National Parks",2019,8,August,5,positive
+49631,3176,Sightseeing,"United Kingdom",Habarana,"National Parks",2019,8,August,5,positive
+49639,5217,wildlife_nature,Australia,Habarana,"National Parks",2019,11,November,5,positive
+49656,5374,wildlife_nature,Canada,Habarana,"National Parks",2019,2,February,4,positive
+49658,7308,wildlife_nature,Australia,Habarana,"National Parks",2019,9,September,5,positive
+49681,3517,wildlife_nature,Asia,Habarana,"National Parks",2018,10,October,5,positive
+49681,3517,Sightseeing,Asia,Habarana,"National Parks",2018,10,October,5,positive
+49697,5729,wildlife_nature,Singapore,Habarana,"National Parks",2018,9,September,4,positive
+49717,7343,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,5,May,3,positive
+49717,7343,Relaxing,"United Kingdom",Habarana,"National Parks",2018,5,May,3,positive
+49721,5648,wildlife_nature,"New Zealand",Habarana,"National Parks",2018,7,July,5,positive
+49723,5477,wildlife_nature,Netherlands,Habarana,"National Parks",2018,8,August,3,positive
+49743,5682,wildlife_nature,Turkiye,Habarana,"National Parks",2018,3,March,4,positive
+49744,7360,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,3,March,4,positive
+49744,7360,Sightseeing,"United Kingdom",Habarana,"National Parks",2018,3,March,4,positive
+49746,7362,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,3,March,5,positive
+49770,7380,wildlife_nature,"United Arab Emirates",Habarana,"National Parks",2018,3,March,5,positive
+49774,7381,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,5,May,5,positive
+49774,7381,Sightseeing,"United Kingdom",Habarana,"National Parks",2018,5,May,5,positive
+49783,7388,wildlife_nature,France,Habarana,"National Parks",2018,4,April,5,positive
+49784,7389,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,4,April,5,positive
+49790,7394,wildlife_nature,Cyprus,Habarana,"National Parks",2018,2,February,5,positive
+49795,7398,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,2,February,4,positive
+49795,7398,Hiking_climbing,"United Kingdom",Habarana,"National Parks",2018,2,February,4,positive
+49795,7398,Relaxing,"United Kingdom",Habarana,"National Parks",2018,2,February,4,positive
+49797,7399,wildlife_nature,Australia,Habarana,"National Parks",2018,2,February,5,positive
+49801,3277,wildlife_nature,Singapore,Habarana,"National Parks",2018,2,February,5,positive
+49802,7401,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,2,February,5,positive
+49810,1765,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,1,January,4,positive
+49827,7417,Beach_Water_Sports,Australia,Ampara,"National Parks",2017,7,July,3,positive
+49827,7417,wildlife_nature,Australia,Ampara,"National Parks",2017,7,July,3,positive
+49833,4560,wildlife_nature,Japan,Ampara,"National Parks",2016,8,August,5,positive
+49848,7433,wildlife_nature,Australia,Ampara,"National Parks",2015,7,July,3,negative
+49865,4795,wildlife_nature,"United Kingdom",Habarana,"National Parks",2020,2,February,5,positive
+49873,7449,wildlife_nature,"United Kingdom",Habarana,"National Parks",2019,11,November,5,positive
+49877,7450,wildlife_nature,Australia,Habarana,"National Parks",2019,9,September,5,positive
+49880,7452,wildlife_nature,"United Arab Emirates",Habarana,"National Parks",2019,4,April,5,positive
+49898,7463,wildlife_nature,"United Kingdom",Habarana,"National Parks",2019,4,April,5,positive
+49899,2334,wildlife_nature,Australia,Habarana,"National Parks",2019,2,February,4,positive
+49905,69,wildlife_nature,Australia,Habarana,"National Parks",2019,3,March,5,positive
+49905,69,Sightseeing,Australia,Habarana,"National Parks",2019,3,March,5,positive
+49918,4845,wildlife_nature,Australia,Habarana,"National Parks",2019,3,March,5,positive
+49922,2051,wildlife_nature,"United Kingdom",Habarana,"National Parks",2019,3,March,5,positive
+49923,7474,wildlife_nature,"United States",Habarana,"National Parks",2019,3,March,3,positive
+49924,7474,wildlife_nature,"United States",Habarana,"National Parks",2019,3,March,3,positive
+49946,7490,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,11,November,1,negative
+49946,7490,Relaxing,"United Kingdom",Habarana,"National Parks",2018,11,November,1,negative
+49963,7498,wildlife_nature,Australia,Habarana,"National Parks",2018,9,September,5,positive
+49980,7510,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,9,September,4,positive
+49981,5995,wildlife_nature,Australia,Habarana,"National Parks",2018,9,September,5,positive
+49981,5995,Sightseeing,Australia,Habarana,"National Parks",2018,9,September,5,positive
+49994,7516,wildlife_nature,Canada,Habarana,"National Parks",2019,2,February,5,positive
+50004,4896,wildlife_nature,"United Kingdom",Habarana,"National Parks",2019,1,January,5,positive
+50035,7540,wildlife_nature,India,Habarana,"National Parks",2018,5,May,5,positive
+50035,7540,Sightseeing,India,Habarana,"National Parks",2018,5,May,5,positive
+50036,2811,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,4,April,4,positive
+50037,7541,wildlife_nature,India,Habarana,"National Parks",2018,4,April,4,positive
+50056,7554,wildlife_nature,India,Habarana,"National Parks",2018,6,June,4,positive
+50056,7554,Sightseeing,India,Habarana,"National Parks",2018,6,June,4,positive
+50058,2461,wildlife_nature,Australia,Habarana,"National Parks",2018,6,June,5,positive
+50060,7556,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,5,May,5,positive
+50067,5235,wildlife_nature,"United Kingdom",Habarana,"National Parks",2018,7,July,4,positive
+50067,5235,Sightseeing,"United Kingdom",Habarana,"National Parks",2018,7,July,4,positive
+50121,7593,Beach_Water_Sports,Australia,Nilaveli,"National Parks",2019,4,April,4,positive
+50147,1966,Beach_Water_Sports,"United States",Nilaveli,"National Parks",2017,11,November,5,positive
+50147,1966,wildlife_nature,"United States",Nilaveli,"National Parks",2017,11,November,5,positive
+50166,7613,wildlife_nature,Belgium,Nilaveli,"National Parks",2018,5,May,5,positive
+50185,7620,Beach_Water_Sports,"United Kingdom",Nilaveli,"National Parks",2018,8,August,3,positive
+50185,7620,wildlife_nature,"United Kingdom",Nilaveli,"National Parks",2018,8,August,3,positive
+50206,7635,wildlife_nature,"United Kingdom",Nilaveli,"National Parks",2017,8,August,4,positive
+50270,3104,Beach_Water_Sports,"United Kingdom",Nilaveli,"National Parks",2017,4,April,5,positive
+50270,3104,wildlife_nature,"United Kingdom",Nilaveli,"National Parks",2017,4,April,5,positive
+50296,7696,wildlife_nature,Malaysia,Embilipitiya,"National Parks",2020,3,March,5,positive
+50310,7706,wildlife_nature,"United Kingdom",Embilipitiya,"National Parks",2020,2,February,5,positive
+50313,7709,wildlife_nature,"United Kingdom",Embilipitiya,"National Parks",2020,2,February,5,positive
+50318,7712,wildlife_nature,"United Kingdom",Embilipitiya,"National Parks",2020,1,January,5,positive
+50318,7712,Relaxing,"United Kingdom",Embilipitiya,"National Parks",2020,1,January,5,positive
+50329,7718,wildlife_nature,"United Kingdom",Embilipitiya,"National Parks",2023,2,February,5,positive
+50340,7727,wildlife_nature,Austria,Embilipitiya,"National Parks",2020,1,January,5,positive
+50340,7727,Sightseeing,Austria,Embilipitiya,"National Parks",2020,1,January,5,positive
+50348,7732,wildlife_nature,Canada,Embilipitiya,"National Parks",2020,1,January,5,positive
+50368,7745,wildlife_nature,"United Arab Emirates",Embilipitiya,"National Parks",2019,12,December,5,positive
+50368,7745,Relaxing,"United Arab Emirates",Embilipitiya,"National Parks",2019,12,December,5,positive
+50385,1557,wildlife_nature,Australia,Embilipitiya,"National Parks",2019,11,November,2,negative
+50390,7759,wildlife_nature,"United Kingdom",Embilipitiya,"National Parks",2019,11,November,5,positive
+50390,7759,Sightseeing,"United Kingdom",Embilipitiya,"National Parks",2019,11,November,5,positive
+50393,7761,wildlife_nature,"United Kingdom",Embilipitiya,"National Parks",2020,1,January,5,positive
+50393,7761,Sightseeing,"United Kingdom",Embilipitiya,"National Parks",2020,1,January,5,positive
+50399,7766,wildlife_nature,Nepal,Embilipitiya,"National Parks",2019,12,December,5,positive
+50401,7767,wildlife_nature,"United Kingdom",Embilipitiya,"National Parks",2019,12,December,4,positive
+50409,7774,Beach_Water_Sports,Ireland,Embilipitiya,"National Parks",2019,11,November,5,positive
+50409,7774,wildlife_nature,Ireland,Embilipitiya,"National Parks",2019,11,November,5,positive
+50413,7778,wildlife_nature,Germany,Embilipitiya,"National Parks",2019,10,October,5,positive
+50420,4159,wildlife_nature,"United Kingdom",Embilipitiya,"National Parks",2019,10,October,5,positive
+50425,7786,wildlife_nature,"United States",Embilipitiya,"National Parks",2019,10,October,5,positive
+50425,7786,Sightseeing,"United States",Embilipitiya,"National Parks",2019,10,October,5,positive
+50430,7791,wildlife_nature,Belgium,Embilipitiya,"National Parks",2019,10,October,5,positive
+50432,7793,wildlife_nature,Latvia,Embilipitiya,"National Parks",2019,10,October,5,positive
+50439,7799,wildlife_nature,India,Kalametiya,"Nature & Wildlife Areas",2020,1,January,5,positive
+50439,7799,Relaxing,India,Kalametiya,"Nature & Wildlife Areas",2020,1,January,5,positive
+50441,7801,wildlife_nature,"New Zealand",Kalametiya,"Nature & Wildlife Areas",2019,9,September,5,positive
+50444,7804,wildlife_nature,Laos,Kalametiya,"Nature & Wildlife Areas",2019,4,April,5,positive
+50444,7804,Relaxing,Laos,Kalametiya,"Nature & Wildlife Areas",2019,4,April,5,positive
+50445,7805,Beach_Water_Sports,Belgium,Kalametiya,"Nature & Wildlife Areas",2019,8,August,5,positive
+50445,7805,wildlife_nature,Belgium,Kalametiya,"Nature & Wildlife Areas",2019,8,August,5,positive
+50445,7805,Sightseeing,Belgium,Kalametiya,"Nature & Wildlife Areas",2019,8,August,5,positive
+50445,7805,Relaxing,Belgium,Kalametiya,"Nature & Wildlife Areas",2019,8,August,5,positive
+50449,7809,Beach_Water_Sports,Germany,Kalametiya,"Nature & Wildlife Areas",2020,2,February,5,positive
+50449,7809,wildlife_nature,Germany,Kalametiya,"Nature & Wildlife Areas",2020,2,February,5,positive
+50449,7809,Relaxing,Germany,Kalametiya,"Nature & Wildlife Areas",2020,2,February,5,positive
+50450,5866,wildlife_nature,Poland,Kalametiya,"Nature & Wildlife Areas",2020,2,February,5,positive
+50453,7811,Beach_Water_Sports,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2020,1,January,5,positive
+50453,7811,wildlife_nature,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2020,1,January,5,positive
+50454,7812,wildlife_nature,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2020,2,February,5,positive
+50454,7812,Relaxing,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2020,2,February,5,positive
+50456,7813,wildlife_nature,Switzerland,Kalametiya,"Nature & Wildlife Areas",2020,1,January,5,positive
+50459,7816,Beach_Water_Sports,Poland,Kalametiya,"Nature & Wildlife Areas",2019,7,July,5,positive
+50459,7816,wildlife_nature,Poland,Kalametiya,"Nature & Wildlife Areas",2019,7,July,5,positive
+50475,7829,wildlife_nature,Romania,Kalametiya,"Nature & Wildlife Areas",2019,2,February,5,positive
+50477,7831,Beach_Water_Sports,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2019,1,January,5,positive
+50477,7831,wildlife_nature,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2019,1,January,5,positive
+50479,7832,Beach_Water_Sports,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50479,7832,wildlife_nature,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50479,7832,Relaxing,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50480,7833,wildlife_nature,"Czech Republic",Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50482,7835,Beach_Water_Sports,"United States",Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50482,7835,wildlife_nature,"United States",Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50484,7837,Beach_Water_Sports,Canada,Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50484,7837,wildlife_nature,Canada,Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50484,7837,Hiking_climbing,Canada,Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50484,7837,Relaxing,Canada,Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50487,2734,Beach_Water_Sports,Singapore,Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50487,2734,wildlife_nature,Singapore,Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50487,2734,Relaxing,Singapore,Kalametiya,"Nature & Wildlife Areas",2018,12,December,5,positive
+50488,7840,wildlife_nature,Netherlands,Kalametiya,"Nature & Wildlife Areas",2019,4,April,5,positive
+50489,7841,wildlife_nature,Canada,Kalametiya,"Nature & Wildlife Areas",2019,4,April,5,positive
+50489,7841,Relaxing,Canada,Kalametiya,"Nature & Wildlife Areas",2019,4,April,5,positive
+50498,5210,Beach_Water_Sports,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2019,3,March,5,positive
+50498,5210,wildlife_nature,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2019,3,March,5,positive
+50498,5210,Relaxing,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2019,3,March,5,positive
+50500,7848,Beach_Water_Sports,Germany,Kalametiya,"Nature & Wildlife Areas",2019,2,February,5,positive
+50500,7848,wildlife_nature,Germany,Kalametiya,"Nature & Wildlife Areas",2019,2,February,5,positive
+50503,7850,wildlife_nature,China,Kalametiya,"Nature & Wildlife Areas",2023,2,February,5,positive
+50503,7850,Relaxing,China,Kalametiya,"Nature & Wildlife Areas",2023,2,February,5,positive
+50507,7853,wildlife_nature,NULL,Kalametiya,"Nature & Wildlife Areas",2022,1,January,5,positive
+50515,7861,Beach_Water_Sports,"United States",Kalametiya,"Nature & Wildlife Areas",2018,8,August,5,positive
+50515,7861,wildlife_nature,"United States",Kalametiya,"Nature & Wildlife Areas",2018,8,August,5,positive
+50519,7865,Beach_Water_Sports,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2018,7,July,5,positive
+50519,7865,wildlife_nature,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2018,7,July,5,positive
+50536,7879,wildlife_nature,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2018,11,November,5,positive
+50536,7879,Sightseeing,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2018,11,November,5,positive
+50545,7887,Beach_Water_Sports,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2019,1,January,5,positive
+50545,7887,wildlife_nature,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2019,1,January,5,positive
+50545,7887,Sightseeing,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",2019,1,January,5,positive
+50549,7891,Beach_Water_Sports,"New Zealand",Kalametiya,"Nature & Wildlife Areas",2019,1,January,5,positive
+50549,7891,wildlife_nature,"New Zealand",Kalametiya,"Nature & Wildlife Areas",2019,1,January,5,positive
+50556,7898,Beach_Water_Sports,Austria,Kalametiya,"Nature & Wildlife Areas",2018,3,March,5,positive
+50556,7898,wildlife_nature,Austria,Kalametiya,"Nature & Wildlife Areas",2018,3,March,5,positive
+50565,7906,wildlife_nature,Denmark,Kalametiya,"Nature & Wildlife Areas",2018,2,February,5,positive
+50567,7908,Beach_Water_Sports,France,Kalametiya,"Nature & Wildlife Areas",2018,2,February,5,positive
+50567,7908,wildlife_nature,France,Kalametiya,"Nature & Wildlife Areas",2018,2,February,5,positive
+50569,5693,wildlife_nature,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2019,12,December,5,positive
+50570,5953,wildlife_nature,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2019,10,October,5,positive
+50580,2218,wildlife_nature,Australia,Sigiriya,"Nature & Wildlife Areas",2019,3,March,5,positive
+50586,7916,wildlife_nature,"United Arab Emirates",Sigiriya,"Nature & Wildlife Areas",2018,6,June,4,positive
+50589,7917,wildlife_nature,"United States",Sigiriya,"Nature & Wildlife Areas",2018,4,April,5,positive
+50590,5666,wildlife_nature,Spain,Sigiriya,"Nature & Wildlife Areas",2018,4,April,4,positive
+50604,4046,wildlife_nature,Malta,Sigiriya,"Nature & Wildlife Areas",2018,2,February,5,positive
+50609,7932,wildlife_nature,Australia,Sigiriya,"Nature & Wildlife Areas",2018,1,January,5,positive
+50612,7934,wildlife_nature,France,Sigiriya,"Nature & Wildlife Areas",2017,12,December,5,positive
+50612,7934,Religious,France,Sigiriya,"Nature & Wildlife Areas",2017,12,December,5,positive
+50620,824,wildlife_nature,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2018,9,September,5,positive
+50627,7945,wildlife_nature,Romania,Sigiriya,"Nature & Wildlife Areas",2018,6,June,5,positive
+50634,7255,wildlife_nature,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2019,1,January,4,positive
+50648,7958,wildlife_nature,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2018,9,September,5,positive
+50653,7962,wildlife_nature,India,Sigiriya,"Nature & Wildlife Areas",2017,10,October,4,positive
+50653,7962,Sightseeing,India,Sigiriya,"Nature & Wildlife Areas",2017,10,October,4,positive
+50657,7964,wildlife_nature,Qatar,Sigiriya,"Nature & Wildlife Areas",2017,9,September,3,positive
+50679,7982,wildlife_nature,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2017,8,August,5,positive
+50705,2423,wildlife_nature,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2017,5,May,5,positive
+50724,3829,wildlife_nature,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2016,12,December,5,positive
+50724,3829,Sightseeing,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2016,12,December,5,positive
+50726,6815,wildlife_nature,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2016,10,October,3,positive
+50726,6815,Sightseeing,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",2016,10,October,3,positive
+50727,2493,wildlife_nature,"United States",Sigiriya,"Nature & Wildlife Areas",2016,11,November,5,positive
+50735,8022,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2023,3,March,2,positive
+50737,8024,wildlife_nature,"United States",Pinnawala,"Nature & Wildlife Areas",2023,2,February,5,positive
+50739,8026,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2023,2,February,1,negative
+50739,8026,Relaxing,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2023,2,February,1,negative
+50740,8027,wildlife_nature,India,Pinnawala,"Nature & Wildlife Areas",2023,2,February,3,positive
+50744,8031,wildlife_nature,Lithuania,Pinnawala,"Nature & Wildlife Areas",2022,12,December,2,positive
+50749,8035,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2022,1,January,3,positive
+50755,8039,wildlife_nature,India,Pinnawala,"Nature & Wildlife Areas",2022,3,March,5,positive
+50760,8042,wildlife_nature,Ireland,Pinnawala,"Nature & Wildlife Areas",2020,1,January,1,negative
+50760,8042,Hiking_climbing,Ireland,Pinnawala,"Nature & Wildlife Areas",2020,1,January,1,negative
+50762,5989,wildlife_nature,India,Pinnawala,"Nature & Wildlife Areas",2019,12,December,4,positive
+50764,5119,wildlife_nature,India,Pinnawala,"Nature & Wildlife Areas",2019,12,December,5,positive
+50777,5122,Beach_Water_Sports,Poland,Pinnawala,"Nature & Wildlife Areas",2020,2,February,5,positive
+50777,5122,wildlife_nature,Poland,Pinnawala,"Nature & Wildlife Areas",2020,2,February,5,positive
+50777,5122,Sightseeing,Poland,Pinnawala,"Nature & Wildlife Areas",2020,2,February,5,positive
+50785,8056,wildlife_nature,Germany,Pinnawala,"Nature & Wildlife Areas",2019,12,December,1,positive
+50797,1237,wildlife_nature,Australia,Pinnawala,"Nature & Wildlife Areas",2020,2,February,3,positive
+50808,8067,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,7,July,3,positive
+50817,8074,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,8,August,1,positive
+50817,8074,Relaxing,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,8,August,1,positive
+50828,4839,wildlife_nature,"United States",Pinnawala,"Nature & Wildlife Areas",2019,3,March,3,positive
+50828,4839,Hiking_climbing,"United States",Pinnawala,"Nature & Wildlife Areas",2019,3,March,3,positive
+50843,8087,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,3,March,5,negative
+50843,8087,Relaxing,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,3,March,5,negative
+50847,8089,wildlife_nature,Canada,Pinnawala,"Nature & Wildlife Areas",2019,3,March,1,positive
+50852,8094,wildlife_nature,Vietnam,Pinnawala,"Nature & Wildlife Areas",2019,1,January,3,positive
+50853,8095,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,3,March,1,positive
+50853,8095,Hiking_climbing,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,3,March,1,positive
+50884,8111,wildlife_nature,Australia,Pinnawala,"Nature & Wildlife Areas",2019,1,January,1,positive
+50886,3952,wildlife_nature,Australia,Pinnawala,"Nature & Wildlife Areas",2019,1,January,1,positive
+50896,8116,wildlife_nature,Australia,Pinnawala,"Nature & Wildlife Areas",2019,10,October,5,positive
+50897,5944,wildlife_nature,India,Pinnawala,"Nature & Wildlife Areas",2019,10,October,3,negative
+50898,5943,Beach_Water_Sports,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,10,October,4,positive
+50898,5943,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,10,October,4,positive
+50898,5943,Relaxing,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,10,October,4,positive
+50910,8122,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,1,January,2,positive
+50910,8122,Hiking_climbing,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2019,1,January,2,positive
+50913,8123,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2018,12,December,1,positive
+50915,8124,wildlife_nature,"United States",Pinnawala,"Nature & Wildlife Areas",2018,11,November,1,negative
+50916,8125,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2018,12,December,3,positive
+50925,8130,wildlife_nature,"United Arab Emirates",Pinnawala,"Nature & Wildlife Areas",2018,12,December,3,positive
+50925,8130,Religious,"United Arab Emirates",Pinnawala,"Nature & Wildlife Areas",2018,12,December,3,positive
+50940,8141,wildlife_nature,"United Arab Emirates",Pinnawala,"Nature & Wildlife Areas",2018,12,December,2,positive
+50941,3214,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2018,11,November,2,positive
+50944,8144,wildlife_nature,Finland,Pinnawala,"Nature & Wildlife Areas",2018,7,July,1,negative
+50978,8159,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2018,10,October,3,negative
+50986,8165,wildlife_nature,Netherlands,Pinnawala,"Nature & Wildlife Areas",2018,10,October,1,negative
+51014,8186,wildlife_nature,"New Zealand",Pinnawala,"Nature & Wildlife Areas",2018,4,April,4,positive
+51014,8186,Hiking_climbing,"New Zealand",Pinnawala,"Nature & Wildlife Areas",2018,4,April,4,positive
+51015,8187,wildlife_nature,"United States",Pinnawala,"Nature & Wildlife Areas",2018,6,June,5,positive
+51022,5709,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2018,2,February,4,positive
+51024,8194,wildlife_nature,Qatar,Pinnawala,"Nature & Wildlife Areas",2018,6,June,4,positive
+51043,8207,wildlife_nature,Spain,Pinnawala,"Nature & Wildlife Areas",2017,9,September,5,positive
+51045,1719,wildlife_nature,Canada,Pinnawala,"Nature & Wildlife Areas",2018,7,July,4,negative
+51045,1719,Hiking_climbing,Canada,Pinnawala,"Nature & Wildlife Areas",2018,7,July,4,negative
+51062,8219,wildlife_nature,Denmark,Pinnawala,"Nature & Wildlife Areas",2019,2,February,1,positive
+51082,8235,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2018,5,May,4,positive
+51087,8238,wildlife_nature,Malaysia,Pinnawala,"Nature & Wildlife Areas",2018,4,April,1,positive
+51092,2809,wildlife_nature,India,Pinnawala,"Nature & Wildlife Areas",2018,5,May,5,positive
+51092,2809,Relaxing,India,Pinnawala,"Nature & Wildlife Areas",2018,5,May,5,positive
+51095,2811,wildlife_nature,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2018,4,April,5,positive
+51095,2811,Hiking_climbing,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2018,4,April,5,positive
+51196,8317,wildlife_nature,"United States",Galle,"Nature & Wildlife Areas",2018,8,August,4,positive
+51203,8321,wildlife_nature,Ireland,Galle,"Nature & Wildlife Areas",2018,9,September,5,positive
+51203,8321,Relaxing,Ireland,Galle,"Nature & Wildlife Areas",2018,9,September,5,positive
+51256,2442,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2019,3,March,5,positive
+51256,2442,Hiking_climbing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2019,3,March,5,positive
+51256,2442,Relaxing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2019,3,March,5,positive
+51258,7085,wildlife_nature,Australia,Deniyaya,"Nature & Wildlife Areas",2019,4,April,4,positive
+51269,8365,wildlife_nature,China,Deniyaya,"Nature & Wildlife Areas",2019,2,February,4,positive
+51269,8365,Hiking_climbing,China,Deniyaya,"Nature & Wildlife Areas",2019,2,February,4,positive
+51271,8367,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2019,2,February,5,positive
+51271,8367,Hiking_climbing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2019,2,February,5,positive
+51275,3512,wildlife_nature,Australia,Deniyaya,"Nature & Wildlife Areas",2018,12,December,3,positive
+51275,3512,Hiking_climbing,Australia,Deniyaya,"Nature & Wildlife Areas",2018,12,December,3,positive
+51275,3512,Sightseeing,Australia,Deniyaya,"Nature & Wildlife Areas",2018,12,December,3,positive
+51277,8371,wildlife_nature,"United States",Deniyaya,"Nature & Wildlife Areas",2018,11,November,4,positive
+51278,1373,wildlife_nature,India,Deniyaya,"Nature & Wildlife Areas",2018,8,August,3,positive
+51281,8185,wildlife_nature,Netherlands,Deniyaya,"Nature & Wildlife Areas",2018,6,June,5,positive
+51284,590,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2018,4,April,4,positive
+51284,590,Hiking_climbing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2018,4,April,4,positive
+51284,590,Sightseeing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2018,4,April,4,positive
+51286,8376,wildlife_nature,Belgium,Deniyaya,"Nature & Wildlife Areas",2018,3,March,3,positive
+51286,8376,Hiking_climbing,Belgium,Deniyaya,"Nature & Wildlife Areas",2018,3,March,3,positive
+51286,8376,Sightseeing,Belgium,Deniyaya,"Nature & Wildlife Areas",2018,3,March,3,positive
+51286,8376,Relaxing,Belgium,Deniyaya,"Nature & Wildlife Areas",2018,3,March,3,positive
+51287,6707,wildlife_nature,Ethiopia,Deniyaya,"Nature & Wildlife Areas",2017,9,September,4,positive
+51287,6707,Sightseeing,Ethiopia,Deniyaya,"Nature & Wildlife Areas",2017,9,September,4,positive
+51298,8386,wildlife_nature,Netherlands,Deniyaya,"Nature & Wildlife Areas",2018,2,February,4,positive
+51303,2631,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2018,2,February,5,positive
+51305,8392,wildlife_nature,Netherlands,Deniyaya,"Nature & Wildlife Areas",2017,3,March,5,positive
+51305,8392,Hiking_climbing,Netherlands,Deniyaya,"Nature & Wildlife Areas",2017,3,March,5,positive
+51320,8403,wildlife_nature,India,Deniyaya,"Nature & Wildlife Areas",2016,2,February,5,positive
+51323,8406,Beach_Water_Sports,Qatar,Deniyaya,"Nature & Wildlife Areas",2017,1,January,4,positive
+51323,8406,wildlife_nature,Qatar,Deniyaya,"Nature & Wildlife Areas",2017,1,January,4,positive
+51323,8406,Hiking_climbing,Qatar,Deniyaya,"Nature & Wildlife Areas",2017,1,January,4,positive
+51323,8406,Sightseeing,Qatar,Deniyaya,"Nature & Wildlife Areas",2017,1,January,4,positive
+51329,4550,wildlife_nature,India,Deniyaya,"Nature & Wildlife Areas",2016,12,December,5,positive
+51329,4550,Sightseeing,India,Deniyaya,"Nature & Wildlife Areas",2016,12,December,5,positive
+51341,7141,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2017,4,April,4,positive
+51345,3331,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,9,September,5,positive
+51345,3331,Relaxing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,9,September,5,positive
+51351,2583,Beach_Water_Sports,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,8,August,4,positive
+51351,2583,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,8,August,4,positive
+51351,2583,Hiking_climbing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,8,August,4,positive
+51351,2583,Biking_cycling,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,8,August,4,positive
+51351,2583,Sightseeing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,8,August,4,positive
+51353,8422,wildlife_nature,Germany,Deniyaya,"Nature & Wildlife Areas",2016,8,August,5,positive
+51359,3909,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2015,11,November,5,positive
+51359,3909,Hiking_climbing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2015,11,November,5,positive
+51365,8429,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2015,9,September,5,positive
+51365,8429,Hiking_climbing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2015,9,September,5,positive
+51374,8437,wildlife_nature,India,Deniyaya,"Nature & Wildlife Areas",2016,5,May,4,positive
+51374,8437,Hiking_climbing,India,Deniyaya,"Nature & Wildlife Areas",2016,5,May,4,positive
+51375,8438,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,3,March,4,positive
+51375,8438,Hiking_climbing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,3,March,4,positive
+51378,8441,wildlife_nature,"United States",Deniyaya,"Nature & Wildlife Areas",2015,2,February,5,positive
+51378,8441,Hiking_climbing,"United States",Deniyaya,"Nature & Wildlife Areas",2015,2,February,5,positive
+51390,8449,Beach_Water_Sports,"Czech Republic",Deniyaya,"Nature & Wildlife Areas",2015,1,January,4,positive
+51390,8449,wildlife_nature,"Czech Republic",Deniyaya,"Nature & Wildlife Areas",2015,1,January,4,positive
+51390,8449,Sightseeing,"Czech Republic",Deniyaya,"Nature & Wildlife Areas",2015,1,January,4,positive
+51403,1725,wildlife_nature,"New Zealand",Deniyaya,"Nature & Wildlife Areas",2018,4,April,5,positive
+51403,1725,Hiking_climbing,"New Zealand",Deniyaya,"Nature & Wildlife Areas",2018,4,April,5,positive
+51403,1725,Sightseeing,"New Zealand",Deniyaya,"Nature & Wildlife Areas",2018,4,April,5,positive
+51405,8458,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2018,4,April,5,positive
+51427,8474,wildlife_nature,Hungary,Deniyaya,"Nature & Wildlife Areas",2016,2,February,4,positive
+51427,8474,Hiking_climbing,Hungary,Deniyaya,"Nature & Wildlife Areas",2016,2,February,4,positive
+51427,8474,Sightseeing,Hungary,Deniyaya,"Nature & Wildlife Areas",2016,2,February,4,positive
+51437,8482,wildlife_nature,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,2,February,4,positive
+51437,8482,Sightseeing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,2,February,4,positive
+51437,8482,Relaxing,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",2016,2,February,4,positive
+51444,8485,wildlife_nature,Australia,Kandy,"Nature & Wildlife Areas",2019,7,July,5,positive
+51473,8501,wildlife_nature,"United Kingdom",Kandy,"Nature & Wildlife Areas",2018,7,July,5,positive
+51481,700,wildlife_nature,"United Kingdom",Kandy,"Nature & Wildlife Areas",2019,2,February,4,positive
+51520,2880,Sightseeing,India,Kandy,"Nature & Wildlife Areas",2017,1,January,3,positive
+51521,8520,wildlife_nature,"United Kingdom",Kandy,"Nature & Wildlife Areas",2017,8,August,5,positive
+51521,8520,Hiking_climbing,"United Kingdom",Kandy,"Nature & Wildlife Areas",2017,8,August,5,positive
+51521,8520,Biking_cycling,"United Kingdom",Kandy,"Nature & Wildlife Areas",2017,8,August,5,positive
+51521,8520,Sightseeing,"United Kingdom",Kandy,"Nature & Wildlife Areas",2017,8,August,5,positive
+51521,8520,Religious,"United Kingdom",Kandy,"Nature & Wildlife Areas",2017,8,August,5,positive
+51521,8520,Relaxing,"United Kingdom",Kandy,"Nature & Wildlife Areas",2017,8,August,5,positive
+51535,8526,wildlife_nature,"United Kingdom",Kandy,"Nature & Wildlife Areas",2018,1,January,4,positive
+51535,8526,Religious,"United Kingdom",Kandy,"Nature & Wildlife Areas",2018,1,January,4,positive
+51603,8563,Hiking_climbing,Switzerland,Kandy,"Nature & Wildlife Areas",2015,12,December,2,positive
+51603,8563,Relaxing,Switzerland,Kandy,"Nature & Wildlife Areas",2015,12,December,2,positive
+51623,8580,wildlife_nature,"United Kingdom",Kandy,"Nature & Wildlife Areas",2015,9,September,4,positive
+51654,8606,wildlife_nature,"United Kingdom",Kandy,"Nature & Wildlife Areas",2014,2,February,4,positive
+51654,8606,Relaxing,"United Kingdom",Kandy,"Nature & Wildlife Areas",2014,2,February,4,positive
+51682,8622,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2020,1,January,5,positive
+51691,7570,wildlife_nature,Germany,Saliyapura,"Nature & Wildlife Areas",2019,8,August,5,positive
+51693,3182,wildlife_nature,Australia,Saliyapura,"Nature & Wildlife Areas",2019,7,July,5,neutral
+51693,3182,Sightseeing,Australia,Saliyapura,"Nature & Wildlife Areas",2019,7,July,5,neutral
+51696,8629,wildlife_nature,Australia,Saliyapura,"Nature & Wildlife Areas",2018,10,October,5,positive
+51699,6036,wildlife_nature,Singapore,Saliyapura,"Nature & Wildlife Areas",2019,4,April,4,negative
+51705,7085,wildlife_nature,Australia,Saliyapura,"Nature & Wildlife Areas",2019,4,April,5,positive
+51708,1223,wildlife_nature,"United States",Saliyapura,"Nature & Wildlife Areas",2019,3,March,5,positive
+51729,8648,Beach_Water_Sports,Switzerland,Saliyapura,"Nature & Wildlife Areas",2019,2,February,3,positive
+51729,8648,wildlife_nature,Switzerland,Saliyapura,"Nature & Wildlife Areas",2019,2,February,3,positive
+51729,8648,Hiking_climbing,Switzerland,Saliyapura,"Nature & Wildlife Areas",2019,2,February,3,positive
+51729,8648,Sightseeing,Switzerland,Saliyapura,"Nature & Wildlife Areas",2019,2,February,3,positive
+51736,5541,wildlife_nature,"United States",Saliyapura,"Nature & Wildlife Areas",2018,12,December,5,positive
+51736,5541,Sightseeing,"United States",Saliyapura,"Nature & Wildlife Areas",2018,12,December,5,positive
+51764,5297,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2018,2,February,4,positive
+51780,8675,wildlife_nature,"New Zealand",Saliyapura,"Nature & Wildlife Areas",2017,6,June,4,positive
+51785,8679,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2017,11,November,3,positive
+51788,8682,wildlife_nature,Netherlands,Saliyapura,"Nature & Wildlife Areas",2017,10,October,4,positive
+51788,8682,Hiking_climbing,Netherlands,Saliyapura,"Nature & Wildlife Areas",2017,10,October,4,positive
+51788,8682,Sightseeing,Netherlands,Saliyapura,"Nature & Wildlife Areas",2017,10,October,4,positive
+51809,6003,wildlife_nature,Australia,Saliyapura,"Nature & Wildlife Areas",2017,3,March,5,positive
+51809,6003,Hiking_climbing,Australia,Saliyapura,"Nature & Wildlife Areas",2017,3,March,5,positive
+51809,6003,Sightseeing,Australia,Saliyapura,"Nature & Wildlife Areas",2017,3,March,5,positive
+51824,5071,wildlife_nature,Denmark,Saliyapura,"Nature & Wildlife Areas",2016,12,December,4,positive
+51824,5071,Sightseeing,Denmark,Saliyapura,"Nature & Wildlife Areas",2016,12,December,4,positive
+51830,8709,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2018,4,April,4,positive
+51830,8709,Sightseeing,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2018,4,April,4,positive
+51841,6339,wildlife_nature,Australia,Saliyapura,"Nature & Wildlife Areas",2016,10,October,5,positive
+51856,8723,Beach_Water_Sports,"Sri Lanka",Saliyapura,"Nature & Wildlife Areas",2016,8,August,5,positive
+51856,8723,wildlife_nature,"Sri Lanka",Saliyapura,"Nature & Wildlife Areas",2016,8,August,5,positive
+51856,8723,Sightseeing,"Sri Lanka",Saliyapura,"Nature & Wildlife Areas",2016,8,August,5,positive
+51856,8723,Religious,"Sri Lanka",Saliyapura,"Nature & Wildlife Areas",2016,8,August,5,positive
+51877,8737,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2017,12,December,3,positive
+51895,8749,wildlife_nature,Netherlands,Saliyapura,"Nature & Wildlife Areas",2016,1,January,5,positive
+51922,8771,wildlife_nature,Netherlands,Saliyapura,"Nature & Wildlife Areas",2016,3,March,5,positive
+51922,8771,Sightseeing,Netherlands,Saliyapura,"Nature & Wildlife Areas",2016,3,March,5,positive
+51927,8774,wildlife_nature,"United States",Saliyapura,"Nature & Wildlife Areas",2016,1,January,5,positive
+51948,8788,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2015,2,February,5,positive
+51949,8789,wildlife_nature,Israel,Saliyapura,"Nature & Wildlife Areas",2015,1,January,5,positive
+51950,8790,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2015,2,February,3,positive
+51955,8794,wildlife_nature,Australia,Saliyapura,"Nature & Wildlife Areas",2014,8,August,3,positive
+51956,8795,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2014,10,October,4,positive
+51956,8795,Hiking_climbing,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2014,10,October,4,positive
+51967,8804,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2014,2,February,4,positive
+51969,8806,wildlife_nature,Singapore,Saliyapura,"Nature & Wildlife Areas",2014,1,January,5,positive
+51978,8814,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2014,8,August,4,positive
+51981,8816,wildlife_nature,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",2013,6,June,4,positive
+51996,4082,Sightseeing,France,"Nuwara Eliya",Waterfalls,2017,11,November,4,positive
+51997,8828,wildlife_nature,"United Kingdom","Nuwara Eliya",Waterfalls,2017,11,November,4,positive
+51997,8828,Hiking_climbing,"United Kingdom","Nuwara Eliya",Waterfalls,2017,11,November,4,positive
+52006,2515,wildlife_nature,"United Kingdom","Nuwara Eliya",Waterfalls,2016,1,January,5,positive
+52016,8834,wildlife_nature,India,"Nuwara Eliya",Waterfalls,2016,7,July,5,positive
+52017,8835,wildlife_nature,India,"Nuwara Eliya",Waterfalls,2016,6,June,5,positive
+52017,8835,Hiking_climbing,India,"Nuwara Eliya",Waterfalls,2016,6,June,5,positive
+52017,8835,Sightseeing,India,"Nuwara Eliya",Waterfalls,2016,6,June,5,positive
+52020,4530,Hiking_climbing,"New Zealand","Nuwara Eliya",Waterfalls,2016,5,May,5,positive
+52027,1204,Hiking_climbing,"United Kingdom","Nuwara Eliya",Waterfalls,2019,11,November,5,positive
+52050,4569,wildlife_nature,Cyprus,"Nuwara Eliya",Waterfalls,2016,4,April,5,positive
+52050,4569,Hiking_climbing,Cyprus,"Nuwara Eliya",Waterfalls,2016,4,April,5,positive
+52060,8852,Sightseeing,Malta,"Nuwara Eliya",Waterfalls,2014,5,May,5,positive
+52064,8855,wildlife_nature,Indonesia,"Nuwara Eliya",Waterfalls,2014,3,March,4,positive
+52064,8855,Sightseeing,Indonesia,"Nuwara Eliya",Waterfalls,2014,3,March,4,positive
+52067,1156,wildlife_nature,India,Koslanda,Waterfalls,2023,4,April,5,positive
+52067,1156,Hiking_climbing,India,Koslanda,Waterfalls,2023,4,April,5,positive
+52069,5834,Beach_Water_Sports,"United Kingdom",Koslanda,Waterfalls,2022,2,February,5,positive
+52069,5834,Hiking_climbing,"United Kingdom",Koslanda,Waterfalls,2022,2,February,5,positive
+52069,5834,Relaxing,"United Kingdom",Koslanda,Waterfalls,2022,2,February,5,positive
+52070,8859,Hiking_climbing,Netherlands,Koslanda,Waterfalls,2021,12,December,5,positive
+52070,8859,Sightseeing,Netherlands,Koslanda,Waterfalls,2021,12,December,5,positive
+52071,3708,Beach_Water_Sports,"Czech Republic",Koslanda,Waterfalls,2021,9,September,5,positive
+52071,3708,Hiking_climbing,"Czech Republic",Koslanda,Waterfalls,2021,9,September,5,positive
+52071,3708,Sightseeing,"Czech Republic",Koslanda,Waterfalls,2021,9,September,5,positive
+52073,8861,Beach_Water_Sports,"United Kingdom",Koslanda,Waterfalls,2020,1,January,5,positive
+52077,6754,wildlife_nature,"United Arab Emirates",Koslanda,Waterfalls,2020,1,January,5,positive
+52077,6754,Sightseeing,"United Arab Emirates",Koslanda,Waterfalls,2020,1,January,5,positive
+52079,8862,Beach_Water_Sports,Australia,Koslanda,Waterfalls,2019,11,November,5,positive
+52079,8862,Hiking_climbing,Australia,Koslanda,Waterfalls,2019,11,November,5,positive
+52079,8862,Sightseeing,Australia,Koslanda,Waterfalls,2019,11,November,5,positive
+52102,8872,Hiking_climbing,Malaysia,Koslanda,Waterfalls,2018,12,December,5,negative
+52117,2232,wildlife_nature,Switzerland,Koslanda,Waterfalls,2016,9,September,4,positive
+52117,2232,Hiking_climbing,Switzerland,Koslanda,Waterfalls,2016,9,September,4,positive
+52119,3043,Sightseeing,"New Zealand",Koslanda,Waterfalls,2016,3,March,4,positive
+52125,8882,wildlife_nature,Netherlands,Koslanda,Waterfalls,2018,10,October,4,positive
+52125,8882,Sightseeing,Netherlands,Koslanda,Waterfalls,2018,10,October,4,positive
+52137,8888,Biking_cycling,"United Kingdom",Koslanda,Waterfalls,2018,7,July,4,positive
+52137,8888,Sightseeing,"United Kingdom",Koslanda,Waterfalls,2018,7,July,4,positive
+52142,8893,wildlife_nature,"United Kingdom",Koslanda,Waterfalls,2015,9,September,5,positive
+52142,8893,Sightseeing,"United Kingdom",Koslanda,Waterfalls,2015,9,September,5,positive
+52156,3201,wildlife_nature,"United Arab Emirates","Nuwara Eliya",Waterfalls,2019,4,April,4,positive
+52156,3201,Hiking_climbing,"United Arab Emirates","Nuwara Eliya",Waterfalls,2019,4,April,4,positive
+52165,4007,wildlife_nature,"United Kingdom","Nuwara Eliya",Waterfalls,2019,2,February,5,positive
+52165,4007,Sightseeing,"United Kingdom","Nuwara Eliya",Waterfalls,2019,2,February,5,positive
+52170,2439,Hiking_climbing,"Czech Republic","Nuwara Eliya",Waterfalls,2022,12,December,3,positive
+52170,2439,Sightseeing,"Czech Republic","Nuwara Eliya",Waterfalls,2022,12,December,3,positive
+52181,8906,Relaxing,Ireland,"Nuwara Eliya",Waterfalls,2019,3,March,4,positive
+52192,3199,wildlife_nature,Australia,"Nuwara Eliya",Waterfalls,2019,7,July,3,positive
+52192,3199,Hiking_climbing,Australia,"Nuwara Eliya",Waterfalls,2019,7,July,3,positive
+52194,1660,Hiking_climbing,Singapore,"Nuwara Eliya",Waterfalls,2018,3,March,3,positive
+52207,2342,wildlife_nature,"South Africa","Nuwara Eliya",Waterfalls,2019,1,January,5,positive
+52207,2342,Sightseeing,"South Africa","Nuwara Eliya",Waterfalls,2019,1,January,5,positive
+52212,4963,wildlife_nature,India,"Nuwara Eliya",Waterfalls,2018,11,November,4,positive
+52212,4963,Hiking_climbing,India,"Nuwara Eliya",Waterfalls,2018,11,November,4,positive
+52234,8917,Beach_Water_Sports,Canada,"Nuwara Eliya",Waterfalls,2018,2,February,5,positive
+52234,8917,Hiking_climbing,Canada,"Nuwara Eliya",Waterfalls,2018,2,February,5,positive
+52239,8919,Sightseeing,"United Kingdom","Nuwara Eliya",Waterfalls,2017,9,September,4,positive
+52252,8924,wildlife_nature,"United Arab Emirates","Nuwara Eliya",Waterfalls,2017,9,September,2,positive
+52259,8508,Hiking_climbing,"United Kingdom","Nuwara Eliya",Waterfalls,2017,2,February,5,positive
+52259,8508,Sightseeing,"United Kingdom","Nuwara Eliya",Waterfalls,2017,2,February,5,positive
+52267,1006,Beach_Water_Sports,"United Kingdom","Nuwara Eliya",Waterfalls,2016,9,September,3,positive
+52267,1006,Sightseeing,"United Kingdom","Nuwara Eliya",Waterfalls,2016,9,September,3,positive
+52271,8420,Sightseeing,Croatia,"Nuwara Eliya",Waterfalls,2016,9,September,4,positive
+52279,8936,Sightseeing,"United Kingdom","Nuwara Eliya",Waterfalls,2016,8,August,5,positive
+52300,8948,wildlife_nature,"United Kingdom","Nuwara Eliya",Waterfalls,2017,1,January,5,positive
+52315,8953,Hiking_climbing,Australia,"Nuwara Eliya",Waterfalls,2015,4,April,5,positive
+52315,8953,Sightseeing,Australia,"Nuwara Eliya",Waterfalls,2015,4,April,5,positive
+52319,8956,Hiking_climbing,Norway,"Nuwara Eliya",Waterfalls,2016,1,January,5,positive
+52319,8956,Sightseeing,Norway,"Nuwara Eliya",Waterfalls,2016,1,January,5,positive
+52357,8980,Sightseeing,Netherlands,Pussellawa,Waterfalls,2019,2,February,4,positive
+52362,641,Hiking_climbing,"United Kingdom",Pussellawa,Waterfalls,2022,1,January,5,positive
+52362,641,Sightseeing,"United Kingdom",Pussellawa,Waterfalls,2022,1,January,5,positive
+52365,321,Sightseeing,Egypt,Pussellawa,Waterfalls,2020,1,January,4,positive
+52372,2029,wildlife_nature,"United Arab Emirates",Pussellawa,Waterfalls,2019,12,December,5,positive
+52372,2029,Relaxing,"United Arab Emirates",Pussellawa,Waterfalls,2019,12,December,5,positive
+52373,454,Sightseeing,Romania,Pussellawa,Waterfalls,2019,10,October,4,positive
+52379,2176,Hiking_climbing,India,Pussellawa,Waterfalls,2018,12,December,3,positive
+52379,2176,Sightseeing,India,Pussellawa,Waterfalls,2018,12,December,3,positive
+52383,8989,wildlife_nature,"United Kingdom",Pussellawa,Waterfalls,2018,4,April,4,positive
+52383,8989,Hiking_climbing,"United Kingdom",Pussellawa,Waterfalls,2018,4,April,4,positive
+52384,8990,Sightseeing,"United Kingdom",Pussellawa,Waterfalls,2018,10,October,4,positive
+52405,6975,wildlife_nature,"United States",Pussellawa,Waterfalls,2018,5,May,5,positive
+52405,6975,Hiking_climbing,"United States",Pussellawa,Waterfalls,2018,5,May,5,positive
+52405,6975,Sightseeing,"United States",Pussellawa,Waterfalls,2018,5,May,5,positive
+52410,8999,Beach_Water_Sports,Netherlands,Pussellawa,Waterfalls,2018,3,March,5,positive
+52411,8999,Beach_Water_Sports,Netherlands,Pussellawa,Waterfalls,2018,3,March,5,positive
+52420,2953,wildlife_nature,Philippines,Pussellawa,Waterfalls,2017,9,September,4,positive
+52420,2953,Sightseeing,Philippines,Pussellawa,Waterfalls,2017,9,September,4,positive
+52425,5043,Hiking_climbing,"New Zealand",Pussellawa,Waterfalls,2017,11,November,5,positive
+52425,5043,Sightseeing,"New Zealand",Pussellawa,Waterfalls,2017,11,November,5,positive
+52428,9008,Sightseeing,Qatar,Pussellawa,Waterfalls,2017,10,October,4,positive
+52430,1053,Hiking_climbing,India,Pussellawa,Waterfalls,2017,3,March,5,positive
+52430,1053,Sightseeing,India,Pussellawa,Waterfalls,2017,3,March,5,positive
+52432,9010,Sightseeing,India,Pussellawa,Waterfalls,2016,11,November,5,positive
+52434,3253,Hiking_climbing,Netherlands,Pussellawa,Waterfalls,2017,4,April,5,positive
+52434,3253,Sightseeing,Netherlands,Pussellawa,Waterfalls,2017,4,April,5,positive
+52450,9019,Sightseeing,India,Pussellawa,Waterfalls,2017,1,January,5,positive
+52453,5092,Sightseeing,"United Kingdom",Pussellawa,Waterfalls,2016,12,December,5,positive
+52456,959,Sightseeing,India,Pussellawa,Waterfalls,2016,10,October,4,positive
+52459,3303,Hiking_climbing,Australia,Pussellawa,Waterfalls,2016,10,October,5,positive
+52464,9025,wildlife_nature,Bulgaria,Pussellawa,Waterfalls,2017,8,August,5,positive
+52464,9025,Sightseeing,Bulgaria,Pussellawa,Waterfalls,2017,8,August,5,positive
+52473,5063,wildlife_nature,Lebanon,Pussellawa,Waterfalls,2017,5,May,5,positive
+52473,5063,Sightseeing,Lebanon,Pussellawa,Waterfalls,2017,5,May,5,positive
+52474,9029,Hiking_climbing,Bangladesh,Pussellawa,Waterfalls,2016,12,December,4,positive
+52480,9033,wildlife_nature,Pakistan,Pussellawa,Waterfalls,2016,10,October,4,positive
+52490,3312,Sightseeing,Ireland,Pussellawa,Waterfalls,2016,8,August,5,positive
+52492,1196,Sightseeing,Qatar,Pussellawa,Waterfalls,2016,7,July,5,positive
+52494,3315,wildlife_nature,"United Kingdom",Pussellawa,Waterfalls,2016,8,August,4,positive
+52494,3315,Sightseeing,"United Kingdom",Pussellawa,Waterfalls,2016,8,August,4,positive
+52504,9046,wildlife_nature,Australia,Pussellawa,Waterfalls,2015,12,December,4,positive
+52504,9046,Sightseeing,Australia,Pussellawa,Waterfalls,2015,12,December,4,positive
+52510,9051,Sightseeing,"United Arab Emirates",Pussellawa,Waterfalls,2018,3,March,4,negative
+52517,1450,Hiking_climbing,"United Kingdom",Pussellawa,Waterfalls,2018,2,February,3,positive
+52523,3280,Hiking_climbing,Australia,Pussellawa,Waterfalls,2017,12,December,4,positive
+52524,2823,Beach_Water_Sports,"United Kingdom",Pussellawa,Waterfalls,2018,1,January,5,positive
+52526,9059,Hiking_climbing,Australia,Pussellawa,Waterfalls,2017,12,December,4,positive
+52526,9059,Sightseeing,Australia,Pussellawa,Waterfalls,2017,12,December,4,positive
+52528,4704,Hiking_climbing,Singapore,Pussellawa,Waterfalls,2016,4,April,5,positive
+52528,4704,Relaxing,Singapore,Pussellawa,Waterfalls,2016,4,April,5,positive
+52529,4530,Sightseeing,"New Zealand",Pussellawa,Waterfalls,2016,4,April,5,positive
+52532,5331,Sightseeing,"United States",Pussellawa,Waterfalls,2016,1,January,4,positive
+52533,9063,Sightseeing,India,Pussellawa,Waterfalls,2016,3,March,5,positive
+52537,9064,wildlife_nature,Australia,Pussellawa,Waterfalls,2016,2,February,2,positive
+52540,9065,Sightseeing,Malaysia,Pussellawa,Waterfalls,2016,2,February,4,positive
+52549,507,wildlife_nature,India,Pussellawa,Waterfalls,2015,4,April,5,positive
+52549,507,Sightseeing,India,Pussellawa,Waterfalls,2015,4,April,5,positive
+52550,9071,wildlife_nature,"United Arab Emirates",Pussellawa,Waterfalls,2015,5,May,3,positive
+52550,9071,Relaxing,"United Arab Emirates",Pussellawa,Waterfalls,2015,5,May,3,positive
+52557,9076,wildlife_nature,Australia,Pussellawa,Waterfalls,2015,1,January,5,positive
+52557,9076,Sightseeing,Australia,Pussellawa,Waterfalls,2015,1,January,5,positive
+52557,9076,Relaxing,Australia,Pussellawa,Waterfalls,2015,1,January,5,positive
+52567,9085,Beach_Water_Sports,Indonesia,Pussellawa,Waterfalls,2016,5,May,5,positive
+52567,9085,Hiking_climbing,Indonesia,Pussellawa,Waterfalls,2016,5,May,5,positive
+52567,9085,Sightseeing,Indonesia,Pussellawa,Waterfalls,2016,5,May,5,positive
+52569,4527,wildlife_nature,Kuwait,Pussellawa,Waterfalls,2016,4,April,3,positive
+52571,2546,Historical_Sites,Australia,Ella,Waterfalls,2023,2,February,5,positive
+52572,1157,Beach_Water_Sports,Spain,Ella,Waterfalls,2023,3,March,5,positive
+52572,1157,wildlife_nature,Spain,Ella,Waterfalls,2023,3,March,5,positive
+52572,1157,Sightseeing,Spain,Ella,Waterfalls,2023,3,March,5,positive
+52573,9088,wildlife_nature,Bangladesh,Ella,Waterfalls,2023,3,March,5,neutral
+52573,9088,Sightseeing,Bangladesh,Ella,Waterfalls,2023,3,March,5,neutral
+52576,1159,Sightseeing,"United Kingdom",Ella,Waterfalls,2022,4,April,2,positive
+52585,1155,wildlife_nature,Malaysia,Ella,Waterfalls,2020,2,February,3,negative
+52594,9098,Sightseeing,"United Kingdom",Ella,Waterfalls,2020,2,February,3,positive
+52600,1520,Sightseeing,Canada,Ella,Waterfalls,2020,1,January,4,negative
+52602,1990,Beach_Water_Sports,"United Kingdom",Ella,Waterfalls,2020,1,January,3,positive
+52602,1990,wildlife_nature,"United Kingdom",Ella,Waterfalls,2020,1,January,3,positive
+52602,1990,Sightseeing,"United Kingdom",Ella,Waterfalls,2020,1,January,3,positive
+52614,4829,wildlife_nature,Mexico,Ella,Waterfalls,2019,8,August,5,positive
+52617,1994,Hiking_climbing,India,Ella,Waterfalls,2019,3,March,5,positive
+52623,9108,wildlife_nature,"United Kingdom",Ella,Waterfalls,2020,1,January,5,positive
+52623,9108,Sightseeing,"United Kingdom",Ella,Waterfalls,2020,1,January,5,positive
+52627,9110,Sightseeing,Malaysia,Ella,Waterfalls,2019,12,December,5,positive
+52631,9114,Sightseeing,Singapore,Ella,Waterfalls,2019,12,December,3,positive
+52633,9115,Beach_Water_Sports,India,Ella,Waterfalls,2019,11,November,3,neutral
+52633,9115,Sightseeing,India,Ella,Waterfalls,2019,11,November,3,neutral
+52636,9116,wildlife_nature,"United Arab Emirates",Ella,Waterfalls,2019,10,October,4,positive
+52636,9116,Hiking_climbing,"United Arab Emirates",Ella,Waterfalls,2019,10,October,4,positive
+52636,9116,Sightseeing,"United Arab Emirates",Ella,Waterfalls,2019,10,October,4,positive
+52639,4889,Sightseeing,Singapore,Ella,Waterfalls,2018,12,December,5,positive
+52641,1856,wildlife_nature,"United Kingdom",Ella,Waterfalls,2019,3,March,4,positive
+52641,1856,Sightseeing,"United Kingdom",Ella,Waterfalls,2019,3,March,4,positive
+52643,4870,Sightseeing,"United Kingdom",Ella,Waterfalls,2019,3,March,5,positive
+52647,275,wildlife_nature,"United Kingdom",Ella,Waterfalls,2019,3,March,4,positive
+52647,275,Sightseeing,"United Kingdom",Ella,Waterfalls,2019,3,March,4,positive
+52650,1630,Sightseeing,"United Kingdom",Ella,Waterfalls,2019,3,March,4,positive
+52652,499,Beach_Water_Sports,Slovenia,Ella,Waterfalls,2019,3,March,4,positive
+52652,499,wildlife_nature,Slovenia,Ella,Waterfalls,2019,3,March,4,positive
+52652,499,Sightseeing,Slovenia,Ella,Waterfalls,2019,3,March,4,positive
+52666,3496,Sightseeing,Singapore,Ella,Waterfalls,2019,4,April,3,positive
+52667,2730,wildlife_nature,"United Kingdom",Ella,Waterfalls,2018,5,May,4,positive
+52667,2730,Hiking_climbing,"United Kingdom",Ella,Waterfalls,2018,5,May,4,positive
+52686,9132,wildlife_nature,"United Kingdom",Ella,Waterfalls,2018,11,November,5,positive
+52686,9132,Sightseeing,"United Kingdom",Ella,Waterfalls,2018,11,November,5,positive
+52707,2168,wildlife_nature,"United Kingdom",Ella,Waterfalls,2019,1,January,4,positive
+52707,2168,Sightseeing,"United Kingdom",Ella,Waterfalls,2019,1,January,4,positive
+52710,2017,Sightseeing,"United States",Ella,Waterfalls,2019,1,January,3,positive
+52711,4898,wildlife_nature,"United Kingdom",Ella,Waterfalls,2019,2,February,4,negative
+52711,4898,Sightseeing,"United Kingdom",Ella,Waterfalls,2019,2,February,4,negative
+52713,9141,Sightseeing,"United Kingdom",Ella,Waterfalls,2019,2,February,3,positive
+52717,485,wildlife_nature,Australia,Ella,Waterfalls,2019,2,February,4,positive
+52724,1426,wildlife_nature,India,Ella,Waterfalls,2018,12,December,5,positive
+52724,1426,Sightseeing,India,Ella,Waterfalls,2018,12,December,5,positive
+52727,9146,wildlife_nature,"United Kingdom",Ella,Waterfalls,2019,5,May,4,positive
+52730,9148,Sightseeing,"United Kingdom",Ella,Waterfalls,2019,4,April,3,positive
+52736,2776,Hiking_climbing,"United States",Ella,Waterfalls,2019,1,January,3,positive
+52736,2776,Sightseeing,"United States",Ella,Waterfalls,2019,1,January,3,positive
+52738,8120,Sightseeing,India,Ella,Waterfalls,2018,12,December,5,positive
+52744,9154,Relaxing,Australia,Ella,Waterfalls,2019,1,January,5,positive
+52749,4226,Sightseeing,"United States",Ella,Waterfalls,2018,11,November,4,positive
+52751,3515,Sightseeing,Australia,Ella,Waterfalls,2018,12,December,3,positive
+52760,3527,Beach_Water_Sports,Switzerland,Ella,Waterfalls,2018,9,September,2,positive
+52760,3527,Sightseeing,Switzerland,Ella,Waterfalls,2018,9,September,2,positive
+52763,9163,Hiking_climbing,"United Kingdom",Ella,Waterfalls,2018,11,November,5,positive
+52763,9163,Sightseeing,"United Kingdom",Ella,Waterfalls,2018,11,November,5,positive
+52765,9165,Sightseeing,"United Kingdom",Ella,Waterfalls,2018,10,October,5,positive
+52766,9165,Sightseeing,"United Kingdom",Ella,Waterfalls,2018,10,October,5,positive
+52767,9166,wildlife_nature,"United Kingdom",Ella,Waterfalls,2018,11,November,3,positive
+52767,9166,Sightseeing,"United Kingdom",Ella,Waterfalls,2018,11,November,3,positive
+52779,4064,wildlife_nature,Indonesia,"Nuwara Eliya",Waterfalls,2017,12,December,3,positive
+52779,4064,Sightseeing,Indonesia,"Nuwara Eliya",Waterfalls,2017,12,December,3,positive
+52781,8922,wildlife_nature,Germany,"Nuwara Eliya",Waterfalls,2017,12,December,4,positive
+52800,4563,wildlife_nature,Bangladesh,"Nuwara Eliya",Waterfalls,2017,6,June,4,positive
+52800,4563,Sightseeing,Bangladesh,"Nuwara Eliya",Waterfalls,2017,6,June,4,positive
+52811,4093,wildlife_nature,"United States","Nuwara Eliya",Waterfalls,2017,3,March,4,positive
+52814,9178,Sightseeing,India,"Nuwara Eliya",Waterfalls,2017,2,February,3,positive
+52821,7003,wildlife_nature,Jordan,"Nuwara Eliya",Waterfalls,2017,1,January,4,positive
+52821,7003,Sightseeing,Jordan,"Nuwara Eliya",Waterfalls,2017,1,January,4,positive
+52829,9185,wildlife_nature,Canada,"Nuwara Eliya",Waterfalls,2016,6,June,4,positive
+52829,9185,Sightseeing,Canada,"Nuwara Eliya",Waterfalls,2016,6,June,4,positive
+52837,1989,Sightseeing,Austria,"Nuwara Eliya",Waterfalls,2020,1,January,4,positive
+52839,5092,Sightseeing,"United Kingdom","Nuwara Eliya",Waterfalls,2016,12,December,5,positive
+52841,9189,Sightseeing,Maldives,"Nuwara Eliya",Waterfalls,2016,10,October,4,positive
+52862,2116,Sightseeing,"United Kingdom","Nuwara Eliya",Waterfalls,2018,3,March,3,positive
+52868,7934,wildlife_nature,France,"Nuwara Eliya",Waterfalls,2018,1,January,5,positive
+52868,7934,Sightseeing,France,"Nuwara Eliya",Waterfalls,2018,1,January,5,positive
+52876,5030,wildlife_nature,"United States","Nuwara Eliya",Waterfalls,2016,1,January,4,positive
+52876,5030,Sightseeing,"United States","Nuwara Eliya",Waterfalls,2016,1,January,4,positive
+52879,9199,wildlife_nature,"United States","Nuwara Eliya",Waterfalls,2015,12,December,5,positive
+52879,9199,Sightseeing,"United States","Nuwara Eliya",Waterfalls,2015,12,December,5,positive
+52894,9203,wildlife_nature,"United States","Nuwara Eliya",Waterfalls,2013,11,November,5,positive
+52894,9203,Sightseeing,"United States","Nuwara Eliya",Waterfalls,2013,11,November,5,positive
+52897,1447,Sightseeing,"Sri Lanka","Nuwara Eliya",Waterfalls,2015,8,August,4,positive
+52914,9212,wildlife_nature,Australia,"Nuwara Eliya",Waterfalls,2016,1,January,4,positive
+52920,9050,wildlife_nature,India,"Nuwara Eliya",Waterfalls,2015,10,October,3,positive
+52924,3365,wildlife_nature,Australia,"Nuwara Eliya",Waterfalls,2015,9,September,5,positive
+52952,9231,wildlife_nature,"United States",Colombo,"Zoological Gardens",2017,3,March,5,positive
+52994,9263,wildlife_nature,Singapore,Colombo,"Zoological Gardens",2015,5,May,5,positive
+53013,9278,wildlife_nature,"United Kingdom",Colombo,"Zoological Gardens",2014,7,July,5,positive
+53013,9278,Relaxing,"United Kingdom",Colombo,"Zoological Gardens",2014,7,July,5,positive
+53033,9291,wildlife_nature,"United Kingdom",Colombo,"Zoological Gardens",2016,8,August,1,positive
+53050,9303,wildlife_nature,Switzerland,Colombo,"Zoological Gardens",2013,4,April,1,negative
+53084,9333,wildlife_nature,Bulgaria,Colombo,"Zoological Gardens",2013,1,January,4,positive
+53105,9353,wildlife_nature,Australia,Colombo,"Zoological Gardens",2015,12,December,3,negative
+53134,9377,wildlife_nature,Nigeria,Colombo,"Zoological Gardens",2011,6,June,5,positive
+53169,9392,Religious,Malaysia,Anuradhapura,"Religious Sites",2013,1,January,4,positive
+53206,2550,Religious,China,Anuradhapura,"Religious Sites",2019,12,December,3,positive
+53243,1540,Religious,"United States",Anuradhapura,"Religious Sites",2019,1,January,4,positive
+53299,1777,Religious,"United States",Anuradhapura,"Religious Sites",2015,2,February,4,positive
+53307,2609,wildlife_nature,Thailand,Anuradhapura,"Religious Sites",2012,4,April,2,positive
+53307,2609,Historical_Sites,Thailand,Anuradhapura,"Religious Sites",2012,4,April,2,positive
+53307,2609,Religious,Thailand,Anuradhapura,"Religious Sites",2012,4,April,2,positive
+53347,9452,Religious,Thailand,Anuradhapura,"Religious Sites",2015,12,December,5,positive
+53350,9454,Historical_Sites,India,Anuradhapura,"Religious Sites",2015,11,November,5,positive
+53350,9454,Sightseeing,India,Anuradhapura,"Religious Sites",2015,11,November,5,positive
+53350,9454,Religious,India,Anuradhapura,"Religious Sites",2015,11,November,5,positive
+53369,4601,Religious,Australia,Anuradhapura,"Religious Sites",2016,1,January,5,positive
+53374,2523,wildlife_nature,India,Anuradhapura,"Religious Sites",2013,11,November,5,positive
+53374,2523,Religious,India,Anuradhapura,"Religious Sites",2013,11,November,5,positive
+53379,2171,Historical_Sites,Canada,Anuradhapura,"Religious Sites",2013,8,August,4,positive
+53379,2171,Religious,Canada,Anuradhapura,"Religious Sites",2013,8,August,4,positive
+53464,2409,Historical_Sites,"United Kingdom",Anuradhapura,"Religious Sites",2015,12,December,3,positive
+53473,9494,Religious,Germany,Anuradhapura,"Religious Sites",2015,10,October,4,positive
+53491,3369,Religious,"United States",Anuradhapura,"Religious Sites",2015,7,July,5,positive
+53519,9516,Hiking_climbing,"United States",Anuradhapura,"Religious Sites",2014,9,September,4,positive
+53519,9516,Religious,"United States",Anuradhapura,"Religious Sites",2014,9,September,4,positive
+53625,2518,Religious,"United Kingdom",Anuradhapura,"Religious Sites",2014,7,July,4,positive
+53670,143,Hiking_climbing,"United Kingdom",Anuradhapura,"Religious Sites",2011,12,December,3,positive
+53670,143,Religious,"United Kingdom",Anuradhapura,"Religious Sites",2011,12,December,3,positive
+53704,8876,Historical_Sites,"United Kingdom",Anuradhapura,"Religious Sites",2017,9,September,5,neutral
+53704,8876,Religious,"United Kingdom",Anuradhapura,"Religious Sites",2017,9,September,5,neutral
+53717,5092,Hiking_climbing,"United Kingdom",Anuradhapura,"Religious Sites",2016,12,December,5,positive
+53764,2526,Religious,Vietnam,Anuradhapura,"Religious Sites",2013,12,December,4,positive
+53902,1898,wildlife_nature,"United Kingdom",Anuradhapura,"Religious Sites",2018,10,October,5,positive
+53902,1898,Hiking_climbing,"United Kingdom",Anuradhapura,"Religious Sites",2018,10,October,5,positive
+53938,9643,wildlife_nature,"United Kingdom",Anuradhapura,"Religious Sites",2018,2,February,5,positive
+53938,9643,Historical_Sites,"United Kingdom",Anuradhapura,"Religious Sites",2018,2,February,5,positive
+53938,9643,Sightseeing,"United Kingdom",Anuradhapura,"Religious Sites",2018,2,February,5,positive
+53938,9643,Religious,"United Kingdom",Anuradhapura,"Religious Sites",2018,2,February,5,positive
+53987,4216,Religious,Australia,Anuradhapura,"Religious Sites",2017,7,July,3,positive
+54058,7006,Beach_Water_Sports,"United States",Anuradhapura,"Religious Sites",2016,10,October,3,positive
+54058,7006,wildlife_nature,"United States",Anuradhapura,"Religious Sites",2016,10,October,3,positive
+54058,7006,Hiking_climbing,"United States",Anuradhapura,"Religious Sites",2016,10,October,3,positive
+54058,7006,Historical_Sites,"United States",Anuradhapura,"Religious Sites",2016,10,October,3,positive
+54064,1076,wildlife_nature,Netherlands,Anuradhapura,"Religious Sites",2016,9,September,4,positive
+54135,9731,wildlife_nature,Australia,Anuradhapura,"Religious Sites",2016,7,July,4,positive
+54135,9731,Historical_Sites,Australia,Anuradhapura,"Religious Sites",2016,7,July,4,positive
+54135,9731,Sightseeing,Australia,Anuradhapura,"Religious Sites",2016,7,July,4,positive
+54206,9751,wildlife_nature,China,Anuradhapura,"Religious Sites",2017,10,October,5,positive
+54206,9751,Hiking_climbing,China,Anuradhapura,"Religious Sites",2017,10,October,5,positive
+54206,9751,Religious,China,Anuradhapura,"Religious Sites",2017,10,October,5,positive
+54324,1204,Historical_Sites,"United Kingdom",Anuradhapura,"Religious Sites",2019,11,November,5,positive
+54338,626,wildlife_nature,"United States",Anuradhapura,"Religious Sites",2018,12,December,5,positive
+54338,626,Religious,"United States",Anuradhapura,"Religious Sites",2018,12,December,5,positive
+54353,6473,wildlife_nature,Singapore,Anuradhapura,"Religious Sites",2017,7,July,5,positive
+54353,6473,Religious,Singapore,Anuradhapura,"Religious Sites",2017,7,July,5,positive
+54386,2200,Biking_cycling,Cambodia,Anuradhapura,"Religious Sites",2019,8,August,3,positive
+54386,2200,Religious,Cambodia,Anuradhapura,"Religious Sites",2019,8,August,3,positive
+54430,2487,Historical_Sites,"United Kingdom",Anuradhapura,"Religious Sites",2017,1,January,3,positive
+54514,9798,Historical_Sites,"United States",Anuradhapura,"Religious Sites",2015,6,June,5,positive
+54514,9798,Religious,"United States",Anuradhapura,"Religious Sites",2015,6,June,5,positive
+54520,2518,Religious,"United Kingdom",Anuradhapura,"Religious Sites",2014,7,July,4,positive
+54598,7348,Religious,Vietnam,Colombo,"Religious Sites",2018,7,July,5,positive
+54620,6474,Religious,Vietnam,Colombo,"Religious Sites",2017,6,June,2,positive
+54667,9859,Hiking_climbing,"United States",Colombo,"Religious Sites",2016,7,July,5,positive
+54667,9859,Sightseeing,"United States",Colombo,"Religious Sites",2016,7,July,5,positive
+54667,9859,Religious,"United States",Colombo,"Religious Sites",2016,7,July,5,positive
+54739,9900,Religious,"Sri Lanka",Colombo,"Religious Sites",2015,9,September,5,positive
+54756,2451,Religious,Bangladesh,Colombo,"Religious Sites",2015,5,May,4,positive
+54770,4685,wildlife_nature,"United Kingdom",Colombo,"Religious Sites",2020,1,January,5,negative
+54788,1351,wildlife_nature,India,Colombo,"Religious Sites",2020,2,February,5,positive
+54788,1351,Religious,India,Colombo,"Religious Sites",2020,2,February,5,positive
+54804,9937,Religious,Spain,Colombo,"Religious Sites",2019,12,December,4,positive
+54852,9964,Religious,Germany,Colombo,"Religious Sites",2019,5,May,5,neutral
+54859,1985,Sightseeing,India,Colombo,"Religious Sites",2019,11,November,5,positive
+54859,1985,Religious,India,Colombo,"Religious Sites",2019,11,November,5,positive
+54860,9968,wildlife_nature,"United Kingdom",Colombo,"Religious Sites",2019,11,November,4,positive
+54860,9968,Sightseeing,"United Kingdom",Colombo,"Religious Sites",2019,11,November,4,positive
+54860,9968,Religious,"United Kingdom",Colombo,"Religious Sites",2019,11,November,4,positive
+54860,9968,Romantic_holiday,"United Kingdom",Colombo,"Religious Sites",2019,11,November,4,positive
+54877,3431,wildlife_nature,Slovakia,Colombo,"Religious Sites",2019,2,February,5,negative
+54877,3431,Religious,Slovakia,Colombo,"Religious Sites",2019,2,February,5,negative
+54889,9400,Sightseeing,"United States",Colombo,"Religious Sites",2019,2,February,5,positive
+54889,9400,Religious,"United States",Colombo,"Religious Sites",2019,2,February,5,positive
+54891,5167,Religious,Bahrain,Colombo,"Religious Sites",2019,2,February,4,positive
+54894,9985,Historical_Sites,India,Colombo,"Religious Sites",2019,2,February,4,positive
+54894,9985,Religious,India,Colombo,"Religious Sites",2019,2,February,4,positive
+54909,9991,wildlife_nature,"United Kingdom",Colombo,"Religious Sites",2019,4,April,1,negative
+54909,9991,Religious,"United Kingdom",Colombo,"Religious Sites",2019,4,April,1,negative
+54914,9993,Sightseeing,Belgium,Colombo,"Religious Sites",2019,1,January,4,positive
+54914,9993,Religious,Belgium,Colombo,"Religious Sites",2019,1,January,4,positive
+54914,9993,Relaxing,Belgium,Colombo,"Religious Sites",2019,1,January,4,positive
+54914,9993,Romantic_holiday,Belgium,Colombo,"Religious Sites",2019,1,January,4,positive
+54919,9995,Sightseeing,India,Colombo,"Religious Sites",2019,1,January,5,positive
+54919,9995,Religious,India,Colombo,"Religious Sites",2019,1,January,5,positive
+54923,9998,Religious,Thailand,Colombo,"Religious Sites",2018,12,December,5,positive
+54930,808,Religious,Canada,Colombo,"Religious Sites",2019,1,January,5,positive
+54931,10000,Religious,Malaysia,Colombo,"Religious Sites",2018,12,December,5,positive
+54935,10004,Religious,"United Kingdom",Colombo,"Religious Sites",2019,1,January,5,positive
+54943,10008,Religious,"United Kingdom",Colombo,"Religious Sites",2018,12,December,4,positive
+54951,10012,Sightseeing,Ukraine,Colombo,"Religious Sites",2018,12,December,4,negative
+54951,10012,Religious,Ukraine,Colombo,"Religious Sites",2018,12,December,4,negative
+54968,6022,Religious,India,Colombo,"Religious Sites",2020,1,January,5,positive
+54969,1183,Religious,Thailand,Colombo,"Religious Sites",2020,1,January,5,positive
+54975,10023,Religious,India,Colombo,"Religious Sites",2020,1,January,5,positive
+54995,10038,Historical_Sites,India,Colombo,"Religious Sites",2019,8,August,3,positive
+55004,5197,wildlife_nature,India,Colombo,"Religious Sites",2019,4,April,4,positive
+55004,5197,Historical_Sites,India,Colombo,"Religious Sites",2019,4,April,4,positive
+55004,5197,Religious,India,Colombo,"Religious Sites",2019,4,April,4,positive
+55017,10049,Religious,India,Colombo,"Religious Sites",2019,3,March,5,positive
+55019,1219,Religious,India,Colombo,"Religious Sites",2018,11,November,4,positive
+55020,10051,Sightseeing,India,Colombo,"Religious Sites",2019,4,April,5,positive
+55020,10051,Religious,India,Colombo,"Religious Sites",2019,4,April,5,positive
+55021,808,wildlife_nature,Australia,Colombo,"Religious Sites",2019,3,March,5,positive
+55021,808,Religious,Australia,Colombo,"Religious Sites",2019,3,March,5,positive
+55025,10054,wildlife_nature,"United Kingdom",Colombo,"Religious Sites",2018,12,December,4,positive
+55025,10054,Sightseeing,"United Kingdom",Colombo,"Religious Sites",2018,12,December,4,positive
+55025,10054,Religious,"United Kingdom",Colombo,"Religious Sites",2018,12,December,4,positive
+55026,10055,Historical_Sites,"United Kingdom",Colombo,"Religious Sites",2018,11,November,5,positive
+55026,10055,Religious,"United Kingdom",Colombo,"Religious Sites",2018,11,November,5,positive
+55031,10059,Hiking_climbing,India,Colombo,"Religious Sites",2018,11,November,4,positive
+55031,10059,Religious,India,Colombo,"Religious Sites",2018,11,November,4,positive
+55033,3214,Religious,"United Kingdom",Colombo,"Religious Sites",2018,11,November,4,positive
+55072,8039,wildlife_nature,India,Kandy,"Religious Sites",2022,3,March,5,positive
+55072,8039,Sightseeing,India,Kandy,"Religious Sites",2022,3,March,5,positive
+55072,8039,Religious,India,Kandy,"Religious Sites",2022,3,March,5,positive
+55078,1353,wildlife_nature,India,Kandy,"Religious Sites",2020,2,February,5,positive
+55078,1353,Sightseeing,India,Kandy,"Religious Sites",2020,2,February,5,positive
+55078,1353,Religious,India,Kandy,"Religious Sites",2020,2,February,5,positive
+55078,1353,Relaxing,India,Kandy,"Religious Sites",2020,2,February,5,positive
+55080,5861,wildlife_nature,"United Kingdom",Kandy,"Religious Sites",2020,2,February,5,positive
+55080,5861,Sightseeing,"United Kingdom",Kandy,"Religious Sites",2020,2,February,5,positive
+55080,5861,Religious,"United Kingdom",Kandy,"Religious Sites",2020,2,February,5,positive
+55106,2181,wildlife_nature,"United Kingdom",Kandy,"Religious Sites",2020,3,March,2,positive
+55106,2181,Sightseeing,"United Kingdom",Kandy,"Religious Sites",2020,3,March,2,positive
+55106,2181,Religious,"United Kingdom",Kandy,"Religious Sites",2020,3,March,2,positive
+55116,2193,Hiking_climbing,"United Kingdom",Kandy,"Religious Sites",2022,2,February,5,positive
+55116,2193,Religious,"United Kingdom",Kandy,"Religious Sites",2022,2,February,5,positive
+55124,10092,Religious,France,Kandy,"Religious Sites",2021,12,December,5,positive
+55177,10112,Religious,India,Kandy,"Religious Sites",2020,1,January,5,positive
+55179,10113,wildlife_nature,India,Kandy,"Religious Sites",2019,12,December,4,positive
+55179,10113,Historical_Sites,India,Kandy,"Religious Sites",2019,12,December,4,positive
+55179,10113,Sightseeing,India,Kandy,"Religious Sites",2019,12,December,4,positive
+55179,10113,Religious,India,Kandy,"Religious Sites",2019,12,December,4,positive
+55184,5999,wildlife_nature,"United Arab Emirates",Kandy,"Religious Sites",2020,1,January,5,positive
+55184,5999,Hiking_climbing,"United Arab Emirates",Kandy,"Religious Sites",2020,1,January,5,positive
+55184,5999,Religious,"United Arab Emirates",Kandy,"Religious Sites",2020,1,January,5,positive
+55185,2319,Religious,Philippines,Kandy,"Religious Sites",2019,12,December,4,positive
+55194,5925,Religious,Singapore,Kandy,"Religious Sites",2019,12,December,4,positive
+55199,2321,wildlife_nature,India,Kandy,"Religious Sites",2019,12,December,5,positive
+55199,2321,Religious,India,Kandy,"Religious Sites",2019,12,December,5,positive
+55203,1985,Religious,India,Kandy,"Religious Sites",2019,11,November,5,positive
+55230,3502,Sightseeing,Norway,Kandy,"Religious Sites",2018,11,November,3,positive
+55230,3502,Religious,Norway,Kandy,"Religious Sites",2018,11,November,3,positive
+55238,1994,Religious,India,Kandy,"Religious Sites",2019,3,March,5,positive
+55260,4804,Religious,"United Kingdom",Kandy,"Religious Sites",2020,3,March,5,positive
+55266,4795,Hiking_climbing,"United Kingdom",Kandy,"Religious Sites",2020,2,February,4,negative
+55266,4795,Religious,"United Kingdom",Kandy,"Religious Sites",2020,2,February,4,negative
+55285,2312,Hiking_climbing,Australia,Kandy,"Religious Sites",2020,1,January,2,positive
+55285,2312,Religious,Australia,Kandy,"Religious Sites",2020,1,January,2,positive
+55311,2553,Historical_Sites,Malta,Kandy,"Religious Sites",2019,10,October,5,positive
+55311,2553,Religious,Malta,Kandy,"Religious Sites",2019,10,October,5,positive
+55314,7449,Religious,"United Kingdom",Kandy,"Religious Sites",2019,12,December,5,positive
+55359,7409,wildlife_nature,Australia,Habarana,"Religious Sites",2020,8,August,4,positive
+55359,7409,Religious,Australia,Habarana,"Religious Sites",2020,8,August,4,positive
+55380,1204,Religious,"United Kingdom",Habarana,"Religious Sites",2019,11,November,5,positive
+55387,5605,wildlife_nature,"United States",Habarana,"Religious Sites",2019,10,October,5,positive
+55387,5605,Religious,"United States",Habarana,"Religious Sites",2019,10,October,5,positive
+55410,5223,Historical_Sites,Singapore,Habarana,"Religious Sites",2019,9,September,5,positive
+55410,5223,Religious,Singapore,Habarana,"Religious Sites",2019,9,September,5,positive
+55426,10194,wildlife_nature,India,Habarana,"Religious Sites",2018,8,August,4,positive
+55426,10194,Hiking_climbing,India,Habarana,"Religious Sites",2018,8,August,4,positive
+55429,3200,Religious,"United Kingdom",Habarana,"Religious Sites",2019,3,March,5,positive
+55476,10209,Hiking_climbing,"United Kingdom",Habarana,"Religious Sites",2019,1,January,4,positive
+55476,10209,Religious,"United Kingdom",Habarana,"Religious Sites",2019,1,January,4,positive
+55499,4981,Religious,"United Kingdom",Habarana,"Religious Sites",2019,1,January,5,positive
+55502,5541,Hiking_climbing,"United States",Habarana,"Religious Sites",2018,12,December,4,positive
+55502,5541,Religious,"United States",Habarana,"Religious Sites",2018,12,December,4,positive
+55503,10220,Religious,"United Kingdom",Habarana,"Religious Sites",2019,1,January,4,positive
+55511,10225,wildlife_nature,Canada,Habarana,"Religious Sites",2018,12,December,5,positive
+55511,10225,Hiking_climbing,Canada,Habarana,"Religious Sites",2018,12,December,5,positive
+55511,10225,Religious,Canada,Habarana,"Religious Sites",2018,12,December,5,positive
+55519,10229,wildlife_nature,"United Kingdom",Habarana,"Religious Sites",2018,11,November,5,positive
+55534,5726,wildlife_nature,"United Kingdom",Habarana,"Religious Sites",2018,10,October,4,positive
+55534,5726,Religious,"United Kingdom",Habarana,"Religious Sites",2018,10,October,4,positive
+55578,3130,wildlife_nature,Oman,Habarana,"Religious Sites",2022,2,February,4,positive
+55578,3130,Religious,Oman,Habarana,"Religious Sites",2022,2,February,4,positive
+55592,10249,wildlife_nature,"United Kingdom",Habarana,"Religious Sites",2019,12,December,4,positive
+55593,2319,Religious,Philippines,Habarana,"Religious Sites",2019,12,December,5,positive
+55656,8222,wildlife_nature,"United Kingdom",Habarana,"Religious Sites",2019,2,February,4,positive
+55656,8222,Religious,"United Kingdom",Habarana,"Religious Sites",2019,2,February,4,positive
+55688,10277,Religious,Belgium,Trincomalee,"Religious Sites",2019,11,November,5,positive
+55688,10277,Romantic_holiday,Belgium,Trincomalee,"Religious Sites",2019,11,November,5,positive
+55691,37,Religious,Netherlands,Trincomalee,"Religious Sites",2018,7,July,4,negative
+55712,1911,Religious,France,Trincomalee,"Religious Sites",2018,8,August,5,positive
+55714,5653,Religious,Lebanon,Trincomalee,"Religious Sites",2018,7,July,3,positive
+55731,2631,Religious,"United Kingdom",Trincomalee,"Religious Sites",2018,1,January,5,positive
+55731,2631,Relaxing,"United Kingdom",Trincomalee,"Religious Sites",2018,1,January,5,positive
+55736,1734,Religious,Australia,Trincomalee,"Religious Sites",2017,11,November,5,positive
+55736,1734,Relaxing,Australia,Trincomalee,"Religious Sites",2017,11,November,5,positive
+55767,1044,Beach_Water_Sports,Australia,Trincomalee,"Religious Sites",2017,5,May,5,positive
+55767,1044,Hiking_climbing,Australia,Trincomalee,"Religious Sites",2017,5,May,5,positive
+55767,1044,Religious,Australia,Trincomalee,"Religious Sites",2017,5,May,5,positive
+55784,2489,Religious,Australia,Trincomalee,"Religious Sites",2017,1,January,4,positive
+55786,5321,Religious,Australia,Trincomalee,"Religious Sites",2016,12,December,4,positive
+55788,10314,Hiking_climbing,Australia,Trincomalee,"Religious Sites",2016,12,December,4,positive
+55788,10314,Religious,Australia,Trincomalee,"Religious Sites",2016,12,December,4,positive
+55816,10327,Historical_Sites,Canada,Trincomalee,"Religious Sites",2016,8,August,3,positive
+55816,10327,Religious,Canada,Trincomalee,"Religious Sites",2016,8,August,3,positive
+55830,10337,Religious,Australia,Trincomalee,"Religious Sites",2016,6,June,5,positive
+55833,9735,Religious,Singapore,Trincomalee,"Religious Sites",2016,6,June,4,positive
+55837,1128,Religious,"United States",Trincomalee,"Religious Sites",2016,6,June,5,positive
+55843,1759,Religious,Egypt,Trincomalee,"Religious Sites",2016,9,September,5,positive
+55849,10350,Religious,Australia,Trincomalee,"Religious Sites",2016,9,September,5,positive
+55850,10351,Religious,"Czech Republic",Trincomalee,"Religious Sites",2016,9,September,5,positive
+55876,10358,wildlife_nature,"United States",Trincomalee,"Religious Sites",2019,1,January,5,positive
+55876,10358,Religious,"United States",Trincomalee,"Religious Sites",2019,1,January,5,positive
+55906,10371,Beach_Water_Sports,India,Trincomalee,"Religious Sites",2016,7,July,4,positive
+55906,10371,wildlife_nature,India,Trincomalee,"Religious Sites",2016,7,July,4,positive
+55906,10371,Hiking_climbing,India,Trincomalee,"Religious Sites",2016,7,July,4,positive
+55906,10371,Religious,India,Trincomalee,"Religious Sites",2016,7,July,4,positive
+55926,10378,Religious,Australia,Trincomalee,"Religious Sites",2016,6,June,4,positive
+55940,2541,Religious,Greece,Jaffna,"Religious Sites",2019,1,January,5,positive
+55943,10385,Religious,Malaysia,Jaffna,"Religious Sites",2019,1,January,5,positive
+55958,10392,Religious,"United Kingdom",Jaffna,"Religious Sites",2018,4,April,5,positive
+55972,5300,Religious,Qatar,Jaffna,"Religious Sites",2018,2,February,3,positive
+55991,10403,Hiking_climbing,"Sri Lanka",Jaffna,"Religious Sites",2020,2,February,5,positive
+55991,10403,Religious,"Sri Lanka",Jaffna,"Religious Sites",2020,2,February,5,positive
+56019,5510,Sightseeing,Finland,Jaffna,"Religious Sites",2017,2,February,5,positive
+56019,5510,Religious,Finland,Jaffna,"Religious Sites",2017,2,February,5,positive
+56037,5325,Religious,"New Zealand",Jaffna,"Religious Sites",2016,12,December,5,positive
+56051,10431,Religious,Malaysia,Jaffna,"Religious Sites",2016,2,February,5,positive
+56053,5332,Religious,Malaysia,Jaffna,"Religious Sites",2016,3,March,3,positive
+56061,5346,Religious,"United States",Jaffna,"Religious Sites",2015,12,December,5,positive
+56069,5401,Religious,Canada,Jaffna,"Religious Sites",2015,8,August,4,positive
+56074,5408,wildlife_nature,Australia,Jaffna,"Religious Sites",2015,7,July,5,positive
+56074,5408,Religious,Australia,Jaffna,"Religious Sites",2015,7,July,5,positive
+56075,10440,Religious,"Sri Lanka",Jaffna,"Religious Sites",2015,7,July,5,positive
+56078,5409,Religious,Denmark,Jaffna,"Religious Sites",2015,8,August,4,positive
+56087,10446,Religious,France,Jaffna,"Religious Sites",2015,1,January,4,positive
+56091,5371,Hiking_climbing,"United Kingdom",Jaffna,"Religious Sites",2014,12,December,4,positive
+56091,5371,Religious,"United Kingdom",Jaffna,"Religious Sites",2014,12,December,4,positive
+56094,2517,Religious,Australia,Jaffna,"Religious Sites",2014,8,August,5,positive
+56097,5338,Religious,Netherlands,Jaffna,"Religious Sites",2016,2,February,4,positive
+56098,5339,Religious,Thailand,Jaffna,"Religious Sites",2016,2,February,5,positive
+56103,5340,Religious,"Sri Lanka",Jaffna,"Religious Sites",2016,1,January,5,positive
+56104,10452,Religious,"United States",Jaffna,"Religious Sites",2016,1,January,5,positive
+56114,10456,Religious,"United Kingdom",Jaffna,"Religious Sites",2019,5,May,2,positive
+56115,1075,Religious,Australia,Jaffna,"Religious Sites",2019,8,August,3,positive
+56118,10458,Religious,Canada,Jaffna,"Religious Sites",2019,3,March,5,positive
+56151,10474,Sightseeing,Switzerland,Jaffna,"Religious Sites",2015,3,March,5,positive

@@ -1,0 +1,405 @@
+InputID,Traveller_ID,activity,Traveller_Country,City,location_Type,rating,sentiment_comments,Travel_Year,Travel_month,month
+10006,6,Wildlife_photography,"United Arab Emirates","Arugam Bay",Beaches,5,positive,2019,6,June
+49905,69,Wildlife_photography,Australia,Habarana,"National Parks",5,positive,2019,3,March
+45306,99,Wildlife_photography,China,"Nuwara Eliya",Gardens,5,positive,2016,2,February
+49520,227,Wildlife_photography,"United Kingdom","Nuwara Eliya","National Parks",4,positive,2020,1,January
+52647,275,Wildlife_photography,"United Kingdom",Ella,Waterfalls,4,positive,2019,3,March
+43644,392,Wildlife_photography,India,"Nuwara Eliya",Farms,5,positive,2019,3,March
+47572,432,Wildlife_photography,Greece,Sigiriya,"Historic Sites",5,positive,2019,12,December
+45634,451,Wildlife_photography,Australia,Peradeniya,Gardens,5,positive,2019,10,October
+47683,451,Wildlife_photography,Australia,Sigiriya,"Historic Sites",5,negative,2019,10,October
+52717,485,Wildlife_photography,Australia,Ella,Waterfalls,4,positive,2019,2,February
+42553,511,Wildlife_photography,Australia,Kandy,"Bodies of Water",5,positive,2018,9,September
+48509,598,Wildlife_photography,"United Kingdom",Hikkaduwa,Museums,5,negative,2018,3,March
+49608,626,Wildlife_photography,"United States","Nuwara Eliya","National Parks",3,positive,2018,12,December
+54338,626,Wildlife_photography,"United States",Anuradhapura,"Religious Sites",5,positive,2018,12,December
+45625,645,Wildlife_photography,Spain,Peradeniya,Gardens,5,positive,2021,11,November
+51481,700,Wildlife_photography,"United Kingdom",Kandy,"Nature & Wildlife Areas",4,positive,2019,2,February
+30751,734,Wildlife_photography,Australia,Unawatuna,Beaches,5,positive,2019,10,October
+30805,785,Wildlife_photography,Australia,Unawatuna,Beaches,1,negative,2019,9,September
+30823,801,Wildlife_photography,Spain,Kalutara,Beaches,4,positive,2020,2,February
+55021,808,Wildlife_photography,Australia,Colombo,"Religious Sites",5,positive,2019,3,March
+50620,824,Wildlife_photography,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",5,positive,2018,9,September
+44923,863,Wildlife_photography,"United Kingdom",Beruwala,Gardens,4,positive,2017,10,October
+49410,1057,Wildlife_photography,"United Kingdom",Weligatta,"National Parks",5,positive,2017,2,February
+54064,1076,Wildlife_photography,Netherlands,Anuradhapura,"Religious Sites",4,positive,2016,9,September
+52585,1155,Wildlife_photography,Malaysia,Ella,Waterfalls,3,negative,2020,2,February
+52067,1156,Wildlife_photography,India,Koslanda,Waterfalls,5,positive,2023,4,April
+52572,1157,Wildlife_photography,Spain,Ella,Waterfalls,5,positive,2023,3,March
+50797,1237,Wildlife_photography,Australia,Pinnawala,"Nature & Wildlife Areas",3,positive,2020,2,February
+54788,1351,Wildlife_photography,India,Colombo,"Religious Sites",5,positive,2020,2,February
+55078,1353,Wildlife_photography,India,Kandy,"Religious Sites",5,positive,2020,2,February
+52724,1426,Wildlife_photography,India,Ella,Waterfalls,5,positive,2018,12,December
+42374,1516,Wildlife_photography,Canada,Kandy,"Bodies of Water",5,positive,2020,2,February
+41630,1542,Wildlife_photography,Australia,Negombo,Beaches,4,positive,2019,2,February
+50385,1557,Wildlife_photography,Australia,Embilipitiya,"National Parks",2,negative,2019,11,November
+42858,1637,Wildlife_photography,"United States",Anuradhapura,"Bodies of Water",5,positive,2019,2,February
+42256,1660,Wildlife_photography,Singapore,"Nuwara Eliya","Bodies of Water",5,positive,2018,3,March
+41766,1665,Wildlife_photography,"United States",Negombo,Beaches,3,positive,2018,7,July
+51045,1719,Wildlife_photography,Canada,Pinnawala,"Nature & Wildlife Areas",4,negative,2018,7,July
+51403,1725,Wildlife_photography,"New Zealand",Deniyaya,"Nature & Wildlife Areas",5,positive,2018,4,April
+49810,1765,Wildlife_photography,"United Kingdom",Habarana,"National Parks",4,positive,2018,1,January
+52641,1856,Wildlife_photography,"United Kingdom",Ella,Waterfalls,4,positive,2019,3,March
+47085,1917,Wildlife_photography,"United Kingdom",Polonnaruwa,"Historic Sites",5,positive,2018,12,December
+42058,1923,Wildlife_photography,Mauritius,Kalkudah,Beaches,5,positive,2017,3,March
+46016,1982,Wildlife_photography,India,"Nuwara Eliya",Gardens,4,positive,2019,12,December
+45133,2004,Wildlife_photography,Jordan,"Nuwara Eliya",Gardens,4,positive,2019,9,September
+52372,2029,Wildlife_photography,"United Arab Emirates",Pussellawa,Waterfalls,5,positive,2019,12,December
+47441,2047,Wildlife_photography,China,Sigiriya,"Historic Sites",5,positive,2021,10,October
+49922,2051,Wildlife_photography,"United Kingdom",Habarana,"National Parks",5,positive,2019,3,March
+49482,2056,Wildlife_photography,Thailand,"Nuwara Eliya","National Parks",5,positive,2019,7,July
+45154,2171,Wildlife_photography,Australia,"Nuwara Eliya",Gardens,4,positive,2019,1,January
+49600,2172,Wildlife_photography,China,"Nuwara Eliya","National Parks",4,positive,2018,12,December
+55106,2181,Wildlife_photography,"United Kingdom",Kandy,"Religious Sites",2,positive,2020,3,March
+42384,2193,Wildlife_photography,"United Kingdom",Kandy,"Bodies of Water",5,negative,2022,2,February
+50580,2218,Wildlife_photography,Australia,Sigiriya,"Nature & Wildlife Areas",5,positive,2019,3,March
+48953,2230,Wildlife_photography,Singapore,Sigiriya,Museums,3,positive,2019,3,March
+52117,2232,Wildlife_photography,Switzerland,Koslanda,Waterfalls,4,positive,2016,9,September
+43697,2275,Wildlife_photography,Switzerland,Katukitula,Farms,4,positive,2019,1,January
+42537,2296,Wildlife_photography,Australia,Kandy,"Bodies of Water",4,positive,2018,7,July
+55199,2321,Wildlife_photography,India,Kandy,"Religious Sites",5,positive,2019,12,December
+49899,2334,Wildlife_photography,Australia,Habarana,"National Parks",4,positive,2019,2,February
+50705,2423,Wildlife_photography,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",5,positive,2017,5,May
+42718,2426,Wildlife_photography,Vietnam,Tissamaharama,"Bodies of Water",5,positive,2016,4,April
+42740,2442,Wildlife_photography,"United Kingdom",Tissamaharama,"Bodies of Water",4,positive,2019,3,March
+51256,2442,Wildlife_photography,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",5,positive,2019,3,March
+42743,2444,Wildlife_photography,Australia,Tissamaharama,"Bodies of Water",5,positive,2016,10,October
+44860,2463,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2018,4,April
+48876,2487,Wildlife_photography,"United Kingdom",Sigiriya,Museums,2,neutral,2017,1,January
+42821,2507,Wildlife_photography,India,Anuradhapura,"Bodies of Water",3,positive,2015,1,January
+53374,2523,Wildlife_photography,India,Anuradhapura,"Religious Sites",5,positive,2013,11,November
+42893,2560,Wildlife_photography,Turkiye,Anuradhapura,"Bodies of Water",4,positive,2016,1,January
+42910,2574,Wildlife_photography,Australia,Anuradhapura,"Bodies of Water",5,neutral,2015,6,June
+51351,2583,Wildlife_photography,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",4,positive,2016,8,August
+53307,2609,Wildlife_photography,Thailand,Anuradhapura,"Religious Sites",2,positive,2012,4,April
+46053,2624,Wildlife_photography,Sweden,"Nuwara Eliya",Gardens,2,positive,2018,1,January
+42983,2630,Wildlife_photography,"United Arab Emirates","Nuwara Eliya",Farms,4,positive,2018,1,January
+45238,2689,Wildlife_photography,India,"Nuwara Eliya",Gardens,1,neutral,2016,10,October
+43059,2695,Wildlife_photography,Oman,"Nuwara Eliya",Farms,3,positive,2016,3,March
+52667,2730,Wildlife_photography,"United Kingdom",Ella,Waterfalls,4,positive,2018,5,May
+50487,2734,Wildlife_photography,Singapore,Kalametiya,"Nature & Wildlife Areas",5,positive,2018,12,December
+45190,2790,Wildlife_photography,"United Kingdom","Nuwara Eliya",Gardens,4,positive,2018,3,March
+43193,2791,Wildlife_photography,"United Kingdom","Nuwara Eliya",Farms,5,positive,2018,3,March
+51092,2809,Wildlife_photography,India,Pinnawala,"Nature & Wildlife Areas",5,positive,2018,5,May
+43219,2811,Wildlife_photography,"United Kingdom","Nuwara Eliya",Farms,4,positive,2018,4,April
+50036,2811,Wildlife_photography,"United Kingdom",Habarana,"National Parks",4,positive,2018,4,April
+51095,2811,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",5,positive,2018,4,April
+43285,2863,Wildlife_photography,"United Kingdom","Nuwara Eliya",Farms,4,positive,2017,4,April
+43299,2876,Wildlife_photography,Singapore,"Nuwara Eliya",Farms,4,positive,2017,3,March
+45209,2941,Wildlife_photography,India,"Nuwara Eliya",Gardens,5,positive,2017,12,December
+52420,2953,Wildlife_photography,Philippines,Pussellawa,Waterfalls,4,positive,2017,9,September
+44904,3055,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2016,2,February
+43536,3090,Wildlife_photography,"United Kingdom",Haputale,Farms,4,positive,2015,1,January
+50270,3104,Wildlife_photography,"United Kingdom",Nilaveli,"National Parks",5,positive,2017,4,April
+47442,3122,Wildlife_photography,"United Kingdom",Sigiriya,"Historic Sites",5,positive,2023,4,April
+55578,3130,Wildlife_photography,Oman,Habarana,"Religious Sites",4,positive,2022,2,February
+49631,3176,Wildlife_photography,"United Kingdom",Habarana,"National Parks",5,positive,2019,8,August
+49475,3182,Wildlife_photography,Australia,"Nuwara Eliya","National Parks",5,positive,2019,7,July
+51693,3182,Wildlife_photography,Australia,Saliyapura,"Nature & Wildlife Areas",5,neutral,2019,7,July
+52192,3199,Wildlife_photography,Australia,"Nuwara Eliya",Waterfalls,3,positive,2019,7,July
+45780,3206,Wildlife_photography,India,Peradeniya,Gardens,4,negative,2019,1,January
+43696,3207,Wildlife_photography,"United Kingdom",Katukitula,Farms,5,positive,2019,1,January
+50941,3214,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2,positive,2018,11,November
+45292,3258,Wildlife_photography,"United Arab Emirates","Nuwara Eliya",Gardens,4,positive,2016,12,December
+49801,3277,Wildlife_photography,Singapore,Habarana,"National Parks",5,positive,2018,2,February
+43785,3285,Wildlife_photography,Australia,Katukitula,Farms,1,negative,2018,1,January
+45044,3305,Wildlife_photography,Ireland,Beruwala,Gardens,5,positive,2016,9,September
+52494,3315,Wildlife_photography,"United Kingdom",Pussellawa,Waterfalls,4,positive,2016,8,August
+43821,3317,Wildlife_photography,Indonesia,Katukitula,Farms,4,positive,2016,7,July
+43828,3324,Wildlife_photography,Australia,Katukitula,Farms,5,positive,2016,12,December
+43833,3328,Wildlife_photography,"United Kingdom",Katukitula,Farms,4,positive,2016,11,November
+43837,3331,Wildlife_photography,"United Kingdom",Katukitula,Farms,5,positive,2016,9,September
+51345,3331,Wildlife_photography,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",5,positive,2016,9,September
+52924,3365,Wildlife_photography,Australia,"Nuwara Eliya",Waterfalls,5,positive,2015,9,September
+49018,3380,Wildlife_photography,Ireland,Sigiriya,Museums,4,positive,2015,2,February
+43957,3442,Wildlife_photography,"United Kingdom",Katukitula,Farms,2,positive,2013,12,December
+51275,3512,Wildlife_photography,Australia,Deniyaya,"Nature & Wildlife Areas",3,positive,2018,12,December
+48499,3563,Wildlife_photography,"United Kingdom",Hikkaduwa,Museums,5,positive,2018,1,January
+44167,3629,Wildlife_photography,Canada,Ella,Farms,3,negative,2017,8,August
+44229,3689,Wildlife_photography,"United Kingdom",Ahangama,Farms,2,negative,2020,1,January
+50724,3829,Wildlife_photography,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",5,positive,2016,12,December
+44411,3850,Wildlife_photography,"United Kingdom",Ahangama,Farms,5,positive,2017,4,April
+44454,3891,Wildlife_photography,Australia,Ahangama,Farms,2,positive,2015,4,April
+44486,3921,Wildlife_photography,"United Arab Emirates",Ahangama,Farms,5,positive,2015,9,September
+44967,3923,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2015,9,September
+44491,3926,Wildlife_photography,"United Kingdom",Ahangama,Farms,5,positive,2015,8,August
+50886,3952,Wildlife_photography,Australia,Pinnawala,"Nature & Wildlife Areas",1,positive,2019,1,January
+52165,4007,Wildlife_photography,"United Kingdom","Nuwara Eliya",Waterfalls,5,positive,2019,2,February
+44637,4042,Wildlife_photography,"United Kingdom","Nuwara Eliya",Farms,4,positive,2018,2,February
+50604,4046,Wildlife_photography,Malta,Sigiriya,"Nature & Wildlife Areas",5,positive,2018,2,February
+52779,4064,Wildlife_photography,Indonesia,"Nuwara Eliya",Waterfalls,3,positive,2017,12,December
+52811,4093,Wildlife_photography,"United States","Nuwara Eliya",Waterfalls,4,positive,2017,3,March
+44723,4109,Wildlife_photography,Canada,"Nuwara Eliya",Farms,3,positive,2018,5,May
+50420,4159,Wildlife_photography,"United Kingdom",Embilipitiya,"National Parks",5,positive,2019,10,October
+44835,4198,Wildlife_photography,"United Kingdom",Beruwala,Gardens,4,positive,2019,10,October
+44851,4213,Wildlife_photography,Sweden,Beruwala,Gardens,5,positive,2023,2,February
+44862,4218,Wildlife_photography,Australia,Beruwala,Gardens,5,positive,2018,2,February
+44863,4219,Wildlife_photography,"United Arab Emirates",Beruwala,Gardens,5,positive,2018,3,March
+45776,4222,Wildlife_photography,"United Kingdom",Peradeniya,Gardens,5,positive,2019,1,January
+44871,4224,Wildlife_photography,"Trinidad and Tobago",Beruwala,Gardens,5,positive,2019,1,January
+44874,4225,Wildlife_photography,Australia,Beruwala,Gardens,4,positive,2019,1,January
+44886,4236,Wildlife_photography,"United Kingdom",Beruwala,Gardens,3,positive,2017,4,April
+44897,4247,Wildlife_photography,"United Kingdom",Beruwala,Gardens,4,positive,2016,2,February
+44933,4278,Wildlife_photography,Japan,Beruwala,Gardens,5,positive,2016,11,November
+44986,4327,Wildlife_photography,Australia,Beruwala,Gardens,5,positive,2015,1,January
+44996,4337,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2014,12,December
+44997,4338,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2014,12,December
+45000,4341,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2014,11,November
+45004,4345,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2014,9,September
+45090,4350,Wildlife_photography,Australia,Beruwala,Gardens,4,positive,2013,9,September
+45012,4352,Wildlife_photography,Vietnam,Beruwala,Gardens,2,negative,2014,3,March
+45015,4355,Wildlife_photography,"United Kingdom",Beruwala,Gardens,2,positive,2014,5,May
+45018,4358,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2013,8,August
+45019,4359,Wildlife_photography,"United Kingdom",Beruwala,Gardens,3,positive,2014,3,March
+45020,4360,Wildlife_photography,"United Kingdom",Beruwala,Gardens,4,positive,2014,2,February
+45034,4373,Wildlife_photography,Italy,Beruwala,Gardens,4,positive,2012,5,May
+45035,4374,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2012,4,April
+45082,4415,Wildlife_photography,Germany,Beruwala,Gardens,4,positive,2011,11,November
+45087,4420,Wildlife_photography,Australia,Beruwala,Gardens,4,positive,2011,8,August
+45095,4427,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2013,5,May
+45097,4429,Wildlife_photography,"United States",Beruwala,Gardens,5,positive,2013,5,May
+45107,4438,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2013,2,February
+45109,4440,Wildlife_photography,Thailand,Beruwala,Gardens,5,positive,2013,3,March
+45114,4445,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2013,2,February
+45115,4446,Wildlife_photography,"United Kingdom",Beruwala,Gardens,4,positive,2013,1,January
+45124,4455,Wildlife_photography,"United Kingdom",Beruwala,Gardens,5,positive,2012,9,September
+45152,4462,Wildlife_photography,India,"Nuwara Eliya",Gardens,5,positive,2018,12,December
+45207,4489,Wildlife_photography,Australia,"Nuwara Eliya",Gardens,5,positive,2017,12,December
+45243,4509,Wildlife_photography,Afghanistan,"Nuwara Eliya",Gardens,3,positive,2016,12,December
+45265,4524,Wildlife_photography,India,"Nuwara Eliya",Gardens,3,positive,2015,12,December
+52800,4563,Wildlife_photography,Bangladesh,"Nuwara Eliya",Waterfalls,4,positive,2017,6,June
+45342,4583,Wildlife_photography,India,"Nuwara Eliya",Gardens,5,positive,2016,3,March
+54770,4685,Wildlife_photography,"United Kingdom",Colombo,"Religious Sites",5,negative,2020,1,January
+45530,4732,Wildlife_photography,Denmark,Kandy,Gardens,3,positive,2013,12,December
+49865,4795,Wildlife_photography,"United Kingdom",Habarana,"National Parks",5,positive,2020,2,February
+45636,4806,Wildlife_photography,"United Arab Emirates",Peradeniya,Gardens,5,positive,2019,4,April
+45663,4822,Wildlife_photography,"United Kingdom",Peradeniya,Gardens,5,positive,2019,11,November
+45690,4839,Wildlife_photography,"United States",Peradeniya,Gardens,4,positive,2019,3,March
+49918,4845,Wildlife_photography,Australia,Habarana,"National Parks",5,positive,2019,3,March
+45741,4868,Wildlife_photography,"United Kingdom",Peradeniya,Gardens,5,positive,2019,3,March
+45783,4894,Wildlife_photography,China,Peradeniya,Gardens,5,positive,2019,1,January
+50004,4896,Wildlife_photography,"United Kingdom",Habarana,"National Parks",5,positive,2019,1,January
+47037,4897,Wildlife_photography,"United Kingdom",Polonnaruwa,"Historic Sites",5,positive,2019,1,January
+52711,4898,Wildlife_photography,"United Kingdom",Ella,Waterfalls,4,negative,2019,2,February
+45832,4922,Wildlife_photography,"United Kingdom",Peradeniya,Gardens,5,positive,2019,1,January
+45882,4949,Wildlife_photography,Australia,Peradeniya,Gardens,5,positive,2018,10,October
+45901,4959,Wildlife_photography,"United Kingdom",Peradeniya,Gardens,5,positive,2018,9,September
+52876,5030,Wildlife_photography,"United States","Nuwara Eliya",Waterfalls,4,positive,2016,1,January
+46097,5039,Wildlife_photography,"United Kingdom","Nuwara Eliya",Gardens,4,positive,2017,11,November
+46268,5138,Wildlife_photography,India,Galle,"Historic Sites",4,positive,2019,12,December
+55004,5197,Wildlife_photography,India,Colombo,"Religious Sites",4,positive,2019,4,April
+50498,5210,Wildlife_photography,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",5,positive,2019,3,March
+49639,5217,Wildlife_photography,Australia,Habarana,"National Parks",5,positive,2019,11,November
+50067,5235,Wildlife_photography,"United Kingdom",Habarana,"National Parks",4,positive,2018,7,July
+46471,5246,Wildlife_photography,"Sri Lanka",Jaffna,"Historic Sites",5,positive,2019,5,May
+51764,5297,Wildlife_photography,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",4,positive,2018,2,February
+46604,5345,Wildlife_photography,"United Kingdom",Jaffna,"Historic Sites",4,negative,2016,1,January
+56074,5408,Wildlife_photography,Australia,Jaffna,"Religious Sites",5,positive,2015,7,July
+49562,5442,Wildlife_photography,"United States","Nuwara Eliya","National Parks",5,positive,2019,2,February
+49723,5477,Wildlife_photography,Netherlands,Habarana,"National Parks",3,positive,2018,8,August
+46839,5504,Wildlife_photography,Australia,Haputale,"Historic Sites",5,positive,2017,4,April
+51736,5541,Wildlife_photography,"United States",Saliyapura,"Nature & Wildlife Areas",5,positive,2018,12,December
+48697,5597,Wildlife_photography,"United Kingdom",Galle,Museums,4,positive,2019,4,April
+47087,5624,Wildlife_photography,"United Kingdom",Polonnaruwa,"Historic Sites",4,positive,2018,12,December
+49721,5648,Wildlife_photography,"New Zealand",Habarana,"National Parks",5,positive,2018,7,July
+50590,5666,Wildlife_photography,Spain,Sigiriya,"Nature & Wildlife Areas",4,positive,2018,4,April
+49743,5682,Wildlife_photography,Turkiye,Habarana,"National Parks",4,positive,2018,3,March
+47214,5692,Wildlife_photography,Bulgaria,Polonnaruwa,"Historic Sites",4,positive,2019,12,December
+50569,5693,Wildlife_photography,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",5,positive,2019,12,December
+47264,5713,Wildlife_photography,"United Kingdom",Polonnaruwa,"Historic Sites",4,positive,2018,6,June
+47271,5720,Wildlife_photography,Singapore,Polonnaruwa,"Historic Sites",3,negative,2018,5,May
+49697,5729,Wildlife_photography,Singapore,Habarana,"National Parks",4,positive,2018,9,September
+47297,5734,Wildlife_photography,Australia,Anuradhapura,"Historic Sites",5,positive,2018,2,February
+47350,5776,Wildlife_photography,"United Kingdom",Anuradhapura,"Historic Sites",5,positive,2015,1,January
+47362,5787,Wildlife_photography,"South Africa",Anuradhapura,"Historic Sites",4,positive,2014,6,June
+55080,5861,Wildlife_photography,"United Kingdom",Kandy,"Religious Sites",5,positive,2020,2,February
+50897,5944,Wildlife_photography,India,Pinnawala,"Nature & Wildlife Areas",3,negative,2019,10,October
+50570,5953,Wildlife_photography,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",5,positive,2019,10,October
+55184,5999,Wildlife_photography,"United Arab Emirates",Kandy,"Religious Sites",5,positive,2020,1,January
+51809,6003,Wildlife_photography,Australia,Saliyapura,"Nature & Wildlife Areas",5,positive,2017,3,March
+47737,6017,Wildlife_photography,Vietnam,Ambalangoda,Museums,5,positive,2014,8,August
+51699,6036,Wildlife_photography,Singapore,Saliyapura,"Nature & Wildlife Areas",4,negative,2019,4,April
+49313,6080,Wildlife_photography,Croatia,Weligatta,"National Parks",5,positive,2018,1,January
+47988,6198,Wildlife_photography,"United Kingdom",Kandy,Museums,4,positive,2015,2,February
+54353,6473,Wildlife_photography,Singapore,Anuradhapura,"Religious Sites",5,positive,2017,7,July
+48395,6479,Wildlife_photography,Australia,Hikkaduwa,Museums,5,positive,2020,2,February
+48407,6486,Wildlife_photography,Belgium,Hikkaduwa,Museums,5,positive,2019,10,October
+48434,6501,Wildlife_photography,"United Kingdom",Hikkaduwa,Museums,5,positive,2019,3,March
+48458,6517,Wildlife_photography,"United Kingdom",Hikkaduwa,Museums,5,positive,2017,11,November
+48488,6543,Wildlife_photography,Australia,Hikkaduwa,Museums,5,positive,2018,1,January
+48527,6562,Wildlife_photography,"United Kingdom",Hikkaduwa,Museums,4,positive,2017,4,April
+48617,6635,Wildlife_photography,"United Kingdom",Hikkaduwa,Museums,5,negative,2016,7,July
+48618,6636,Wildlife_photography,"United Kingdom",Hikkaduwa,Museums,5,positive,2016,8,August
+48628,6641,Wildlife_photography,"United Kingdom",Hikkaduwa,Museums,5,positive,2016,7,July
+48636,6648,Wildlife_photography,Europe,Hikkaduwa,Museums,5,positive,2016,7,July
+48647,6657,Wildlife_photography,Australia,Hikkaduwa,Museums,4,negative,2016,2,February
+51287,6707,Wildlife_photography,Ethiopia,Deniyaya,"Nature & Wildlife Areas",4,positive,2017,9,September
+48726,6715,Wildlife_photography,"United Kingdom",Galle,Museums,5,positive,2015,1,January
+48831,6776,Wildlife_photography,Singapore,Sigiriya,Museums,5,positive,2018,1,January
+48844,6785,Wildlife_photography,Netherlands,Sigiriya,Museums,3,positive,2017,9,September
+48868,6796,Wildlife_photography,"United Kingdom",Sigiriya,Museums,4,positive,2017,3,March
+48887,6810,Wildlife_photography,Australia,Sigiriya,Museums,4,positive,2016,12,December
+50726,6815,Wildlife_photography,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",3,positive,2016,10,October
+52405,6975,Wildlife_photography,"United States",Pussellawa,Waterfalls,5,positive,2018,5,May
+49170,7002,Wildlife_photography,Australia,Kandy,Museums,5,positive,2017,1,January
+54058,7006,Wildlife_photography,"United States",Anuradhapura,"Religious Sites",3,positive,2016,10,October
+49238,7048,Wildlife_photography,Netherlands,Weligatta,"National Parks",5,positive,2019,12,December
+49248,7056,Wildlife_photography,Canada,Weligatta,"National Parks",5,positive,2020,3,March
+49270,7072,Wildlife_photography,"Solomon Islands",Weligatta,"National Parks",5,positive,2018,12,December
+49274,7075,Wildlife_photography,"United Arab Emirates",Weligatta,"National Parks",5,positive,2018,12,December
+49279,7080,Wildlife_photography,Poland,Weligatta,"National Parks",5,positive,2022,2,February
+51258,7085,Wildlife_photography,Australia,Deniyaya,"Nature & Wildlife Areas",4,positive,2019,4,April
+51705,7085,Wildlife_photography,Australia,Saliyapura,"Nature & Wildlife Areas",5,positive,2019,4,April
+49300,7095,Wildlife_photography,"United Kingdom",Weligatta,"National Parks",5,positive,2018,2,February
+49331,7119,Wildlife_photography,"Hong Kong",Weligatta,"National Parks",5,positive,2019,2,February
+49332,7120,Wildlife_photography,Norway,Weligatta,"National Parks",5,positive,2019,2,February
+49349,7136,Wildlife_photography,India,Weligatta,"National Parks",5,positive,2017,8,August
+49353,7140,Wildlife_photography,"United Kingdom",Weligatta,"National Parks",5,positive,2017,4,April
+49354,7141,Wildlife_photography,"United Kingdom",Weligatta,"National Parks",4,positive,2017,3,March
+51341,7141,Wildlife_photography,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",4,positive,2017,4,April
+49371,7154,Wildlife_photography,Hungary,Weligatta,"National Parks",5,positive,2017,1,January
+49384,7163,Wildlife_photography,India,Weligatta,"National Parks",3,positive,2016,12,December
+49406,7181,Wildlife_photography,Norway,Weligatta,"National Parks",5,positive,2017,4,April
+49422,7194,Wildlife_photography,Russia,"Nuwara Eliya","National Parks",4,positive,2022,1,January
+49511,7240,Wildlife_photography,India,"Nuwara Eliya","National Parks",5,positive,2019,2,February
+49548,7255,Wildlife_photography,"United Kingdom","Nuwara Eliya","National Parks",2,positive,2019,1,January
+49564,7258,Wildlife_photography,Romania,"Nuwara Eliya","National Parks",5,positive,2019,2,February
+49624,7287,Wildlife_photography,Australia,Habarana,"National Parks",5,positive,2019,10,October
+49658,7308,Wildlife_photography,Australia,Habarana,"National Parks",5,positive,2019,9,September
+49744,7360,Wildlife_photography,"United Kingdom",Habarana,"National Parks",4,positive,2018,3,March
+49746,7362,Wildlife_photography,"United Kingdom",Habarana,"National Parks",5,positive,2018,3,March
+49770,7380,Wildlife_photography,"United Arab Emirates",Habarana,"National Parks",5,positive,2018,3,March
+49790,7394,Wildlife_photography,Cyprus,Habarana,"National Parks",5,positive,2018,2,February
+49797,7399,Wildlife_photography,Australia,Habarana,"National Parks",5,positive,2018,2,February
+49802,7401,Wildlife_photography,"United Kingdom",Habarana,"National Parks",5,positive,2018,2,February
+55359,7409,Wildlife_photography,Australia,Habarana,"Religious Sites",4,positive,2020,8,August
+49848,7433,Wildlife_photography,Australia,Ampara,"National Parks",3,negative,2015,7,July
+49873,7449,Wildlife_photography,"United Kingdom",Habarana,"National Parks",5,positive,2019,11,November
+49880,7452,Wildlife_photography,"United Arab Emirates",Habarana,"National Parks",5,positive,2019,4,April
+49898,7463,Wildlife_photography,"United Kingdom",Habarana,"National Parks",5,positive,2019,4,April
+49923,7474,Wildlife_photography,"United States",Habarana,"National Parks",3,positive,2019,3,March
+49924,7474,Wildlife_photography,"United States",Habarana,"National Parks",3,positive,2019,3,March
+49946,7490,Wildlife_photography,"United Kingdom",Habarana,"National Parks",1,negative,2018,11,November
+49963,7498,Wildlife_photography,Australia,Habarana,"National Parks",5,positive,2018,9,September
+49980,7510,Wildlife_photography,"United Kingdom",Habarana,"National Parks",4,positive,2018,9,September
+50037,7541,Wildlife_photography,India,Habarana,"National Parks",4,positive,2018,4,April
+51691,7570,Wildlife_photography,Germany,Saliyapura,"Nature & Wildlife Areas",5,positive,2019,8,August
+50185,7620,Wildlife_photography,"United Kingdom",Nilaveli,"National Parks",3,positive,2018,8,August
+50206,7635,Wildlife_photography,"United Kingdom",Nilaveli,"National Parks",4,positive,2017,8,August
+50296,7696,Wildlife_photography,Malaysia,Embilipitiya,"National Parks",5,positive,2020,3,March
+50310,7706,Wildlife_photography,"United Kingdom",Embilipitiya,"National Parks",5,positive,2020,2,February
+50313,7709,Wildlife_photography,"United Kingdom",Embilipitiya,"National Parks",5,positive,2020,2,February
+50329,7718,Wildlife_photography,"United Kingdom",Embilipitiya,"National Parks",5,positive,2023,2,February
+50348,7732,Wildlife_photography,Canada,Embilipitiya,"National Parks",5,positive,2020,1,January
+50368,7745,Wildlife_photography,"United Arab Emirates",Embilipitiya,"National Parks",5,positive,2019,12,December
+50390,7759,Wildlife_photography,"United Kingdom",Embilipitiya,"National Parks",5,positive,2019,11,November
+50399,7766,Wildlife_photography,Nepal,Embilipitiya,"National Parks",5,positive,2019,12,December
+50409,7774,Wildlife_photography,Ireland,Embilipitiya,"National Parks",5,positive,2019,11,November
+50413,7778,Wildlife_photography,Germany,Embilipitiya,"National Parks",5,positive,2019,10,October
+50425,7786,Wildlife_photography,"United States",Embilipitiya,"National Parks",5,positive,2019,10,October
+50445,7805,Wildlife_photography,Belgium,Kalametiya,"Nature & Wildlife Areas",5,positive,2019,8,August
+50456,7813,Wildlife_photography,Switzerland,Kalametiya,"Nature & Wildlife Areas",5,positive,2020,1,January
+50475,7829,Wildlife_photography,Romania,Kalametiya,"Nature & Wildlife Areas",5,positive,2019,2,February
+50489,7841,Wildlife_photography,Canada,Kalametiya,"Nature & Wildlife Areas",5,positive,2019,4,April
+50503,7850,Wildlife_photography,China,Kalametiya,"Nature & Wildlife Areas",5,positive,2023,2,February
+50515,7861,Wildlife_photography,"United States",Kalametiya,"Nature & Wildlife Areas",5,positive,2018,8,August
+50519,7865,Wildlife_photography,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",5,positive,2018,7,July
+50545,7887,Wildlife_photography,"United Kingdom",Kalametiya,"Nature & Wildlife Areas",5,positive,2019,1,January
+50549,7891,Wildlife_photography,"New Zealand",Kalametiya,"Nature & Wildlife Areas",5,positive,2019,1,January
+50567,7908,Wildlife_photography,France,Kalametiya,"Nature & Wildlife Areas",5,positive,2018,2,February
+50612,7934,Wildlife_photography,France,Sigiriya,"Nature & Wildlife Areas",5,positive,2017,12,December
+52868,7934,Wildlife_photography,France,"Nuwara Eliya",Waterfalls,5,positive,2018,1,January
+50627,7945,Wildlife_photography,Romania,Sigiriya,"Nature & Wildlife Areas",5,positive,2018,6,June
+50648,7958,Wildlife_photography,"United Kingdom",Sigiriya,"Nature & Wildlife Areas",5,positive,2018,9,September
+50653,7962,Wildlife_photography,India,Sigiriya,"Nature & Wildlife Areas",4,positive,2017,10,October
+50735,8022,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2,positive,2023,3,March
+50737,8024,Wildlife_photography,"United States",Pinnawala,"Nature & Wildlife Areas",5,positive,2023,2,February
+50739,8026,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",1,negative,2023,2,February
+50740,8027,Wildlife_photography,India,Pinnawala,"Nature & Wildlife Areas",3,positive,2023,2,February
+50744,8031,Wildlife_photography,Lithuania,Pinnawala,"Nature & Wildlife Areas",2,positive,2022,12,December
+50749,8035,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",3,positive,2022,1,January
+50755,8039,Wildlife_photography,India,Pinnawala,"Nature & Wildlife Areas",5,positive,2022,3,March
+55072,8039,Wildlife_photography,India,Kandy,"Religious Sites",5,positive,2022,3,March
+50760,8042,Wildlife_photography,Ireland,Pinnawala,"Nature & Wildlife Areas",1,negative,2020,1,January
+50785,8056,Wildlife_photography,Germany,Pinnawala,"Nature & Wildlife Areas",1,positive,2019,12,December
+50808,8067,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",3,positive,2019,7,July
+50817,8074,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",1,positive,2019,8,August
+50847,8089,Wildlife_photography,Canada,Pinnawala,"Nature & Wildlife Areas",1,positive,2019,3,March
+50884,8111,Wildlife_photography,Australia,Pinnawala,"Nature & Wildlife Areas",1,positive,2019,1,January
+50896,8116,Wildlife_photography,Australia,Pinnawala,"Nature & Wildlife Areas",5,positive,2019,10,October
+50910,8122,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",2,positive,2019,1,January
+50915,8124,Wildlife_photography,"United States",Pinnawala,"Nature & Wildlife Areas",1,negative,2018,11,November
+50925,8130,Wildlife_photography,"United Arab Emirates",Pinnawala,"Nature & Wildlife Areas",3,positive,2018,12,December
+50940,8141,Wildlife_photography,"United Arab Emirates",Pinnawala,"Nature & Wildlife Areas",2,positive,2018,12,December
+50944,8144,Wildlife_photography,Finland,Pinnawala,"Nature & Wildlife Areas",1,negative,2018,7,July
+50978,8159,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",3,negative,2018,10,October
+50986,8165,Wildlife_photography,Netherlands,Pinnawala,"Nature & Wildlife Areas",1,negative,2018,10,October
+51281,8185,Wildlife_photography,Netherlands,Deniyaya,"Nature & Wildlife Areas",5,positive,2018,6,June
+51014,8186,Wildlife_photography,"New Zealand",Pinnawala,"Nature & Wildlife Areas",4,positive,2018,4,April
+51015,8187,Wildlife_photography,"United States",Pinnawala,"Nature & Wildlife Areas",5,positive,2018,6,June
+51024,8194,Wildlife_photography,Qatar,Pinnawala,"Nature & Wildlife Areas",4,positive,2018,6,June
+51043,8207,Wildlife_photography,Spain,Pinnawala,"Nature & Wildlife Areas",5,positive,2017,9,September
+51062,8219,Wildlife_photography,Denmark,Pinnawala,"Nature & Wildlife Areas",1,positive,2019,2,February
+55656,8222,Wildlife_photography,"United Kingdom",Habarana,"Religious Sites",4,positive,2019,2,February
+51082,8235,Wildlife_photography,"United Kingdom",Pinnawala,"Nature & Wildlife Areas",4,positive,2018,5,May
+51087,8238,Wildlife_photography,Malaysia,Pinnawala,"Nature & Wildlife Areas",1,positive,2018,4,April
+51196,8317,Wildlife_photography,"United States",Galle,"Nature & Wildlife Areas",4,positive,2018,8,August
+51203,8321,Wildlife_photography,Ireland,Galle,"Nature & Wildlife Areas",5,positive,2018,9,September
+51269,8365,Wildlife_photography,China,Deniyaya,"Nature & Wildlife Areas",4,positive,2019,2,February
+51277,8371,Wildlife_photography,"United States",Deniyaya,"Nature & Wildlife Areas",4,positive,2018,11,November
+51305,8392,Wildlife_photography,Netherlands,Deniyaya,"Nature & Wildlife Areas",5,positive,2017,3,March
+51320,8403,Wildlife_photography,India,Deniyaya,"Nature & Wildlife Areas",5,positive,2016,2,February
+51353,8422,Wildlife_photography,Germany,Deniyaya,"Nature & Wildlife Areas",5,positive,2016,8,August
+51374,8437,Wildlife_photography,India,Deniyaya,"Nature & Wildlife Areas",4,positive,2016,5,May
+51375,8438,Wildlife_photography,"United Kingdom",Deniyaya,"Nature & Wildlife Areas",4,positive,2016,3,March
+51427,8474,Wildlife_photography,Hungary,Deniyaya,"Nature & Wildlife Areas",4,positive,2016,2,February
+51444,8485,Wildlife_photography,Australia,Kandy,"Nature & Wildlife Areas",5,positive,2019,7,July
+51473,8501,Wildlife_photography,"United Kingdom",Kandy,"Nature & Wildlife Areas",5,positive,2018,7,July
+51521,8520,Wildlife_photography,"United Kingdom",Kandy,"Nature & Wildlife Areas",5,positive,2017,8,August
+51535,8526,Wildlife_photography,"United Kingdom",Kandy,"Nature & Wildlife Areas",4,positive,2018,1,January
+51654,8606,Wildlife_photography,"United Kingdom",Kandy,"Nature & Wildlife Areas",4,positive,2014,2,February
+51682,8622,Wildlife_photography,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",5,positive,2020,1,January
+51696,8629,Wildlife_photography,Australia,Saliyapura,"Nature & Wildlife Areas",5,positive,2018,10,October
+51780,8675,Wildlife_photography,"New Zealand",Saliyapura,"Nature & Wildlife Areas",4,positive,2017,6,June
+51830,8709,Wildlife_photography,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",4,positive,2018,4,April
+51856,8723,Wildlife_photography,"Sri Lanka",Saliyapura,"Nature & Wildlife Areas",5,positive,2016,8,August
+51877,8737,Wildlife_photography,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",3,positive,2017,12,December
+51895,8749,Wildlife_photography,Netherlands,Saliyapura,"Nature & Wildlife Areas",5,positive,2016,1,January
+51927,8774,Wildlife_photography,"United States",Saliyapura,"Nature & Wildlife Areas",5,positive,2016,1,January
+51948,8788,Wildlife_photography,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",5,positive,2015,2,February
+51949,8789,Wildlife_photography,Israel,Saliyapura,"Nature & Wildlife Areas",5,positive,2015,1,January
+51950,8790,Wildlife_photography,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",3,positive,2015,2,February
+51955,8794,Wildlife_photography,Australia,Saliyapura,"Nature & Wildlife Areas",3,positive,2014,8,August
+51967,8804,Wildlife_photography,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",4,positive,2014,2,February
+51969,8806,Wildlife_photography,Singapore,Saliyapura,"Nature & Wildlife Areas",5,positive,2014,1,January
+51978,8814,Wildlife_photography,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",4,positive,2014,8,August
+51981,8816,Wildlife_photography,"United Kingdom",Saliyapura,"Nature & Wildlife Areas",4,positive,2013,6,June
+51997,8828,Wildlife_photography,"United Kingdom","Nuwara Eliya",Waterfalls,4,positive,2017,11,November
+52064,8855,Wildlife_photography,Indonesia,"Nuwara Eliya",Waterfalls,4,positive,2014,3,March
+52125,8882,Wildlife_photography,Netherlands,Koslanda,Waterfalls,4,positive,2018,10,October
+52142,8893,Wildlife_photography,"United Kingdom",Koslanda,Waterfalls,5,positive,2015,9,September
+52781,8922,Wildlife_photography,Germany,"Nuwara Eliya",Waterfalls,4,positive,2017,12,December
+52252,8924,Wildlife_photography,"United Arab Emirates","Nuwara Eliya",Waterfalls,2,positive,2017,9,September
+52300,8948,Wildlife_photography,"United Kingdom","Nuwara Eliya",Waterfalls,5,positive,2017,1,January
+52383,8989,Wildlife_photography,"United Kingdom",Pussellawa,Waterfalls,4,positive,2018,4,April
+52504,9046,Wildlife_photography,Australia,Pussellawa,Waterfalls,4,positive,2015,12,December
+52920,9050,Wildlife_photography,India,"Nuwara Eliya",Waterfalls,3,positive,2015,10,October
+52537,9064,Wildlife_photography,Australia,Pussellawa,Waterfalls,2,positive,2016,2,February
+52550,9071,Wildlife_photography,"United Arab Emirates",Pussellawa,Waterfalls,3,positive,2015,5,May
+52557,9076,Wildlife_photography,Australia,Pussellawa,Waterfalls,5,positive,2015,1,January
+52623,9108,Wildlife_photography,"United Kingdom",Ella,Waterfalls,5,positive,2020,1,January
+52636,9116,Wildlife_photography,"United Arab Emirates",Ella,Waterfalls,4,positive,2019,10,October
+52686,9132,Wildlife_photography,"United Kingdom",Ella,Waterfalls,5,positive,2018,11,November
+52767,9166,Wildlife_photography,"United Kingdom",Ella,Waterfalls,3,positive,2018,11,November
+52829,9185,Wildlife_photography,Canada,"Nuwara Eliya",Waterfalls,4,positive,2016,6,June
+52914,9212,Wildlife_photography,Australia,"Nuwara Eliya",Waterfalls,4,positive,2016,1,January
+52994,9263,Wildlife_photography,Singapore,Colombo,"Zoological Gardens",5,positive,2015,5,May
+53013,9278,Wildlife_photography,"United Kingdom",Colombo,"Zoological Gardens",5,positive,2014,7,July
+53938,9643,Wildlife_photography,"United Kingdom",Anuradhapura,"Religious Sites",5,positive,2018,2,February
+54860,9968,Wildlife_photography,"United Kingdom",Colombo,"Religious Sites",4,positive,2019,11,November
+54909,9991,Wildlife_photography,"United Kingdom",Colombo,"Religious Sites",1,negative,2019,4,April
+55025,10054,Wildlife_photography,"United Kingdom",Colombo,"Religious Sites",4,positive,2018,12,December
+55426,10194,Wildlife_photography,India,Habarana,"Religious Sites",4,positive,2018,8,August
+55511,10225,Wildlife_photography,Canada,Habarana,"Religious Sites",5,positive,2018,12,December
+55519,10229,Wildlife_photography,"United Kingdom",Habarana,"Religious Sites",5,positive,2018,11,November
+55592,10249,Wildlife_photography,"United Kingdom",Habarana,"Religious Sites",4,positive,2019,12,December

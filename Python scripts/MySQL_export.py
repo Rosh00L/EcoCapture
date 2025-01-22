@@ -20,7 +20,13 @@ sql_traveler = pd.read_sql(
     "SELECT * FROM ecocapture.traveller", 
     con=engine 
 ) 
-sql_traveler.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveler.xlsx',index=False)
+sql_traveler.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\traveler.xlsx',index=False)
+
+photography = pd.read_sql( 
+    "SELECT * FROM ecocapture.photography", 
+    con=engine 
+) 
+photography.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\photography.xlsx',index=False)
 
 sql_date = pd.read_sql( 
     "SELECT * FROM ecocapture.dateall", 
