@@ -82,16 +82,17 @@ select
     ;
 
 
- DROP view if exists V_twoCatSat;
- create view V_twoCatSat as 
+ DROP view if exists V_twoCatStats;
+ create view V_twoCatStats as 
  select 
 	Photography,
+    Travel_Year,
     AVG(rating) as Mean,
     MAX(rating) as MAX,
     MIN(rating) as MIN,
     STDDEV(rating) as STDDEV
    from V_PhotographyVSnonall
-   group by  Photography
+   group by  Photography,Travel_Year
   ;
    
 
