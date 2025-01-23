@@ -13,7 +13,7 @@ CREATE Table _Traveller_country AS
         ORDER BY A.inputID
 ;   
 
-
+DROP table if exists V_CountryDate;
 CREATE Table  V_CountryDate AS
     SELECT 
        A.inputID, A.Traveller_ID,A.Traveller_Country, B.Travel_Date, B.Travel_Year, B.Travel_Month, B.month
@@ -25,7 +25,7 @@ ORDER BY A.inputID
 ;
 
 /***Photography rating and SIA *********************************************************/
-
+DROP table if exists V_photography_Rating;
 CREATE Table  V_photography_Rating  AS
     SELECT 
 		A.InputID,
@@ -62,12 +62,13 @@ union all
 select * from  _no_Photography
 ;
  
-
+DROP table if exists V_PhotographyVSnonall;
 create Table  V_PhotographyVSnonall as 
 select 
 		A.InputID,
 		A.Traveller_ID,
         A.Photography,
+        D.location_Type,
 		B.Travel_Year,
         B.Travel_month,
         B.month,
@@ -77,9 +78,12 @@ select
 	DATEALL B ON  A.InputID = B.InputID
     LEFT JOIN 
 	Rating C ON A.InputID = C.InputID
+    LEFT JOIN
+	location D ON A.InputID = D.InputID
     ORDER BY A.InputID
     ;
 
+ DROP table if exists V_twoCatStats;
  create Table  V_twoCatStats  as 
  select 
 	Photography,
