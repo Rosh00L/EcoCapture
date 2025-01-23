@@ -22,41 +22,67 @@ sql_traveler = pd.read_sql(
 ) 
 sql_traveler.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\traveler.xlsx',index=False)
 
+sql_country = pd.read_sql( 
+    "SELECT * FROM ecocapture.country", 
+    con=engine 
+) 
+sql_country.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\country.xlsx',index=False)
 
 sql_date = pd.read_sql( 
     "SELECT * FROM ecocapture.dateall", 
     con=engine 
 ) 
-sql_date.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_date.xlsx',index=False)
+sql_date.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\dateall.xlsx',index=False)
 
 sql_location = pd.read_sql( 
     "SELECT * FROM ecocapture.location", 
     con=engine 
 ) 
-sql_location.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_Location.xlsx',index=False)
+sql_location.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\Location.xlsx',index=False)
 
 sql_sia = pd.read_sql( 
     "SELECT * FROM ecocapture.sia",
     con=engine 
 ) 
-sql_sia.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_siarating.xlsx',index=False)
+sql_sia.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\sia.xlsx',index=False)
 
 sql_act = pd.read_sql( 
     "SELECT * FROM ecocapture.activity",
 con=engine 
 ) 
-sql_act.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_activity.xlsx",index=False)
+sql_act.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\activity.xlsx",index=False)
 
 traveller_comments= pd.read_sql( 
     "SELECT * FROM ecocapture.comment",
 con=engine 
 ) 
-traveller_comments.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveller_comments.xlsx",index=False)
+traveller_comments.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\comments.xlsx",index=False)
 
 V_fromcountrydate= pd.read_sql( 
     "SELECT * FROM ecocapture.V_countrydate",
 con=engine 
 ) 
-V_fromcountrydate.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_romcountrydate.xlsx",index=False)    
+V_fromcountrydate.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\V_countrydate.xlsx",index=False)    
+
+V_photography_rating= pd.read_sql( 
+    "SELECT * FROM ecocapture.V_photography_rating",
+con=engine 
+) 
+V_photography_rating.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\photography_rating.xlsx",index=False)  
+
+
+v_photographyvsnonall= pd.read_sql( 
+    "SELECT * FROM ecocapture.v_photographyvsnonall",
+con=engine 
+) 
+v_photographyvsnonall.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\photographyvsnonall.xlsx",index=False)  
+
+
+v_twocatstats= pd.read_sql( 
+    "SELECT * FROM ecocapture.v_twocatstats",
+con=engine 
+) 
+v_twocatstats.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\v_twocatstats.xlsx",index=False)  
+
 
 

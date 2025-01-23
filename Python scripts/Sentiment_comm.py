@@ -91,29 +91,3 @@ Sia_comments=df[["InputID","Traveller_ID","processed_comments","sentiment_commen
 Sia_comments=pd.DataFrame(Sia_comments).sort_values(by=("InputID"))
 sia = pd.DataFrame(Sia_comments)
 sia.to_sql('sia', engine, dtype={"InputID":Integer(), "Traveller_ID": Integer(),"processed_comments": String (9000), "sentiment_comments":String(10)}, if_exists='replace', index=False)
-
-cols = df[['comments', 'clean_comments', 'processed_comments', 'sentiment_comments']]
-
-df_sentiment = pd.DataFrame(cols)
-
-negatives_df = df_sentiment[df_sentiment['sentiment_comments'] == 'negative'][['comments', 'processed_comments']]
-negatives = negatives_df['comments'].tolist()
-
-positives_df = df_sentiment[df_sentiment['sentiment_comments'] == 'positive'][['comments', 'processed_comments']]
-positives = positives_df['comments'].tolist()
-
-def most_common(df, top_n=25):
-    all_words = [word for word in ' '.join(df['processed_comments']).split() if word not in string.punctuation]
-    word_counts = Counter(all_words)
-    top_25_words = word_counts.most_common(top_n)
-
-    return top_25_words
-print(most_common(negatives_df))
-print(most_common(positives_df))
-df.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_SIA.xlsx',index=False)   
-#commentsvr=pd.Series(commentsCOL).reset_index(drop=True)
-#strx.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_commentsfile.xlsx',index=False)
-#print (commentss)
-#commentss['SPLcomments']=commentss['comments'].str.split(' ')
-#s= (commentss['comments'])
-#commentss.to_excel(r'G:\BrainStation\Poject\Qc outputs\QC_groups.xlsx',index=False)    
