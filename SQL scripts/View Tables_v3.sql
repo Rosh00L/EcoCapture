@@ -1,7 +1,6 @@
 USE ecocapture;
 
-DROP view if exists _Traveller_country; 
-CREATE VIEW _Traveller_country AS
+CREATE Table _Traveller_country AS
     SELECT 
 		A.InputID,
 		A.Traveller_ID,
@@ -14,8 +13,8 @@ CREATE VIEW _Traveller_country AS
         ORDER BY A.inputID
 ;   
 
-Drop VIEW IF EXISTS V_CountryDate;
-CREATE VIEW V_CountryDate AS
+
+CREATE Table  V_CountryDate AS
     SELECT 
        A.inputID, A.Traveller_ID,A.Traveller_Country, B.Travel_Date, B.Travel_Year, B.Travel_Month, B.month
     FROM
@@ -26,8 +25,8 @@ ORDER BY A.inputID
 ;
 
 /***Photography rating and SIA *********************************************************/
-drop View if exists V_photography_Rating;  
-CREATE VIEW V_photography_Rating  AS
+
+CREATE Table  V_photography_Rating  AS
     SELECT 
 		A.InputID,
 		A.Traveller_ID,
@@ -57,14 +56,14 @@ CREATE VIEW V_photography_Rating  AS
 ;  
 
 /*Photography holiday vs non Photography holiday*/
-DROP view if exists _PhotographyVSnon; 
-create view _PhotographyVSnon as 
+create Table _PhotographyVSnon as 
 select * from  _Photography
 union all   
-select * from  _no_Photography;
+select * from  _no_Photography
+;
  
-DROP view if exists V_PhotographyVSnonall; 
-create view V_PhotographyVSnonall as 
+
+create Table  V_PhotographyVSnonall as 
 select 
 		A.InputID,
 		A.Traveller_ID,
@@ -81,18 +80,20 @@ select
     ORDER BY A.InputID
     ;
 
-
- DROP view if exists V_twoCatStats;
- create view V_twoCatStats as 
+ create Table  V_twoCatStats  as 
  select 
 	Photography,
     Travel_Year,
-    AVG(rating) as Mean,
-    MAX(rating) as MAX,
-    MIN(rating) as MIN,
+   convert(AVG(rating),decimal(7,4)) as Mean,
+    MAX(rating) as MAX_,
+    MIN(rating) as MIN_,
     STDDEV(rating) as STDDEV
    from V_PhotographyVSnonall
    group by  Photography,Travel_Year
   ;
-   
-
+ 
+ desc  V_twoCatStats;
+DROP Table if exists _Traveller_country; 
+DROP Table if exists _PhotographyVSnon; 
+DROP table if exists _no_photography;
+DROP table if exists _photography;

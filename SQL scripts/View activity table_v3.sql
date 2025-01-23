@@ -1,7 +1,18 @@
 USE ecocapture;
 SET GLOBAL regexp_time_limit=100024;
+ 
+ALTER table _photography
+  DEFAULT CHARACTER SET utf8mb4,
+  MODIFY photography VARCHAR(15)
+    CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL;
+    
+ALTER table _no_photography
+  DEFAULT CHARACTER SET utf8mb4,
+  MODIFY photography VARCHAR(15)
+    CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL;    
+
 /*Wildlife_nature*************************************************/
-CREATE VIEW Wildlife_nature AS
+CREATE TABLE Wildlife_nature AS
 	select 
 	    act.InputID,
         act.Traveller_ID,
@@ -13,10 +24,8 @@ CREATE VIEW Wildlife_nature AS
         A.Traveller_ID as Traveller_ID,
          LOWER(A.Comments) AS Comments,
         CASE
-            WHEN LOWER(Comments) REGEXP LOWER('wildlife|wild life|safari|diving|snorking|leopard|leopards|elephant|elephants|peacock|bear|coral|whale|dolphin|nature|rainforest|animal|animals|monkey|lizard|butterfly|garden|reptile|snake|fish|Bats|
-            Wetlands|Jungle|forest|flora|fauna|spider|owl|frogmouth|squirre|fowl|biolog|sinharaja|plants|naturalist|eagles|bird|birdlife|birding|birdwatching|magpie|birdsong|yala|wilpattu|buffalo|corals|plants|
-            snails|geckos|deers|Game Camp|raptors|hornbills|turtles|waterfalls|water fall|reserve|udawalawe') THEN "wildlife_nature"
-            ELSE ' '
+            WHEN LOWER(Comments) REGEXP LOWER('wildlife|wild life|safari|diving|snorking|leopard|leopards|elephant|elephants|peacock|bear|coral|whale|dolphin|nature|rainforest|animal|animals|monkey|lizard|butterfly|garden|reptile|snake|fish|Bats|Wetlands|Jungle|forest|flora|fauna|spider|owl|frogmouth|squirre|fowl|biolog|sinharaja|plants|naturalist|eagles|bird|birdlife|birding|birdwatching|magpie|birdsong|yala|wilpattu|buffalo|corals|plants|snails|geckos|deers|Game Camp|raptors|hornbills|turtles|waterfalls|water fall|reserve|udawalawe') THEN "wildlife_nature"
+            ELSE " "
         END AS wildlife_nature
           FROM
        _photography A
@@ -25,9 +34,9 @@ CREATE VIEW Wildlife_nature AS
     where act.Wildlife_nature="wildlife_nature"  
     ORDER BY act.InputID
     ;  
-    
- /*Hiking_climbing*************************************************/
-CREATE VIEW Hiking_climbing AS
+   
+ /*Hiking_climbing*************************************************/   
+CREATE TABLE Hiking_climbing AS
 	select 
 	    act.InputID,
         act.Traveller_ID,
@@ -49,10 +58,10 @@ CREATE VIEW Hiking_climbing AS
     where act.Hiking_climbing="Hiking_climbing"  
     ORDER BY act.InputID
     ;
+
     
     /**Biking_cycling**************************************************/
-    
-    CREATE VIEW Biking_cycling AS
+    CREATE TABLE Biking_cycling AS
 	select 
 	    act.InputID,
         act.Traveller_ID,
@@ -76,8 +85,7 @@ CREATE VIEW Hiking_climbing AS
     ;
     
     /**Historical_Sites**************************************************/
-    
-    CREATE VIEW Historical_Sites AS
+    CREATE TABLE Historical_Sites AS
 	select 
 	    act.InputID,
         act.Traveller_ID,
@@ -101,8 +109,7 @@ CREATE VIEW Hiking_climbing AS
     ;
     
      /**Beach_Water_Sports**************************************************/
-    
-    CREATE VIEW Beach_Water_Sports AS
+    CREATE TABLE Beach_Water_Sports AS
 	select 
 	    act.InputID,
         act.Traveller_ID,
@@ -126,7 +133,7 @@ CREATE VIEW Hiking_climbing AS
     ;
     
     /** Sightseeing **************************************************/
-    CREATE VIEW Sightseeing AS
+    CREATE TABLE Sightseeing AS
 	select 
 	    act.InputID,
         act.Traveller_ID,
@@ -148,8 +155,9 @@ CREATE VIEW Hiking_climbing AS
     where act.Sightseeing="Sightseeing"  
     ORDER BY act.InputID
     ;
+    
     /**Religious**************************************************/
-    CREATE VIEW Religious AS
+    CREATE TABLE Religious AS
 	select 
 	    act.InputID,
         act.Traveller_ID,
@@ -173,7 +181,7 @@ CREATE VIEW Hiking_climbing AS
     ;
     
 	/**Relaxing**************************************************/
-    CREATE VIEW Relaxing AS
+    CREATE TABLE Relaxing AS
 	select 
 	    act.InputID,
         act.Traveller_ID,
@@ -197,7 +205,7 @@ CREATE VIEW Hiking_climbing AS
     ;
     
 	/**Romantic_holiday**************************************************/
-    CREATE VIEW Romantic_holiday AS
+    CREATE TABLE Romantic_holiday AS
 	select 
 	    act.InputID,
         act.Traveller_ID,
@@ -220,6 +228,9 @@ CREATE VIEW Hiking_climbing AS
     ORDER BY act.InputID
     ;
     
+ 
+
+   
 DROP table if exists activity;  
 create table activity as 
 select * from  Beach_Water_Sports
@@ -243,14 +254,13 @@ select * from  Romantic_holiday;
 alter table  activity
 Rename Column Beach_Water_Sports to activity;
 
-DROP view if exists Wildlife_nature;
-drop view if exists Wildlife_photography;
-DROP view if exists Hiking_climbing;
-DROP view if exists Biking_cycling;
-DROP view if exists Historical_Sites;
-DROP view if exists Beach_Water_Sports;
-DROP view if exists Sightseeing;
-DROP view if exists  Religious;
-DROP view if exists Relaxing;
-DROP view if exists Romantic_holiday;   
+DROP table if exists Wildlife_nature;
+DROP table if exists Hiking_climbing;
+DROP table if exists Biking_cycling;
+DROP table if exists Historical_Sites;
+DROP table if exists Beach_Water_Sports;
+DROP table if exists Sightseeing;
+DROP table if exists Religious;
+DROP table if exists Relaxing;
+DROP table if exists Romantic_holiday;   
     

@@ -1,3 +1,12 @@
+
+ 
+    
+ALTER table _photography
+  DEFAULT CHARACTER SET utf8mb4,
+  MODIFY photography VARCHAR(15)
+    CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL;
+
+
 DROP view if exists country_count; 
 CREATE VIEW country_count AS
     SELECT 
