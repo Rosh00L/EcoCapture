@@ -1,4 +1,5 @@
 import pandas as pd
+from string import printable
 from sqlalchemy import create_engine, MetaData , Table , Column, Integer, String ,text
 from sqlalchemy_utils import create_database, database_exists
 import numpy as np
@@ -148,6 +149,10 @@ rating=pd.DataFrame(dfRating).sort_values(by=("InputID"))
 
 ### User Text data #######
 comments=TravelData[["InputID","Traveller_ID","Title","Text"]].drop_duplicates().reset_index(drop=True)
+
+
+st = set(printable)
+comments['Text'] = comments["Text"].apply(lambda x: ''.join([" " if ord(i) < 32 or ord(i) > 126 else i for i in x]))
 comments=comments.rename(columns={'Text':'comments'})
 comments=pd.DataFrame(comments).sort_values(by=("InputID"))
 

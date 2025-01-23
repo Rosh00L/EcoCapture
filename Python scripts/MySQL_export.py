@@ -22,23 +22,12 @@ sql_traveler = pd.read_sql(
 ) 
 sql_traveler.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\traveler.xlsx',index=False)
 
-photography = pd.read_sql( 
-    "SELECT * FROM ecocapture.photography", 
-    con=engine 
-) 
-photography.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\photography.xlsx',index=False)
 
 sql_date = pd.read_sql( 
     "SELECT * FROM ecocapture.dateall", 
     con=engine 
 ) 
 sql_date.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_date.xlsx',index=False)
-
-sql_Country = pd.read_sql( 
-    "SELECT * FROM ecocapture.traveller_country", 
-    con=engine 
-) 
-sql_Country.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveler_Country.xlsx',index=False)
 
 sql_location = pd.read_sql( 
     "SELECT * FROM ecocapture.location", 
@@ -47,7 +36,7 @@ sql_location = pd.read_sql(
 sql_location.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_Location.xlsx',index=False)
 
 sql_sia = pd.read_sql( 
-    "SELECT * FROM ecocapture.siarating", 
+    "SELECT * FROM ecocapture.sia",
     con=engine 
 ) 
 sql_sia.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_siarating.xlsx',index=False)
@@ -58,43 +47,16 @@ con=engine
 ) 
 sql_act.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_activity.xlsx",index=False)
 
-V_traveller_country= pd.read_sql( 
-    "SELECT * FROM ecocapture.traveller_country",
+traveller_comments= pd.read_sql( 
+    "SELECT * FROM ecocapture.comment",
 con=engine 
 ) 
-V_traveller_country.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveller_country.xlsx",index=False)
-
-
-Visit_date= pd.read_sql( 
-    "SELECT * FROM ecocapture.visit_date",
-con=engine 
-) 
-Visit_date.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_visit_date.xlsx",index=False)
+traveller_comments.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveller_comments.xlsx",index=False)
 
 V_fromcountrydate= pd.read_sql( 
-    "SELECT * FROM ecocapture.countrydate",
+    "SELECT * FROM ecocapture.V_countrydate",
 con=engine 
 ) 
 V_fromcountrydate.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_romcountrydate.xlsx",index=False)    
 
-V_countryT= pd.read_sql( 
-    "SELECT * FROM ecocapture.countryT",
-con=engine 
-) 
-V_countryT.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\QC_countryT.xlsx",index=False)    
 
-'''''
-# read table data using sql query
-sql_traveler = pd.read_sql( 
-    "SELECT * FROM ecocapture.traveler", 
-    con=engine 
-) 
-sql_traveler.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_traveler.xlsx',index=False)
- 
-sql_country = pd.read_sql( 
-    "SELECT * FROM ecocapture.country", 
-    con=engine 
-) 
-sql_country.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\QC_country.xlsx',index=False)
-
-'''''

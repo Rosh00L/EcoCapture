@@ -228,10 +228,6 @@ CREATE TABLE Hiking_climbing AS
     ORDER BY act.InputID
     ;
     
- 
-
-   
-DROP table if exists activity;  
 create table activity as 
 select * from  Beach_Water_Sports
 union all   

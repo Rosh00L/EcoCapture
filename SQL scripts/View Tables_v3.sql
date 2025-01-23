@@ -92,7 +92,6 @@ select
    group by  Photography,Travel_Year
   ;
  
- desc  V_twoCatStats;
 DROP Table if exists _Traveller_country; 
 DROP Table if exists _PhotographyVSnon; 
 DROP table if exists _no_photography;
