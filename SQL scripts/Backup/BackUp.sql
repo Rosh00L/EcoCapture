@@ -1,4 +1,24 @@
-
+DROP table if exists photography_find_dups;
+CREATE Table  photography_find_dups 
+		select 
+		No_dup.InputID,
+		No_dup.Traveller_ID,
+		No_dup.Photography,
+		No_dup.No_no_Photography
+    from (SELECT 
+		A.InputID,
+		A.Traveller_ID,
+		A.Photography
+		from   _Photography A
+    ) Photo  FULL outer join 
+    (SELECT 
+		B.InputID,
+		b.Traveller_ID,
+		B.Photography AS No_no_Photography
+    from _no_Photography B
+    ) No_dup
+    on Photo.Traveller_ID=No_dup.Traveller_ID
+;
  
     
 ALTER table _photography

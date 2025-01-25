@@ -1,5 +1,6 @@
 USE ecocapture;
 
+/*DROP table if exists _Traveller_country;*/
 CREATE Table _Traveller_country AS
     SELECT 
 		A.InputID,
@@ -10,10 +11,11 @@ CREATE Table _Traveller_country AS
         Traveller A
             LEFT JOIN
         country B ON A.Traveller_Location = B.Traveller_Location
+        where Traveller_Country is not null 
         ORDER BY A.inputID
 ;   
 
-DROP table if exists V_CountryDate;
+/*DROP table if exists V_CountryDate;*/
 CREATE Table  V_CountryDate AS
     SELECT 
        A.inputID, A.Traveller_ID,A.Traveller_Country, B.Travel_Date, B.Travel_Year, B.Travel_Month, B.month
@@ -25,7 +27,7 @@ ORDER BY A.inputID
 ;
 
 /***Photography rating and SIA *********************************************************/
-DROP table if exists V_photography_Rating;
+/*DROP table if exists V_photography_Rating;*/
 CREATE Table  V_photography_Rating  AS
     SELECT 
 		A.InputID,
@@ -55,14 +57,41 @@ CREATE Table  V_photography_Rating  AS
 	ORDER BY A.InputID
 ;  
 
-/*Photography holiday vs non Photography holiday*/
+
+DROP table if exists photography_find_dups;
+CREATE Table  photography_find_dups 
+	select
+		A.InputID,
+		A.Traveller_ID,
+		A.Photography,
+	    B.Photography as No_Photography
+      
+	from _Photography A
+	left outer join _no_Photography B on A.Traveller_ID=B.Traveller_ID
+	union all    
+	select
+		A.InputID,
+		A.Traveller_ID,
+		A.Photography,
+		B.Photography as No_Photography
+
+	from _no_Photography B 
+    left outer join _Photography A on A.Traveller_ID=B.Traveller_ID
+	where  A.Traveller_ID IS NULL or  B.Traveller_ID IS NULL
+;
+
+
+/*Photography holiday vs non Photography holiday*
+DROP table if exists _PhotographyVSnon;
 create Table _PhotographyVSnon as 
 select * from  _Photography
 union all   
 select * from  _no_Photography
 ;
+ */
+
  
-DROP table if exists V_PhotographyVSnonall;
+/*DROP table if exists V_PhotographyVSnonall;*/
 create Table  V_PhotographyVSnonall as 
 select 
 		A.InputID,
@@ -80,23 +109,25 @@ select
 	Rating C ON A.InputID = C.InputID
     LEFT JOIN
 	location D ON A.InputID = D.InputID
-    ORDER BY A.InputID
+    ORDER BY A.Photography,A.Traveller_ID
     ;
 
- DROP table if exists V_twoCatStats;
+ /*DROP table if exists V_twoCatStats;*/
  create Table  V_twoCatStats  as 
  select 
 	Photography,
     Travel_Year,
-   convert(AVG(rating),decimal(7,4)) as Mean,
-    MAX(rating) as MAX_,
-    MIN(rating) as MIN_,
-    STDDEV(rating) as STDDEV
+    #avg(Traveller_ID) as MEAN_,
+   convert(AVG(Traveller_ID),decimal(9,4)) as Mean,
+    MAX(Traveller_ID) as MAX_,
+    MIN(Traveller_ID) as MIN_,
+    STDDEV(Traveller_ID) as STDDEV
    from V_PhotographyVSnonall
    group by  Photography,Travel_Year
   ;
  
 DROP Table if exists _Traveller_country; 
 DROP Table if exists _PhotographyVSnon; 
+/*
 DROP table if exists _no_photography;
-DROP table if exists _photography;
+DROP table if exists _photography;*/

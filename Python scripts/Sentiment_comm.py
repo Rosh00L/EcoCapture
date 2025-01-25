@@ -75,11 +75,11 @@ sia = SentimentIntensityAnalyzer()
 def get_sentiment(comments):
     sentiment_score = sia.polarity_scores(comments)['compound']
     if sentiment_score >= 0.05:
-        return "positive"
+        return "Positive"
     elif sentiment_score <= -0.05:
-        return "negative"
+        return "Negative"
     else:
-        return "neutral"
+        return "Neutral"
         
 df['sentiment_comments'] = df['processed_comments'].apply(get_sentiment)
 
