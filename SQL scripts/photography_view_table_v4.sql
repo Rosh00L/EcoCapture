@@ -1,6 +1,8 @@
 USE ecocapture;
 SET GLOBAL regexp_time_limit=100024;
 /******************** Photography Holidays ******************************/
+
+DROP table if exists _photography;
 CREATE table _photography AS
 	select 
 	    act.InputID,
@@ -27,6 +29,7 @@ CREATE table _photography AS
     ;
 /**************************************************/    
 /********************* Non-Photography Holidays ****/
+DROP table if exists _No_photography;
 CREATE table _No_photography AS
 	select 
 	    act.InputID,

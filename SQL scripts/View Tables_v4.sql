@@ -1,6 +1,6 @@
 USE ecocapture;
 
-/*DROP table if exists _Traveller_country;*/
+DROP table if exists _Traveller_country;
 CREATE Table _Traveller_country AS
     SELECT 
 		A.InputID,
@@ -15,7 +15,7 @@ CREATE Table _Traveller_country AS
         ORDER BY A.inputID
 ;   
 
-/*DROP table if exists V_CountryDate;*/
+DROP table if exists V_CountryDate;
 CREATE Table  V_CountryDate AS
     SELECT 
        A.inputID, A.Traveller_ID,A.Traveller_Country, B.Travel_Date, B.Travel_Year, B.Travel_Month, B.month
@@ -27,7 +27,7 @@ ORDER BY A.inputID
 ;
 
 /***Photography rating and SIA *********************************************************/
-/*DROP table if exists V_photoVisit_Rating;*/
+DROP table if exists V_photoVisit_Rating;
 CREATE Table  V_photoVisit_Rating  AS
     SELECT 
 		A.InputID,
@@ -57,15 +57,15 @@ CREATE Table  V_photoVisit_Rating  AS
 	ORDER BY A.InputID
 ;  
 
-/*Photography holiday vs non Photography holiday*/
-DROP table if exists _PhotographyVSnon;
+/*Photography holiday vs non Photography holiday
+DROP table if exists _PhotographyVSnon;*/
 create Table _PhotographyVSnon as 
 select * from  _Photovisit_ndup
 union all   
 select * from  _no_Photovisit_ndup
 ;
  
-/*DROP table if exists V_PhotographyVSnonall;*/
+DROP table if exists V_PhotographyVSnonall;
 create Table  V_PhotographyVSnonall as 
 select 
 		A.InputID,
@@ -92,7 +92,7 @@ select
     ORDER BY A.Photography,A.Traveller_ID
     ;
 
- /*DROP table if exists V_twoCatStats;*/
+DROP table if exists V_twoCatStats;
  create Table  V_twoCatStats  as 
  select 
 	Photography,
@@ -106,8 +106,12 @@ select
    group by  Photography,Travel_Year
   ;
  
+ 
 DROP Table if exists _Traveller_country; 
 DROP Table if exists _PhotographyVSnon; 
-/*
 DROP table if exists _no_photography;
-DROP table if exists _photography;*/
+DROP table if exists _photography;
+DROP table if exists _photovisit_ndup;
+DROP table if exists _no_photovisit_ndup;
+
+
