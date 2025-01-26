@@ -165,4 +165,15 @@ CREATE VIEW CountryByYear AS
     ORDER BY X.Country
 ;
 
+
+DROP table if exists activity;
+create table activity  as 
+select 
+	A.*,
+    B.Travel_Year,
+	B.month
+ from activity_ A
+ left join  v_countrydate B ON A.InputID = B.InputID
+; 
+
       

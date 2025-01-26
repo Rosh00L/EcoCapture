@@ -16,11 +16,18 @@ engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
 
 
-sql_PhotographyVSnon_noDup = pd.read_sql( 
+sql_Photogr_noDup = pd.read_sql( 
     "SELECT * FROM ecocapture._photovisit_ndup", 
     con=engine 
 ) 
-sql_PhotographyVSnon_noDup.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\_PhotographyVSnon_noDup.xlsx',index=False)
+sql_Photogr_noDup.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\_photovisit_ndup.xlsx',index=False)
+
+sql_NoPhotogr_noDup = pd.read_sql( 
+    "SELECT * FROM ecocapture._no_photography", 
+    con=engine 
+) 
+sql_NoPhotogr_noDup.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\_no_photography.xlsx',index=False)
+
 
 sql_traveler = pd.read_sql( 
     "SELECT * FROM ecocapture.traveller", 
@@ -88,7 +95,7 @@ con=engine
 ) 
 v_twocatstats.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\v_twocatstats.xlsx",index=False)  
 
-#''''
+''''
 _traveller_country= pd.read_sql( 
     "SELECT * FROM ecocapture._traveller_country",
 con=engine 
@@ -96,7 +103,7 @@ con=engine
 _traveller_country.to_excel(r"C:\Github_proj\EcoCapture-Analytics\QC files\_traveller_country.xlsx",index=False)  
 
 
-#'''''
+'''''
 
 
 

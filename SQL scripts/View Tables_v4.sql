@@ -107,11 +107,37 @@ DROP table if exists V_twoCatStats;
   ;
  
  
+DROP table if exists V_FrqCountry;
+ create Table  V_FrqCountry  as 
+ Select 
+	stat.Photography,
+    stat.sentiment_comments,
+    stat.Traveller_Country,
+    stat.Travel_Year,
+    stat.CountryCount
+    from
+	( select 
+	Photography,
+    Traveller_Country,
+    Travel_Year,
+    sentiment_comments,
+    count(Traveller_Country) as CountryCount
+    from v_photographyvsnonall
+    where Traveller_Country is not null
+	group by  Photography,sentiment_comments,Traveller_Country,Travel_Year
+    ) as stat
+    where stat.Photography='photography' and stat.sentiment_comments = "Positive" and stat.CountryCount > 1
+  order by stat.Traveller_Country,stat.CountryCount desc,stat.Travel_Year,stat.Photography
+;  
+ 
 DROP Table if exists _Traveller_country; 
 DROP Table if exists _PhotographyVSnon; 
 DROP table if exists _no_photography;
 DROP table if exists _photography;
 DROP table if exists _photovisit_ndup;
-DROP table if exists _no_photovisit_ndup;
+DROP table if exists _activity;
+DROP table if exists v_twocatstats;
 
+/*DROP table if exists _photovisit_ndup;
+DROP table if exists _no_photovisit_ndup;*/
 

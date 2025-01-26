@@ -227,6 +227,8 @@ CREATE TABLE Hiking_climbing AS
     where act.Romantic_holiday="Romantic_holiday"  
     ORDER BY act.InputID
     ;
+    
+  
 DROP table if exists activity;    
 create table activity as 
 select * from  Beach_Water_Sports
@@ -247,6 +249,7 @@ select * from  Relaxing
 union all
 select * from  Romantic_holiday;
 
+ 
 alter table  activity
 Rename Column Beach_Water_Sports to activity;
 

@@ -24,14 +24,15 @@ photo = pd.read_sql(
     con=engine 
 ) 
 df_photo = pd.DataFrame(photo)
+print(len(df_photo))
 
 PhotoNoDup = df_photo.drop_duplicates( 
-  subset = ["Traveller_ID"], 
+  subset = ["Traveller_ID","Travel_Year","month"], 
   keep = 'first').reset_index(drop = True).sort_values(by=['Traveller_ID',"photography"])
 
 print(len(PhotoNoDup))
 
-########### photography visitors ###################################################################
+########### Non photography visitors ###################################################################
 
 No_photo = pd.read_sql( 
     "SELECT * FROM ecocapture._no_photography", 
@@ -41,18 +42,18 @@ df_no_photo = pd.DataFrame(No_photo)
 print(len(df_no_photo))
 
 No_PhotoNoDup = df_no_photo.drop_duplicates( 
-  subset = ["Traveller_ID","photography"], 
+  subset = ["Traveller_ID","Travel_Year","month"], 
   keep = 'first').reset_index(drop = True).sort_values(by=['Traveller_ID',"photography"])
 print(len(No_PhotoNoDup ))
 
 ########### Merge and removing photography visites from Non-photography visitors ####################
 
-NoDup=PhotoNoDup.merge (No_PhotoNoDup, on='Traveller_ID', how='right', indicator=True).query('_merge == "right_only"').drop('_merge', axis=1)
+NoDup=PhotoNoDup.merge (No_PhotoNoDup, on=['Traveller_ID','Travel_Year','month'], how='right', indicator=True).query('_merge == "right_only"').drop('_merge', axis=1)
 
 NoDup.rename(columns={'InputID_y':'InputID', 'Comments_y':'Comments','photography_y': 'photography'},inplace=True)
 #print(NoDup)
 
-df_no_dup_photo=NoDup[["InputID","Traveller_ID","photography","Comments"]].reset_index(drop=True)
+df_no_dup_photo=NoDup[["InputID","Traveller_ID","photography","Travel_Year","month","Comments"]].reset_index(drop=True)
 no_dup_photo=pd.DataFrame(df_no_dup_photo).sort_values(by=(['InputID','Traveller_ID']))
 #print(no_dup_photo)
 
