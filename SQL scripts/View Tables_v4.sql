@@ -52,9 +52,11 @@ CREATE Table  V_photoVisit_Rating  AS
 	LEFT JOIN
 		dateall E ON A.InputID = E.InputID  
 	LEFT JOIN
-		rating F ON A.InputID = F.InputID   
- 	/*where  activity='photography'*/
+		rating F ON A.InputID = F.InputID  
+     /*where  activity='photography'*/
+      where Traveller_Country !='Sri Lanka'
 	ORDER BY A.InputID
+     
 ;  
 
 /*Photography holiday vs non Photography holiday
@@ -92,6 +94,7 @@ select
     ORDER BY A.Photography,A.Traveller_ID
     ;
 
+/**************************************************************/
 DROP table if exists V_twoCatStats;
  create Table  V_twoCatStats  as 
  select 
@@ -110,11 +113,74 @@ DROP table if exists V_twoCatStats;
     MIN(Traveller_ID) as MIN_,
     STDDEV(Traveller_ID) as STDDEV*/
 	from V_PhotographyVSnonall A
+    where Traveller_Country !='Sri Lanka'
 	group by  A.Photography,A.Travel_Year,A.Traveller_ID
    ) as stat
    group by  stat.Photography,stat.Travel_Year,stat.Traveller_ID
    ;
+   
+DROP table if exists _count;
+ create Table  _count  as 
+ select 
+	Photography,
+    count(Traveller_ID) as _allcount
+    from V_PhotographyVSnonall A
+    where Traveller_Country !='Sri Lanka'
+	group by  A.Photography
+  ; 
+   
+ /***************************************************************/  
+ DROP table if exists _Y2018;
+ create Table  _Y2018  as 
+ select 
+	Photography,
+    count(TravelMax) as tot2018
+    from V_twoCatStats
+	where Travel_Year=2018
+    group by Photography
+   ; 
  
+ DROP table if exists _Y2023;
+ create Table  _Y2023  as 
+ select 
+	Photography,
+   count(TravelMax) as tot2023
+    from V_twoCatStats
+    where Travel_Year=2023
+    group by Photography
+   ; 
+ 
+ DROP table if exists V_twoCatsDiff;
+ create Table  V_twoCatsDiff  as 
+ select 
+	per.Photography,
+    per.tot2018,
+    per.tot2023,
+    per._allcount,
+    per.Percent2018,
+    per.Percent2023,
+    per.Percent2023-per.Percent2018 as PerDff
+    
+   from(
+    select  
+    X.Photography,
+    X.tot2018,
+    Y.tot2023,
+    Z._allcount,
+    convert((X.tot2018/_allcount)*100,decimal(5,1)) as Percent2018, 
+    convert((Y.tot2023/_allcount)*100,decimal(5,1)) as Percent2023
+    from _Y2018 X
+    left join
+    _Y2023 Y on X.Photography= Y.Photography
+    left join
+     _count Z on X.Photography= Z.Photography 
+   	 order by X.Photography
+    ) as per 
+    order by X.Photography
+   ; 
+     
+   
+ /***************************************************************/
  
 DROP table if exists V_FrqCountry;
  create Table  V_FrqCountry  as 

@@ -1,0 +1,1 @@
+SELECT * FROM ecocapture.v_twocatsdiff;
