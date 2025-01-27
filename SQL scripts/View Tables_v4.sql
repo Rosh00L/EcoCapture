@@ -95,16 +95,25 @@ select
 DROP table if exists V_twoCatStats;
  create Table  V_twoCatStats  as 
  select 
-	Photography,
-    Travel_Year,
-    #avg(Traveller_ID) as MEAN_,
-   convert(AVG(Traveller_ID),decimal(9,4)) as Mean,
-    MAX(Traveller_ID) as MAX_,
+	stat.Photography,
+    stat.Travel_Year,
+    convert(AVG(stat.Traveller_count),decimal(9,4)) as TravelMean,
+    convert(MAX(stat.Traveller_count),decimal(9,4)) as TravelMax,
+    convert(MIN(stat.Traveller_count),decimal(9,4)) as TravelMin
+    from ( 
+    select
+		Photography,
+		Travel_Year,
+        Traveller_ID,
+		count(Traveller_ID) as Traveller_count
+    /*MAX(Traveller_ID) as MAX_,
     MIN(Traveller_ID) as MIN_,
-    STDDEV(Traveller_ID) as STDDEV
-   from V_PhotographyVSnonall
-   group by  Photography,Travel_Year
-  ;
+    STDDEV(Traveller_ID) as STDDEV*/
+	from V_PhotographyVSnonall A
+	group by  A.Photography,A.Travel_Year,A.Traveller_ID
+   ) as stat
+   group by  stat.Photography,stat.Travel_Year,stat.Traveller_ID
+   ;
  
  
 DROP table if exists V_FrqCountry;
@@ -129,6 +138,36 @@ DROP table if exists V_FrqCountry;
     where stat.Photography='photography' and stat.sentiment_comments = "Positive" and stat.CountryCount > 1
   order by stat.Traveller_Country,stat.CountryCount desc,stat.Travel_Year,stat.Photography
 ;  
+/*
+
+/***Photography rating and SIA *********************************************************/
+DROP table if exists V_photoVisitCom_SIA_Rating;
+CREATE Table  V_photoVisitCom_SIA_Rating  AS
+    SELECT 
+		A.InputID,
+		A.Traveller_ID,
+        A.activity,
+        C.City,
+        C.Location_Type,
+		E.comments,
+        F.rating,
+        D.sentiment_comments
+	FROM
+        activity A
+	LEFT JOIN
+		location C ON A.InputID = C.InputID
+	LEFT JOIN
+		sia D ON A.InputID = D.InputID  
+	LEFT JOIN
+		rating F ON A.InputID = F.InputID 
+    LEFT JOIN
+		comment E ON A.InputID = E.InputID     
+ 	/*where  activity='photography'*/
+	ORDER BY A.InputID
+;  
+
+
+ 
  
 DROP Table if exists _Traveller_country; 
 DROP Table if exists _PhotographyVSnon; 

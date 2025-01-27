@@ -166,6 +166,7 @@ CREATE VIEW CountryByYear AS
 ;
 
 
+
 DROP table if exists activity;
 create table activity  as 
 select 
