@@ -40,6 +40,11 @@ CREATE Table  V_photoVisit_Rating  AS
         E.Travel_month,
         E.month,
         F.rating,
+          /*case
+			when F.rating in(5,4) then "Positive"
+			when  F.rating in(3) then "Natural"
+			when  F.rating in(1,2) then "Nagative"
+		end as RatingSIA,*/
         D.sentiment_comments
 	FROM
         activity A
@@ -167,8 +172,8 @@ DROP table if exists _count;
     X.tot2018,
     Y.tot2023,
     Z._allcount,
-    convert((X.tot2018/_allcount)*100,decimal(5,1)) as Percent2018, 
-    convert((Y.tot2023/_allcount)*100,decimal(5,1)) as Percent2023
+    convert((X.tot2018/11318)*100,decimal(5,1)) as Percent2018, 
+    convert((Y.tot2023/11318)*100,decimal(5,1)) as Percent2023
     from _Y2018 X
     left join
     _Y2023 Y on X.Photography= Y.Photography
@@ -217,7 +222,13 @@ CREATE Table  V_photoVisitCom_SIA_Rating  AS
         C.Location_Type,
 		E.comments,
         F.rating,
-        D.sentiment_comments
+        D.sentiment_comments,
+        case
+			when F.rating in(5,4) then "Positive"
+			when  F.rating in(3) then "Natural"
+			when  F.rating in(1,2) then "Nagative"
+		end as RatingSIA
+        
 	FROM
         activity A
 	LEFT JOIN
@@ -233,7 +244,73 @@ CREATE Table  V_photoVisitCom_SIA_Rating  AS
 ;  
 
 
+/*********** photoMean ******************/ 
+DROP table if exists V_photoMean;
+ create Table   V_photoMean  as 
+ with PCountID as 
+ (
+ select
+   Traveller_ID,
+   count(Traveller_ID) as C_photo
+from
+ v_photographyvsnonall
+ where
+ Photography='photography'
+ group by Traveller_ID
+ )
+  select
+ A.Traveller_ID,
+ A.Travel_Year,
+ A.month,
+ B.C_photo  
+ from  v_photographyvsnonall A
+ LEFT JOIN PCountID B ON A.Traveller_ID = B.Traveller_ID 
+where
+ Photography='photography'
+;
  
+ 
+ /*********** NphotoMean ******************/ 
+DROP table if exists V_NphotoMean;
+ create Table   V_NphotoMean  as 
+ with NCountID as 
+ (
+ select
+   Traveller_ID,
+   count(Traveller_ID) as C_Nphoto
+from
+ v_photographyvsnonall
+ where
+ Photography='No photography'
+ group by Traveller_ID
+ )
+  select
+ A.Traveller_ID,
+ A.Travel_Year,
+ A.month,
+ B.C_Nphoto
+ from  v_photographyvsnonall A
+ LEFT JOIN NCountID B ON A.Traveller_ID = B.Traveller_ID 
+where
+ Photography='No photography'
+ ;
+
+ 
+DROP table if exists V_BothMean;
+ create Table   V_BothMean  as 
+ select
+ A.Traveller_ID,
+ A.Travel_Year,
+ A.month,
+ A.C_Nphoto,
+ B.C_photo
+ from   V_NphotoMean A
+ LEFT JOIN
+		V_photoMean B ON A.Traveller_ID=B.Traveller_ID
+ WHERE B.C_phot      
+ ;
+ 
+ /************/
  
 DROP Table if exists _Traveller_country; 
 DROP Table if exists _PhotographyVSnon; 
@@ -241,8 +318,21 @@ DROP table if exists _no_photography;
 DROP table if exists _photography;
 DROP table if exists _photovisit_ndup;
 DROP table if exists _activity;
-DROP table if exists v_twocatstats;
+
+
+DROP table if exists _count;
+DROP Table if exists _no_photovisit_ndup;
+DROP Table if exists _y2018;
+DROP Table if exists _y2023;
+
+DROP Table if exists v_nphotomean;
+DROP Table if exists v_photomean;
+DROP Table if exists v_photovisitcom_sia_rating;
+DROP Table if exists v_nonmean;
+
+
 
 /*DROP table if exists _photovisit_ndup;
+DROP table if exists v_twocatstats;
 DROP table if exists _no_photovisit_ndup;*/
 
