@@ -99,11 +99,7 @@ TravelData=dfUserYear[['InputID','Traveller_ID','Traveller_Location','Travel_Dat
 
 TravelData.to_excel(r'C:\Github_proj\EcoCapture-Analytics\QC files\TravelData.xlsx',index=False)
 
-# # Get column names
-#TravelData_columns = TravelData.columns
-#print(TravelData_columns)
-
-###################################
+################################ Tables ####################################################################
 
 ### traveller #######
 dftraveller=TravelData[["InputID","Traveller_ID","Traveller_Location"]].reset_index(drop=True)
@@ -117,9 +113,8 @@ dfCountryNDup = dfCountry.drop_duplicates(
 dfCountryNDup = dfCountryNDup.dropna(how='any',axis=0) 
 
 country=pd.DataFrame(dfCountryNDup).sort_values(by=(['Traveller_Location','Traveller_Country'])).reset_index(drop=True)
-print (country)
 
-# ### Date #######
+### Dates #######
 dftraveller=TravelData[["InputID","Traveller_ID",'Travel_Date', 'Travel_Year', 'Travel_Month','month',"Published_Date"]]
 date=pd.DataFrame(dftraveller).sort_values(by=(['InputID','Traveller_ID']))
 
@@ -143,10 +138,6 @@ votes=pd.DataFrame(Helpful_Votes).sort_values(by=("InputID"))
 dfLocation=TravelData[["InputID","Traveller_ID","Location_Name","City","Province","Location_Type"]].drop_duplicates().reset_index(drop=True)
 location=pd.DataFrame(dfLocation).sort_values(by=("InputID"))
 location.rename(columns={'Location_Name': 'Location'}, inplace=True)
-
-### Location_ type #######
-##dfLocation_Type=TravelData[["InputID","Traveller_ID","Location_Type"]].drop_duplicates().reset_index(drop=True)
-##location_Type=pd.DataFrame(dfLocation_Type).sort_values(by=("InputID"))
 
 engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
 				.format(host=hostname, db=dbname, user=uname, pw=pwd))
