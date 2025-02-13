@@ -1,3 +1,7 @@
+/********************  ******************************
+Creating Photography and Non Photography Holidays tables.
+/**************************************************/
+
 USE ecocapture;
 SET GLOBAL regexp_time_limit=100024;
 /******************** Photography Holidays ******************************/

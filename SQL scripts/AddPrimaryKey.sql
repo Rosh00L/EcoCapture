@@ -1,3 +1,11 @@
+
+/**************************************************
+
+Assigning primary keys.
+
+/**************************************************/
+
+
 ALTER TABLE ecocapture.traveller 
 CHANGE COLUMN InputID InputID INT NOT NULL ,
 CHANGE COLUMN Traveller_ID Traveller_ID INT NOT NULL ,

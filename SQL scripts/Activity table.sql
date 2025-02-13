@@ -1,3 +1,9 @@
+
+/**************************************************
+Creating activity table that holidaymakers engage in.
+Please note that activity table generated only for the Photography Holiday makers.  
+/**************************************************/
+
 USE ecocapture;
 SET GLOBAL regexp_time_limit=100024;
  

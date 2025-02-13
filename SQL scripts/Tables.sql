@@ -1,5 +1,10 @@
+/**************************************************
+Creating merge tables before import then into Tableau.
+/**************************************************/
+
 USE ecocapture;
 
+/*** V_Countrydate table *********************************************************/ 
 DROP table if exists _Traveller_country;
 CREATE Table _Traveller_country AS
     SELECT 
@@ -15,6 +20,7 @@ CREATE Table _Traveller_country AS
         ORDER BY A.inputID
 ;   
 
+
 DROP table if exists V_CountryDate;
 CREATE Table  V_CountryDate AS
     SELECT 
@@ -26,7 +32,7 @@ CREATE Table  V_CountryDate AS
 ORDER BY A.inputID
 ;
 
-/***Photography rating and SIA *********************************************************/
+/***Photography SIA Rating table *********************************************************/
 DROP table if exists V_photoVisit_Rating;
 CREATE Table  V_photoVisit_Rating  AS
     SELECT 
@@ -40,11 +46,6 @@ CREATE Table  V_photoVisit_Rating  AS
         E.Travel_month,
         E.month,
         F.rating,
-          /*case
-			when F.rating in(5,4) then "Positive"
-			when  F.rating in(3) then "Natural"
-			when  F.rating in(1,2) then "Nagative"
-		end as RatingSIA,*/
         D.sentiment_comments
 	FROM
         activity A
@@ -64,8 +65,8 @@ CREATE Table  V_photoVisit_Rating  AS
      
 ;  
 
-/*Photography holiday vs non Photography holiday
-DROP table if exists _PhotographyVSnon;*/
+/***** Photography holiday vs non Photography holiday **********************/
+DROP table if exists _PhotographyVSnon;
 create Table _PhotographyVSnon as 
 select * from  _Photovisit_ndup
 union all   
@@ -99,7 +100,42 @@ select
     ORDER BY A.Photography,A.Traveller_ID
     ;
 
-/**************************************************************/
+
+/***Photography rating and SIA *********************************************************/
+DROP table if exists V_photoVisitCom_SIA_Rating;
+CREATE Table  V_photoVisitCom_SIA_Rating  AS
+    SELECT 
+		A.InputID,
+		A.Traveller_ID,
+        A.activity,
+        C.City,
+        C.Location_Type,
+		E.comments,
+        F.rating,
+        D.sentiment_comments,
+        case
+			when F.rating in(5,4) then "Positive"
+			when  F.rating in(3) then "Natural"
+			when  F.rating in(1,2) then "Nagative"
+		end as RatingSIA
+        
+	FROM
+        activity A
+	LEFT JOIN
+		location C ON A.InputID = C.InputID
+	LEFT JOIN
+		sia D ON A.InputID = D.InputID  
+	LEFT JOIN
+		rating F ON A.InputID = F.InputID 
+    LEFT JOIN
+		comment E ON A.InputID = E.InputID     
+ 	/*where  activity='photography'*/
+	ORDER BY A.InputID
+;  
+
+
+
+/************ Additional checks **************************************************/
 DROP table if exists V_twoCatStats;
  create Table  V_twoCatStats  as 
  select 
@@ -211,38 +247,6 @@ DROP table if exists V_FrqCountry;
 ;  
 /*
 
-/***Photography rating and SIA *********************************************************/
-DROP table if exists V_photoVisitCom_SIA_Rating;
-CREATE Table  V_photoVisitCom_SIA_Rating  AS
-    SELECT 
-		A.InputID,
-		A.Traveller_ID,
-        A.activity,
-        C.City,
-        C.Location_Type,
-		E.comments,
-        F.rating,
-        D.sentiment_comments,
-        case
-			when F.rating in(5,4) then "Positive"
-			when  F.rating in(3) then "Natural"
-			when  F.rating in(1,2) then "Nagative"
-		end as RatingSIA
-        
-	FROM
-        activity A
-	LEFT JOIN
-		location C ON A.InputID = C.InputID
-	LEFT JOIN
-		sia D ON A.InputID = D.InputID  
-	LEFT JOIN
-		rating F ON A.InputID = F.InputID 
-    LEFT JOIN
-		comment E ON A.InputID = E.InputID     
- 	/*where  activity='photography'*/
-	ORDER BY A.InputID
-;  
-
 
 /*********** photoMean ******************/ 
 DROP table if exists V_photoMean;
@@ -269,7 +273,6 @@ where
  Photography='photography'
 ;
  
- 
  /*********** NphotoMean ******************/ 
 DROP table if exists V_NphotoMean;
  create Table   V_NphotoMean  as 
@@ -295,8 +298,7 @@ where
  Photography='No photography'
  ;
 
- 
-DROP table if exists V_BothMean;
+ DROP table if exists V_BothMean;
  create Table   V_BothMean  as 
  select
  A.Traveller_ID,
@@ -307,7 +309,7 @@ DROP table if exists V_BothMean;
  from   V_NphotoMean A
  LEFT JOIN
 		V_photoMean B ON A.Traveller_ID=B.Traveller_ID
- WHERE B.C_phot      
+ WHERE B.C_photo is not null     
  ;
  
  /************/
@@ -316,23 +318,16 @@ DROP Table if exists _Traveller_country;
 DROP Table if exists _PhotographyVSnon; 
 DROP table if exists _no_photography;
 DROP table if exists _photography;
-DROP table if exists _photovisit_ndup;
 DROP table if exists _activity;
-
-
 DROP table if exists _count;
-DROP Table if exists _no_photovisit_ndup;
 DROP Table if exists _y2018;
 DROP Table if exists _y2023;
-
 DROP Table if exists v_nphotomean;
 DROP Table if exists v_photomean;
 DROP Table if exists v_photovisitcom_sia_rating;
-DROP Table if exists v_nonmean;
-
-
 
 /*DROP table if exists _photovisit_ndup;
+DROP Table if exists v_nonmean;
 DROP table if exists v_twocatstats;
 DROP table if exists _no_photovisit_ndup;*/
 
