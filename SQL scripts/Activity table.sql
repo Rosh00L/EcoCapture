@@ -1,7 +1,7 @@
 
 /**************************************************
-Creating activity table that holidaymakers engage in.
-Please note that activity table generated only for the Photography Holiday makers.  
+Creating an activity table that holidaymakers engage in.
+Please note that the activity table is generated only for the photography holidaymakers.  
 /**************************************************/
 
 USE ecocapture;
