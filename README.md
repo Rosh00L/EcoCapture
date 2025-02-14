@@ -1,1 +1,1 @@
-# EcoCapture-Analytics
+# Eco Capture
