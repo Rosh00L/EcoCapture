@@ -10,4 +10,4 @@ There is a significant demand for photography holidays in Sri Lanka. Travellers 
 * Importing and cleaning data using python.
 * Creating Ecocapture database.
 * Constructing appropriate charts to visualize data.
-* Building a dashboard with filter and connected charts
+* Building a dashboard with filter and connected charts.
