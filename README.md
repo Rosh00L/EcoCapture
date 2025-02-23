@@ -6,9 +6,8 @@ There is a significant demand for photography holidays in Sri Lanka. Travellers 
 
 ## Executive summary
 
-* Extracting data from Atosa 
-* Importing and cleaning data using Power Query
-* Running a simple linear regression model in Excel
-* Using pivot table to aggreate and summarize data in Excel
-* Constructing appropriate charts to visualize data
+* Extracting data from publicly available dataset related to tourism and travel reviews in Sri Lanka from 2010 to 2023.
+* Importing and cleaning data using python.
+* Creating Ecocapture database.
+* Constructing appropriate charts to visualize data.
 * Building a dashboard with filter and connected charts
