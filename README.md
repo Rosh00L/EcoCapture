@@ -1,6 +1,6 @@
 # **Project description**
 
-This project is designed to provide hands-on experience working with datasets and practical experience with all aspects being taught in the BrainStation Data Analytics Certification course. A publicly available dataset will be used to conduct an analysis and present findings.
+This project is designed to provide hands-on experience working with datasets and practical experience with all aspects being taught in the BrainStation Data Analytics Certification course. A publicly available dataset has been used to conduct an analysis and present findings.
 
 To determine whether there is significant demand for photography holidays in Sri Lanka, focusing on holidaymakers' activities, favoured destinations, sentiment analysis of comments, and identifying frequent photography holidaymakers.
 
@@ -16,7 +16,8 @@ To determine whether there is significant demand for photography holidays in Sri
 
 * Extracting data from publicly available dataset related to tourism and travel reviews in Sri Lanka from 2010 to 2023.  [Link to the source dataset:](https://data.mendeley.com/datasets/2nbvx5m4hs/1)
 * Importing and cleaning data using python.
-* Creating Ecocapture database.
+* Creating Ecocapture database to house the data we are importing.
+
 <img src="Doc/img/2.Data and tools.png?raw=true"/>
 
 ---
@@ -30,5 +31,6 @@ To determine whether there is significant demand for photography holidays in Sri
 ---
 * ### **Actionable Insights**
 <img src="Doc/img/6.Insights.png?raw=true"/>
+
 
 [Please view the complete PDF](https://github.com/Rosh00L/EcoCapture/blob/main/Doc/)
