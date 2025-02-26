@@ -2,11 +2,11 @@
 
 <img src="Doc/0.Title.png?raw=true"/>
 
----
+-
 
 <img src="Doc/1.Hypothesis.png?raw=true"/>
 
----
+
 
 ## **Executive summary**
 
