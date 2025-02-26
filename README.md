@@ -1,6 +1,6 @@
 # **Project description**
 
-<img src="img/0.Title.png?raw=true"/>
+<img src="Doc/img/0.Title.png?raw=true"/>
 
 ---
 
@@ -17,7 +17,7 @@
 
 ---
 
-## **Constructing appropriate charts to visualize data.**
+## **Constructing appropriate charts to visualise data**
 <img src="Doc/img/3. BarChart.png?raw=true"/>
 
 ---
