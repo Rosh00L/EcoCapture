@@ -1,9 +1,9 @@
-## Project description
+# **Project description**
 ---
-# Analysing photography holidays in Sri Lanka.
+## **Analysing photography holidays in Sri Lanka.**
 There is a significant demand for photography holidays in Sri Lanka. Travellers who choose these holidays tend to engage in specific related activities, visit locations that are popular for photography, and a substantial portion of these travellers are repeat visitors.
 
-## Executive summary
+## **Executive summary**
 
 * Extracting data from publicly available dataset related to tourism and travel reviews in Sri Lanka from 2010 to 2023.
 * Importing and cleaning data using python.
