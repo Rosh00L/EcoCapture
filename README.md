@@ -2,7 +2,7 @@
 
 <img src="Doc/0.Title.png?raw=true"/>
 
--
+---
 
 <img src="Doc/1.Hypothesis.png?raw=true"/>
 
@@ -19,13 +19,9 @@
 
 * Constructing appropriate charts to visualize data.
 <img src="Doc/3. BarChart.png?raw=true"/>
+---
 <img src="Doc/4.Sentiment.png?raw=true"/>
 
 ---
-
-<img src="Doc/5.Seasonality.png?raw=true"/>
+Actionable Insights:
 <img src="Doc/6.Insights.png?raw=true"/>
-
----
-
-* Building a dashboard with filter and connected charts.
