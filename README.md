@@ -17,11 +17,12 @@
 
 ---
 
-* Constructing appropriate charts to visualize data.
+## **Constructing appropriate charts to visualize data.**
 <img src="Doc/3. BarChart.png?raw=true"/>
+
 ---
 <img src="Doc/4.Sentiment.png?raw=true"/>
 
 ---
-Actionable Insights:
+## **Actionable Insights**
 <img src="Doc/6.Insights.png?raw=true"/>
