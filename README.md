@@ -27,4 +27,4 @@
 ## **Actionable Insights**
 <img src="Doc/6.Insights.png?raw=true"/>
 
-[Analysing photography holidays in Sri Lanka PDF](EcoCapture/Eco capture V1.0 04FEB25.pdf)
+[Analysing photography holidays in Sri Lanka PDF](https://github.com/Rosh00L/EcoCapture/tree/main/DocEcoCapture/Eco capture V1.0 04FEB25.pdf)
