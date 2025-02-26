@@ -21,14 +21,14 @@ To determine whether there is significant demand for photography holidays in Sri
 
 ---
 
-### **Constructing appropriate charts to visualise data**
+* ### **Constructing appropriate charts to visualise data**
 <img src="Doc/img/3. BarChart.png?raw=true"/>
 
 ---
 <img src="Doc/img/4.Sentiment.png?raw=true"/>
 
 ---
-### **Actionable Insights**
+* ### **Actionable Insights**
 <img src="Doc/img/6.Insights.png?raw=true"/>
 
 [Please view the complete PDF](https://github.com/Rosh00L/EcoCapture/blob/main/Doc/)
