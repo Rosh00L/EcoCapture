@@ -17,7 +17,7 @@
 
 ---
 
-## **Constructing appropriate charts to visualize data.**
+## **Constructing appropriate charts to visualise data**
 <img src="Doc/img/3. BarChart.png?raw=true"/>
 
 ---
