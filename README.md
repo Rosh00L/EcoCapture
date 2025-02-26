@@ -3,7 +3,7 @@
 ## **Analysing photography holidays in Sri Lanka.**
 
 There is a significant demand for photography holidays in Sri Lanka. Travellers who choose these holidays tend to engage in specific related activities, visit locations that are popular for photography, and a substantial portion of these travellers are repeat visitors.
-<img src="EcoCapture/tree/main/Doc/1.Hypothesis.png?raw=true"/>
+<img src="tree/main/Doc/1.Hypothesis.png?raw=true"/>
 
 ## **Executive summary**
 
