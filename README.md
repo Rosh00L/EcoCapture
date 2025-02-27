@@ -31,7 +31,7 @@ To determine whether there is significant demand for photography holidays in Sri
 
 ---
 
-# **Provide actionable insights.**
+# **Actionable insights.**
 <img src="Doc/img/6.Insights.png?raw=true"/>
 
 
