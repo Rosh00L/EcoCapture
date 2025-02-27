@@ -7,8 +7,6 @@ Publicly available dataset related to tourism and travel reviews in Sri Lanka fr
 
 To determine whether there is significant demand for photography holidays in Sri Lanka, focusing on holidaymakers' activities, favoured destinations, sentiment analysis of comments, and identifying frequent photography holidaymakers.
 
----
-
 <img src="Doc/img/1.Hypothesis.png?raw=true"/>
 
 ## **Executive summary**
