@@ -1,6 +1,6 @@
 # **Project description**
 
-This project is designed to provide hands-on experience working with datasets and practical experience with all aspects being taught in the BrainStation Data Analytics Certification course. A publicly available dataset is required to conduct an analysis and present findings.
+This project is designed to acquire hands-on experience working with datasets and practical experience with all aspects being taught in the BrainStation Data Analytics Certification course. A publicly available dataset is required to conduct an analysis and present findings.
 
 Publicly available dataset related to tourism and travel reviews in Sri Lanka from 2010 to 2023.  [Link to the source dataset:](https://data.mendeley.com/datasets/2nbvx5m4hs/1)
 
