@@ -25,13 +25,13 @@ To determine whether there is significant demand for photography holidays in Sri
   
 <img src="Doc/img/3.BarChart.png?raw=true"/>
 
-<br>
+---
 
 <img src="Doc/img/4.Sentiment.png?raw=true"/>
 
 ---
 
-* Provide actionable insights.
+# **Provide actionable insights.**
 <img src="Doc/img/6.Insights.png?raw=true"/>
 
 
