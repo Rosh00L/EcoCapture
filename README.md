@@ -18,7 +18,7 @@ To determine whether there is significant demand for photography holidays in Sri
 
 * Extracting data from publicly available travel reviews dataset using python.
 * Importing and cleaning data using python.
-* Creating an Ecocapture database to house the data import.
+* Creating the database to house the data import.
 
 <img src="Doc/img/2.Data and tools.png?raw=true"/>
 
