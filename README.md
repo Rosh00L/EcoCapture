@@ -16,7 +16,7 @@ To determine whether there is significant demand for photography holidays in Sri
 
 * Extracting data from publicly available dataset related to tourism and travel reviews in Sri Lanka from 2010 to 2023.  [Link to the source dataset:](https://data.mendeley.com/datasets/2nbvx5m4hs/1)
 * Importing and cleaning data using python.
-* Creating Ecocapture database to house the data we are importing.
+* Creating an Ecocapture database to house the data import.
 
 <img src="Doc/img/2.Data and tools.png?raw=true"/>
 
