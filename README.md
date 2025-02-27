@@ -23,8 +23,9 @@ To determine whether there is significant demand for photography holidays in Sri
 * Conducting in-depth statistical analysis and visualising data.
 <img src="Doc/img/3. BarChart.png?raw=true"/>
 
----
 <img src="Doc/img/4.Sentiment.png?raw=true"/>
+
+---
 
 * Provide actionable insights.
 <img src="Doc/img/6.Insights.png?raw=true"/>
