@@ -16,15 +16,16 @@ To determine whether there is significant demand for photography holidays in Sri
 
 ## **Executive summary**
 
-* Extracting data from publicly available travel reviews dataset.
-* Import and clean data.
-* Build ELT pipeline in Python.
+* Extract data from a publicly available travel reviews dataset.
+* Import and refine the raw data into processed data.
+* Build an ELT pipeline in Python.
+* Create analytical tables using SQL.
 
 <img src="Doc/img/2.Data and tools.png?raw=true"/>
 
 ---
 
-* Constructing in-depth analysis and visualizing data.
+* Conducting  in-depth statistical analysis and visualizing data.
 <img src="Doc/img/3. BarChart.png?raw=true"/>
 
 ---
