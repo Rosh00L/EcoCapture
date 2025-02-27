@@ -24,6 +24,7 @@ To determine whether there is significant demand for photography holidays in Sri
   
 <img src="Doc/img/3.BarChart.png?raw=true"/>
 
+<br>
 
 <img src="Doc/img/4.Sentiment.png?raw=true"/>
 
