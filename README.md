@@ -34,6 +34,7 @@ To determine whether there is significant demand for photography holidays in Sri
 # **Actionable insights.**
 <img src="Doc/img/6.Insights.png?raw=true"/>
 
-[Data Analyst Certification](https://github.com/Rosh00L/EcoCapture/main/Doc/Doc/Data Analyst Certification - Roshan Ranadeerage.pdf" target="_blank">PDF)
+[Data Analyst Certification](https://github.com/Rosh00L/EcoCapture/main/Doc/Data Analyst Certification - Roshan Ranadeerage.pdf" target="_blank">PDF)
+<a href="EcoCapture/main/Doc/Data Analyst Certification - Roshan Ranadeerage.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
 
 [Please view the complete PDF](https://github.com/Rosh00L/EcoCapture/blob/main/Doc/)
