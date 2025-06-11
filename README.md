@@ -5,7 +5,7 @@
 
 ---
 
-# **Project description**
+# **Data Analytics Project Description**
 <img src="Doc/img/0.Title.png?raw=true"/>
 
 This project is designed to acquire hands-on experience working with datasets and practical experience with all aspects being taught in the BrainStation Data Analytics Certification course. A publicly available dataset is required to conduct an analysis and present findings.
@@ -16,7 +16,7 @@ To determine whether there is significant demand for photography holidays in Sri
 
 <img src="Doc/img/1.Hypothesis.png?raw=true"/>
 
-## **Executive summary**
+## **Executive Summary**
 
 * Extract data from a publicly available travel reviews dataset.
 * Import and refine the raw data into processed data.
@@ -38,7 +38,7 @@ To determine whether there is significant demand for photography holidays in Sri
 
 ---
 
-# **Actionable insights.**
+# **Actionable Insights.**
 <img src="Doc/img/6.Insights.png?raw=true"/>
 
 [Please view the complete PDF](https://github.com/Rosh00L/EcoCapture/blob/main/Doc/)
