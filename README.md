@@ -37,7 +37,7 @@ To determine whether there is significant demand for photography holidays in Sri
 
 ---
 
-# **Actionable Insights.**
+## **Actionable Insights.**
 <img src="Doc/img/6.Insights.png?raw=true"/>
 
 [Please view the complete PDF](https://github.com/Rosh00L/EcoCapture/blob/main/Doc/)
