@@ -1,3 +1,10 @@
+
+
+# **Data Analyst Certification (DAC™) | BrainStation.**
+<a href="EcoCapture/main/Doc/" class="image fit"><img src="Doc/img/Data Analyst Certification.png" alt=""></a>
+
+---
+
 # **Project description**
 <img src="Doc/img/0.Title.png?raw=true"/>
 
@@ -36,6 +43,4 @@ To determine whether there is significant demand for photography holidays in Sri
 
 [Please view the complete PDF](https://github.com/Rosh00L/EcoCapture/blob/main/Doc/)
 
----
-# **Data Analyst Certification (DAC™) | BrainStation.**
-<a href="EcoCapture/main/Doc/" class="image fit"><img src="Doc/img/Data Analyst Certification.png" alt=""></a>
+
