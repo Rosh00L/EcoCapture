@@ -3,7 +3,6 @@
 # **Data Analyst Certification (DAC™) | BrainStation.**
 <a href="EcoCapture/main/Doc/" class="image fit"><img src="Doc/img/Data Analyst Certification.png" alt=""></a>
 
----
 
 # **Data Analytics Project Description**
 <img src="Doc/img/0.Title.png?raw=true"/>
